@@ -1,0 +1,144 @@
+:root {
+    --bg: #ffffff;
+    --surface: #f4f4f5;
+    --surface-hover: #ececee;
+    --card-bg: #ffffff;
+    --card-hover: #fafafa;
+    --text: #09090b;
+    --text-secondary: #52525b;
+    --text-muted: #71717a;
+    --border: #e4e4e7;
+    --border-subtle: #f4f4f5;
+    --ring: #09090b;
+    --badge-bg: #f4f4f5;
+    --badge-text: #27272a;
+    --font-sans:
+        "Atkinson Hyperlegible Next", system-ui, -apple-system, sans-serif;
+    --font-mono:
+        "Atkinson Hyperlegible Mono", ui-monospace, "SF Mono", Consolas,
+        monospace;
+    --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    --shadow-hover:
+        0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #09090b;
+        --surface: #18181b;
+        --surface-hover: #27272a;
+        --card-bg: #09090b;
+        --card-hover: #141417;
+        --text: #fafafa;
+        --text-secondary: #d4d4d8;
+        --text-muted: #a1a1aa;
+        --border: #27272a;
+        --border-subtle: #18181b;
+        --ring: #fafafa;
+        --badge-bg: #18181b;
+        --badge-text: #e4e4e7;
+        --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+        --shadow-hover:
+            0 10px 20px -3px rgba(0, 0, 0, 0.7),
+            0 4px 8px -4px rgba(0, 0, 0, 0.5);
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+
+    /* Optical Sizing and Variable Font Settings */
+    font-optical-sizing: auto;
+    font-variation-settings: "wght" 400;
+    font-feature-settings:
+        "case" 1,
+        "kern" 1;
+}
+
+/* Headings with continuous variable weight */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-sans);
+    font-optical-sizing: auto;
+    font-feature-settings:
+        "case" 1,
+        "kern" 1;
+}
+
+h1 {
+    font-variation-settings: "wght" 720;
+}
+
+h2 {
+    font-variation-settings: "wght" 680;
+}
+
+h3 {
+    font-variation-settings: "wght" 620;
+}
+
+h4 {
+    font-variation-settings: "wght" 580;
+}
+
+strong,
+b {
+    font-variation-settings: "wght" 660;
+}
+
+/* Monospace with variable font support and tabular numbers */
+code,
+pre,
+kbd,
+samp,
+.id-mono,
+.duration-mono,
+.rank-number,
+.stats-count {
+    font-family: var(--font-mono);
+    font-optical-sizing: auto;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings:
+        "tnum" 1,
+        "case" 1;
+}
+
+button,
+input,
+select {
+    font-family: inherit;
+    font-optical-sizing: auto;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* css.gg icon centering helper */
+i[class^="gg-"],
+i[class*=" gg-"] {
+    display: inline-block;
+    vertical-align: middle;
+}

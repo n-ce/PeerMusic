@@ -1,0 +1,273 @@
+{
+  "moods": [
+    {
+      "slug": "chill",
+      "title": "Chill",
+      "id": "ggMPOg1uX1JOQWZFeDByc2Jm",
+      "scraped": true,
+      "playlistCount": 203
+    },
+    {
+      "slug": "commute",
+      "title": "Commute",
+      "id": "ggMPOg1uX044Z2o5WERLckpU",
+      "scraped": true,
+      "playlistCount": 352
+    },
+    {
+      "slug": "energize",
+      "title": "Energize",
+      "id": "ggMPOg1uX2lRZUZiMnNrQnJW",
+      "scraped": true,
+      "playlistCount": 268
+    },
+    {
+      "slug": "feel_good",
+      "title": "Feel good",
+      "id": "ggMPOg1uXzZQbDB5eThLRTQ3",
+      "scraped": true,
+      "playlistCount": 194
+    },
+    {
+      "slug": "focus",
+      "title": "Focus",
+      "id": "ggMPOg1uX0NvNGNhWThMYWRh",
+      "scraped": true,
+      "playlistCount": 120
+    },
+    {
+      "slug": "gaming",
+      "title": "Gaming",
+      "id": "ggMPOg1uX3NmUVV4Vzl3WGQ0",
+      "scraped": true,
+      "playlistCount": 27
+    },
+    {
+      "slug": "party",
+      "title": "Party",
+      "id": "ggMPOg1uX0pmQ0s2V0JRclZs",
+      "scraped": true,
+      "playlistCount": 112
+    },
+    {
+      "slug": "romance",
+      "title": "Romance",
+      "id": "ggMPOg1uX0FzQ2FhZWtUY211",
+      "scraped": true,
+      "playlistCount": 123
+    },
+    {
+      "slug": "sad",
+      "title": "Sad",
+      "id": "ggMPOg1uX0JLQ0gySWZKZVY1",
+      "scraped": true,
+      "playlistCount": 41
+    },
+    {
+      "slug": "sleep",
+      "title": "Sleep",
+      "id": "ggMPOg1uX1MxaFQ3Z0JMZkN4",
+      "scraped": true,
+      "playlistCount": 49
+    },
+    {
+      "slug": "workout",
+      "title": "Workout",
+      "id": "ggMPOg1uX09LWkhnTjRGRUJh",
+      "scraped": true,
+      "playlistCount": 112
+    }
+  ],
+  "genres": [
+    {
+      "slug": "african",
+      "title": "African",
+      "id": "ggMPOg1uX0UzWGxlRE5jMDVk"
+    },
+    {
+      "slug": "arabic",
+      "title": "Arabic",
+      "id": "ggMPOg1uX3VOQWxsblVZTFNE"
+    },
+    {
+      "slug": "bengali",
+      "title": "Bengali",
+      "id": "ggMPOg1uX1ZEZzBvYUp0TGNI"
+    },
+    {
+      "slug": "bhojpuri",
+      "title": "Bhojpuri",
+      "id": "ggMPOg1uX05iYWtoenBuUkZX"
+    },
+    {
+      "slug": "carnatic_classical",
+      "title": "Carnatic classical",
+      "id": "ggMPOg1uX2tuQ3JyczRkeEJK"
+    },
+    {
+      "slug": "classical",
+      "title": "Classical",
+      "id": "ggMPOg1uX1N4VmduTmdUR3dm"
+    },
+    {
+      "slug": "country_americana",
+      "title": "Country & Americana",
+      "id": "ggMPOg1uX1RXcFlyZEpRb1d3"
+    },
+    {
+      "slug": "dance_electronic",
+      "title": "Dance & electronic",
+      "id": "ggMPOg1uX1NPTld3SDN3WGs4"
+    },
+    {
+      "slug": "decades",
+      "title": "Decades",
+      "id": "ggMPOg1uX253QXk4VXN5NGdj"
+    },
+    {
+      "slug": "desi_hip_hop",
+      "title": "Desi hip-hop",
+      "id": "ggMPOg1uX3VtYUhGSmtKdlhr"
+    },
+    {
+      "slug": "devotional",
+      "title": "Devotional",
+      "id": "ggMPOg1uX3g1dEo4cmZVY1Jm"
+    },
+    {
+      "slug": "family",
+      "title": "Family",
+      "id": "ggMPOg1uXzMyY3J2SGM0bVh5"
+    },
+    {
+      "slug": "folk_acoustic",
+      "title": "Folk & acoustic",
+      "id": "ggMPOg1uXzBTRFBmQ3N4b0R6"
+    },
+    {
+      "slug": "ghazalsufi",
+      "title": "Ghazal/sufi",
+      "id": "ggMPOg1uX1FyMnBXRmhFakpn"
+    },
+    {
+      "slug": "gujarati",
+      "title": "Gujarati",
+      "id": "ggMPOg1uX0RXaUs0U3dTcWtD"
+    },
+    {
+      "slug": "haryanvi",
+      "title": "Haryanvi",
+      "id": "ggMPOg1uXzVTb3lITFZwQ2w1"
+    },
+    {
+      "slug": "hindi",
+      "title": "Hindi",
+      "id": "ggMPOg1uX2ZvbzNJMzJwRkFT"
+    },
+    {
+      "slug": "hindustani_classical",
+      "title": "Hindustani classical",
+      "id": "ggMPOg1uX1FEVXVJSkdrdVgw"
+    },
+    {
+      "slug": "hip_hop",
+      "title": "Hip-hop",
+      "id": "ggMPOg1uX0M2dmRieXNxTW1s"
+    },
+    {
+      "slug": "indian_indie",
+      "title": "Indian indie",
+      "id": "ggMPOg1uX3FzMXBrNWlUMWNH"
+    },
+    {
+      "slug": "indian_pop",
+      "title": "Indian pop",
+      "id": "ggMPOg1uXzNleFNpSmk2TTcy"
+    },
+    {
+      "slug": "indie_alternative",
+      "title": "Indie & alternative",
+      "id": "ggMPOg1uX21NWWpBbU01SDgy"
+    },
+    {
+      "slug": "j_pop",
+      "title": "J-Pop",
+      "id": "ggMPOg1uXzAwSjVITDBZckJR"
+    },
+    {
+      "slug": "jazz",
+      "title": "Jazz",
+      "id": "ggMPOg1uX3lPcDFRaE9wM1BS"
+    },
+    {
+      "slug": "k_pop",
+      "title": "K-Pop",
+      "id": "ggMPOg1uX0JrbjBDOFFPSzJW"
+    },
+    {
+      "slug": "kannada",
+      "title": "Kannada",
+      "id": "ggMPOg1uX29zOEp0MzY3djA5"
+    },
+    {
+      "slug": "latin",
+      "title": "Latin",
+      "id": "ggMPOg1uX29wWTRjMHV1dWN5"
+    },
+    {
+      "slug": "malayalam",
+      "title": "Malayalam",
+      "id": "ggMPOg1uX050dDRiSWN3R1ZN"
+    },
+    {
+      "slug": "marathi",
+      "title": "Marathi",
+      "id": "ggMPOg1uX2Y4V2dyOWVRUHZm"
+    },
+    {
+      "slug": "metal",
+      "title": "Metal",
+      "id": "ggMPOg1uXzdlSXhKZ0hMV1Z4"
+    },
+    {
+      "slug": "monsoon",
+      "title": "Monsoon",
+      "id": "ggMPOg1uX2FGWmM5SHVqYlJX"
+    },
+    {
+      "slug": "pop",
+      "title": "Pop",
+      "id": "ggMPOg1uX1lLQkxHbHhWQUUy"
+    },
+    {
+      "slug": "punjabi",
+      "title": "Punjabi",
+      "id": "ggMPOg1uX1ZKNkRodjF2YWxv"
+    },
+    {
+      "slug": "rb_soul",
+      "title": "R&B & soul",
+      "id": "ggMPOg1uX2JxQ2hxc2J5UFhR"
+    },
+    {
+      "slug": "reggae_caribbean",
+      "title": "Reggae & caribbean",
+      "id": "ggMPOg1uX1JUc2lFcDFuUUth"
+    },
+    {
+      "slug": "rock",
+      "title": "Rock",
+      "id": "ggMPOg1uXzJKTm5jUEZ5Uzlu"
+    },
+    {
+      "slug": "tamil",
+      "title": "Tamil",
+      "id": "ggMPOg1uX2p2emtjU3J3ZVFB"
+    },
+    {
+      "slug": "telugu",
+      "title": "Telugu",
+      "id": "ggMPOg1uX0syaEVmTXhSOVl6"
+    }
+  ]
+}
