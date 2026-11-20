@@ -1,24 +1,31 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
-import { scrapeMoodsNetwork } from "../src/lib/networkScraper.ts";
+import { scrapeAllCategoriesNetwork } from "../src/lib/networkScraper.ts";
 import { scrapeNode } from "../src/lib/nodeScraper.ts";
 
 async function main() {
-  console.log("=== Scraping PeerMusic Moods & Nodes Network ===");
+  console.log("=== Scraping PeerMusic Moods, Genres & Nodes Network ===");
   const startTime = Date.now();
 
   const publicDir = resolve(process.cwd(), "public");
   const moodsDir = resolve(publicDir, "moods");
+  const genresDir = resolve(publicDir, "genres");
+  const categoriesDir = resolve(publicDir, "categories");
   const nodesDir = resolve(publicDir, "nodes");
+
   mkdirSync(publicDir, { recursive: true });
   mkdirSync(moodsDir, { recursive: true });
+  mkdirSync(genresDir, { recursive: true });
+  mkdirSync(categoriesDir, { recursive: true });
   mkdirSync(nodesDir, { recursive: true });
 
-  // 1. Scrape all moods and build the network of RDCLAK5uy nodes
-  const result = await scrapeMoodsNetwork();
-  console.log(`Successfully scraped ${result.categories.moods.length} moods.`);
+  // 1. Scrape all moods and all genres, and build the full network of RDCLAK5uy nodes
+  const result = await scrapeAllCategoriesNetwork(true);
   console.log(
-    `Discovered ${result.totalUniqueNodes} unique RDCLAK5uy nodes across all moods.`,
+    `Successfully scraped ${result.categories.moods.length} moods and ${result.categories.genres.length} genres.`,
+  );
+  console.log(
+    `Discovered ${result.totalUniqueNodes} unique RDCLAK5uy nodes across all categories.`,
   );
 
   // 2. Save public/nodes-network.json
@@ -37,13 +44,33 @@ async function main() {
   );
   console.log("Saved updated categories to public/categories.json");
 
-  // 4. Save each mood's playlists to public/moods/<slug>.json
+  // 4. Save each mood's playlists
   for (const mood of result.categories.moods) {
     const list = result.categoryPlaylists[mood.slug] || [];
-    const moodPath = resolve(moodsDir, `${mood.slug}.json`);
-    writeFileSync(moodPath, JSON.stringify(list, null, 2), "utf-8");
-    console.log(
-      `Saved ${list.length} playlists to public/moods/${mood.slug}.json`,
+    writeFileSync(
+      resolve(moodsDir, `${mood.slug}.json`),
+      JSON.stringify(list, null, 2),
+      "utf-8",
+    );
+    writeFileSync(
+      resolve(categoriesDir, `${mood.slug}.json`),
+      JSON.stringify(list, null, 2),
+      "utf-8",
+    );
+  }
+
+  // 5. Save each genre's playlists
+  for (const genre of result.categories.genres) {
+    const list = result.categoryPlaylists[genre.slug] || [];
+    writeFileSync(
+      resolve(genresDir, `${genre.slug}.json`),
+      JSON.stringify(list, null, 2),
+      "utf-8",
+    );
+    writeFileSync(
+      resolve(categoriesDir, `${genre.slug}.json`),
+      JSON.stringify(list, null, 2),
+      "utf-8",
     );
   }
 
@@ -56,8 +83,8 @@ async function main() {
     );
   }
 
-  // 5. Pre-scrape top most-appearing nodes across the network into public/nodes/<id>.json
-  const TOP_NODES_TO_PRE_SCRAPE = 8;
+  // 6. Pre-scrape top most-appearing nodes across all categories into public/nodes/<id>.json
+  const TOP_NODES_TO_PRE_SCRAPE = 12;
   const topNodes = result.nodes.slice(0, TOP_NODES_TO_PRE_SCRAPE);
   console.log(
     `Pre-scraping top ${topNodes.length} most-appearing nodes across categories into public/nodes/...`,

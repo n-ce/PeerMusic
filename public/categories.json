@@ -82,192 +82,268 @@
     {
       "slug": "african",
       "title": "African",
-      "id": "ggMPOg1uX0UzWGxlRE5jMDVk"
+      "id": "ggMPOg1uX0UzWGxlRE5jMDVk",
+      "scraped": true,
+      "playlistCount": 125
     },
     {
       "slug": "arabic",
       "title": "Arabic",
-      "id": "ggMPOg1uX3VOQWxsblVZTFNE"
+      "id": "ggMPOg1uX3VOQWxsblVZTFNE",
+      "scraped": true,
+      "playlistCount": 170
     },
     {
       "slug": "bengali",
       "title": "Bengali",
-      "id": "ggMPOg1uX1ZEZzBvYUp0TGNI"
+      "id": "ggMPOg1uX1ZEZzBvYUp0TGNI",
+      "scraped": true,
+      "playlistCount": 65
     },
     {
       "slug": "bhojpuri",
       "title": "Bhojpuri",
-      "id": "ggMPOg1uX05iYWtoenBuUkZX"
+      "id": "ggMPOg1uX05iYWtoenBuUkZX",
+      "scraped": true,
+      "playlistCount": 84
     },
     {
       "slug": "carnatic_classical",
       "title": "Carnatic classical",
-      "id": "ggMPOg1uX2tuQ3JyczRkeEJK"
+      "id": "ggMPOg1uX2tuQ3JyczRkeEJK",
+      "scraped": true,
+      "playlistCount": 14
     },
     {
       "slug": "classical",
       "title": "Classical",
-      "id": "ggMPOg1uX1N4VmduTmdUR3dm"
+      "id": "ggMPOg1uX1N4VmduTmdUR3dm",
+      "scraped": true,
+      "playlistCount": 145
     },
     {
       "slug": "country_americana",
       "title": "Country & Americana",
-      "id": "ggMPOg1uX1RXcFlyZEpRb1d3"
+      "id": "ggMPOg1uX1RXcFlyZEpRb1d3",
+      "scraped": true,
+      "playlistCount": 146
     },
     {
       "slug": "dance_electronic",
       "title": "Dance & electronic",
-      "id": "ggMPOg1uX1NPTld3SDN3WGs4"
+      "id": "ggMPOg1uX1NPTld3SDN3WGs4",
+      "scraped": true,
+      "playlistCount": 216
     },
     {
       "slug": "decades",
       "title": "Decades",
-      "id": "ggMPOg1uX253QXk4VXN5NGdj"
+      "id": "ggMPOg1uX253QXk4VXN5NGdj",
+      "scraped": true,
+      "playlistCount": 123
     },
     {
       "slug": "desi_hip_hop",
       "title": "Desi hip-hop",
-      "id": "ggMPOg1uX3VtYUhGSmtKdlhr"
+      "id": "ggMPOg1uX3VtYUhGSmtKdlhr",
+      "scraped": true,
+      "playlistCount": 122
     },
     {
       "slug": "devotional",
       "title": "Devotional",
-      "id": "ggMPOg1uX3g1dEo4cmZVY1Jm"
+      "id": "ggMPOg1uX3g1dEo4cmZVY1Jm",
+      "scraped": true,
+      "playlistCount": 137
     },
     {
       "slug": "family",
       "title": "Family",
-      "id": "ggMPOg1uXzMyY3J2SGM0bVh5"
+      "id": "ggMPOg1uXzMyY3J2SGM0bVh5",
+      "scraped": true,
+      "playlistCount": 125
     },
     {
       "slug": "folk_acoustic",
       "title": "Folk & acoustic",
-      "id": "ggMPOg1uXzBTRFBmQ3N4b0R6"
+      "id": "ggMPOg1uXzBTRFBmQ3N4b0R6",
+      "scraped": true,
+      "playlistCount": 141
     },
     {
       "slug": "ghazalsufi",
       "title": "Ghazal/sufi",
-      "id": "ggMPOg1uX1FyMnBXRmhFakpn"
+      "id": "ggMPOg1uX1FyMnBXRmhFakpn",
+      "scraped": true,
+      "playlistCount": 73
     },
     {
       "slug": "gujarati",
       "title": "Gujarati",
-      "id": "ggMPOg1uX0RXaUs0U3dTcWtD"
+      "id": "ggMPOg1uX0RXaUs0U3dTcWtD",
+      "scraped": true,
+      "playlistCount": 10
     },
     {
       "slug": "haryanvi",
       "title": "Haryanvi",
-      "id": "ggMPOg1uXzVTb3lITFZwQ2w1"
+      "id": "ggMPOg1uXzVTb3lITFZwQ2w1",
+      "scraped": true,
+      "playlistCount": 56
     },
     {
       "slug": "hindi",
       "title": "Hindi",
-      "id": "ggMPOg1uX2ZvbzNJMzJwRkFT"
+      "id": "ggMPOg1uX2ZvbzNJMzJwRkFT",
+      "scraped": true,
+      "playlistCount": 89
     },
     {
       "slug": "hindustani_classical",
       "title": "Hindustani classical",
-      "id": "ggMPOg1uX1FEVXVJSkdrdVgw"
+      "id": "ggMPOg1uX1FEVXVJSkdrdVgw",
+      "scraped": true,
+      "playlistCount": 13
     },
     {
       "slug": "hip_hop",
       "title": "Hip-hop",
-      "id": "ggMPOg1uX0M2dmRieXNxTW1s"
+      "id": "ggMPOg1uX0M2dmRieXNxTW1s",
+      "scraped": true,
+      "playlistCount": 252
     },
     {
       "slug": "indian_indie",
       "title": "Indian indie",
-      "id": "ggMPOg1uX3FzMXBrNWlUMWNH"
+      "id": "ggMPOg1uX3FzMXBrNWlUMWNH",
+      "scraped": true,
+      "playlistCount": 148
     },
     {
       "slug": "indian_pop",
       "title": "Indian pop",
-      "id": "ggMPOg1uXzNleFNpSmk2TTcy"
+      "id": "ggMPOg1uXzNleFNpSmk2TTcy",
+      "scraped": true,
+      "playlistCount": 124
     },
     {
       "slug": "indie_alternative",
       "title": "Indie & alternative",
-      "id": "ggMPOg1uX21NWWpBbU01SDgy"
+      "id": "ggMPOg1uX21NWWpBbU01SDgy",
+      "scraped": true,
+      "playlistCount": 147
     },
     {
       "slug": "j_pop",
       "title": "J-Pop",
-      "id": "ggMPOg1uXzAwSjVITDBZckJR"
+      "id": "ggMPOg1uXzAwSjVITDBZckJR",
+      "scraped": true,
+      "playlistCount": 122
     },
     {
       "slug": "jazz",
       "title": "Jazz",
-      "id": "ggMPOg1uX3lPcDFRaE9wM1BS"
+      "id": "ggMPOg1uX3lPcDFRaE9wM1BS",
+      "scraped": true,
+      "playlistCount": 139
     },
     {
       "slug": "k_pop",
       "title": "K-Pop",
-      "id": "ggMPOg1uX0JrbjBDOFFPSzJW"
+      "id": "ggMPOg1uX0JrbjBDOFFPSzJW",
+      "scraped": true,
+      "playlistCount": 134
     },
     {
       "slug": "kannada",
       "title": "Kannada",
-      "id": "ggMPOg1uX29zOEp0MzY3djA5"
+      "id": "ggMPOg1uX29zOEp0MzY3djA5",
+      "scraped": true,
+      "playlistCount": 104
     },
     {
       "slug": "latin",
       "title": "Latin",
-      "id": "ggMPOg1uX29wWTRjMHV1dWN5"
+      "id": "ggMPOg1uX29wWTRjMHV1dWN5",
+      "scraped": true,
+      "playlistCount": 188
     },
     {
       "slug": "malayalam",
       "title": "Malayalam",
-      "id": "ggMPOg1uX050dDRiSWN3R1ZN"
+      "id": "ggMPOg1uX050dDRiSWN3R1ZN",
+      "scraped": true,
+      "playlistCount": 117
     },
     {
       "slug": "marathi",
       "title": "Marathi",
-      "id": "ggMPOg1uX2Y4V2dyOWVRUHZm"
+      "id": "ggMPOg1uX2Y4V2dyOWVRUHZm",
+      "scraped": true,
+      "playlistCount": 88
     },
     {
       "slug": "metal",
       "title": "Metal",
-      "id": "ggMPOg1uXzdlSXhKZ0hMV1Z4"
+      "id": "ggMPOg1uXzdlSXhKZ0hMV1Z4",
+      "scraped": true,
+      "playlistCount": 137
     },
     {
       "slug": "monsoon",
       "title": "Monsoon",
-      "id": "ggMPOg1uX2FGWmM5SHVqYlJX"
+      "id": "ggMPOg1uX2FGWmM5SHVqYlJX",
+      "scraped": true,
+      "playlistCount": 119
     },
     {
       "slug": "pop",
       "title": "Pop",
-      "id": "ggMPOg1uX1lLQkxHbHhWQUUy"
+      "id": "ggMPOg1uX1lLQkxHbHhWQUUy",
+      "scraped": true,
+      "playlistCount": 215
     },
     {
       "slug": "punjabi",
       "title": "Punjabi",
-      "id": "ggMPOg1uX1ZKNkRodjF2YWxv"
+      "id": "ggMPOg1uX1ZKNkRodjF2YWxv",
+      "scraped": true,
+      "playlistCount": 124
     },
     {
       "slug": "rb_soul",
       "title": "R&B & soul",
-      "id": "ggMPOg1uX2JxQ2hxc2J5UFhR"
+      "id": "ggMPOg1uX2JxQ2hxc2J5UFhR",
+      "scraped": true,
+      "playlistCount": 160
     },
     {
       "slug": "reggae_caribbean",
       "title": "Reggae & caribbean",
-      "id": "ggMPOg1uX1JUc2lFcDFuUUth"
+      "id": "ggMPOg1uX1JUc2lFcDFuUUth",
+      "scraped": true,
+      "playlistCount": 143
     },
     {
       "slug": "rock",
       "title": "Rock",
-      "id": "ggMPOg1uXzJKTm5jUEZ5Uzlu"
+      "id": "ggMPOg1uXzJKTm5jUEZ5Uzlu",
+      "scraped": true,
+      "playlistCount": 180
     },
     {
       "slug": "tamil",
       "title": "Tamil",
-      "id": "ggMPOg1uX2p2emtjU3J3ZVFB"
+      "id": "ggMPOg1uX2p2emtjU3J3ZVFB",
+      "scraped": true,
+      "playlistCount": 136
     },
     {
       "slug": "telugu",
       "title": "Telugu",
-      "id": "ggMPOg1uX0syaEVmTXhSOVl6"
+      "id": "ggMPOg1uX0syaEVmTXhSOVl6",
+      "scraped": true,
+      "playlistCount": 132
     }
   ]
 }

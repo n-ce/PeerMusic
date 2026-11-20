@@ -105,11 +105,11 @@ export async function fetchMoodsAndGenresList(): Promise<CategoriesData> {
 }
 
 /**
- * Fetches category shelves for a single mood using its live params.
+ * Fetches category shelves for a single mood or genre using its live params.
  */
 export async function fetchMoodCategoryPlaylists(
   params: string,
-  moodSlug: string,
+  categorySlug: string,
 ): Promise<MoodPlaylist[]> {
   const browseUrl = `https://music.youtube.com/youtubei/v1/browse?key=${API_KEY}&prettyPrint=false`;
 
@@ -137,7 +137,7 @@ export async function fetchMoodCategoryPlaylists(
 
   if (!response.ok) {
     throw new Error(
-      `Failed to fetch category "${moodSlug}": HTTP ${response.status}`,
+      `Failed to fetch category "${categorySlug}": HTTP ${response.status}`,
     );
   }
 
@@ -229,20 +229,22 @@ export async function fetchMoodCategoryPlaylists(
 }
 
 /**
- * Fetches playlists for any mood by its slug name.
+ * Fetches playlists for any mood or genre by its slug name.
  */
-export async function fetchMoodPlaylistsBySlug(
+export async function fetchCategoryPlaylistsBySlug(
   slug: string,
 ): Promise<MoodPlaylist[]> {
   const categories = await fetchMoodsAndGenresList();
-  const mood = categories.moods.find(
-    (m) => m.slug.toLowerCase() === slug.toLowerCase(),
-  );
-  if (!mood) {
-    throw new Error(`Mood "${slug}" not found in moods list`);
+  const item =
+    categories.moods.find((m) => m.slug.toLowerCase() === slug.toLowerCase()) ||
+    categories.genres.find((g) => g.slug.toLowerCase() === slug.toLowerCase());
+  if (!item) {
+    throw new Error(`Category "${slug}" not found in moods or genres list`);
   }
-  return fetchMoodCategoryPlaylists(mood.id, mood.slug);
+  return fetchMoodCategoryPlaylists(item.id, item.slug);
 }
+
+export const fetchMoodPlaylistsBySlug = fetchCategoryPlaylistsBySlug;
 
 export interface NetworkScrapeResult {
   nodes: NetworkNode[];
@@ -252,20 +254,26 @@ export interface NetworkScrapeResult {
 }
 
 /**
- * Scrapes all live mood categories and constructs the comprehensive
- * RDCLAK5uy nodes network across all moods and shelves.
+ * Scrapes all live categories (moods and genres) and constructs the
+ * comprehensive RDCLAK5uy nodes network across all shelves.
  */
-export async function scrapeMoodsNetwork(): Promise<NetworkScrapeResult> {
+export async function scrapeAllCategoriesNetwork(
+  includeGenres = true,
+): Promise<NetworkScrapeResult> {
   const categories = await fetchMoodsAndGenresList();
   const categoryPlaylists: Record<string, MoodPlaylist[]> = {};
   const networkMap = new Map<string, NetworkNode>();
 
-  for (const mood of categories.moods) {
+  const allCategories = includeGenres
+    ? [...categories.moods, ...categories.genres]
+    : categories.moods;
+
+  for (const cat of allCategories) {
     try {
-      const playlists = await fetchMoodCategoryPlaylists(mood.id, mood.slug);
-      categoryPlaylists[mood.slug] = playlists;
-      mood.scraped = true;
-      mood.playlistCount = playlists.length;
+      const playlists = await fetchMoodCategoryPlaylists(cat.id, cat.slug);
+      categoryPlaylists[cat.slug] = playlists;
+      cat.scraped = true;
+      cat.playlistCount = playlists.length;
 
       for (const p of playlists) {
         if (!networkMap.has(p.playlistId)) {
@@ -273,15 +281,15 @@ export async function scrapeMoodsNetwork(): Promise<NetworkScrapeResult> {
             id: p.playlistId,
             title: p.playlistTitle,
             thumbnailId: p.thumbnailId,
-            moods: [mood.slug],
+            moods: [cat.slug],
             shelves: [...p.shelves],
             appearances: p.appearances,
           });
         } else {
           const node = networkMap.get(p.playlistId)!;
           node.appearances += p.appearances;
-          if (!node.moods.includes(mood.slug)) {
-            node.moods.push(mood.slug);
+          if (!node.moods.includes(cat.slug)) {
+            node.moods.push(cat.slug);
           }
           for (const s of p.shelves) {
             if (!node.shelves.includes(s)) {
@@ -291,12 +299,15 @@ export async function scrapeMoodsNetwork(): Promise<NetworkScrapeResult> {
         }
       }
     } catch (err) {
-      console.error(`Failed scraping mood: ${mood.title} (${mood.slug})`, err);
-      mood.scraped = false;
+      console.error(
+        `Failed scraping category: ${cat.title} (${cat.slug})`,
+        err,
+      );
+      cat.scraped = false;
     }
   }
 
-  // Sort network nodes by total appearances across all moods/shelves, then title
+  // Sort network nodes by total appearances across all categories/shelves, then title
   const nodes = Array.from(networkMap.values()).sort((a, b) => {
     if (b.appearances !== a.appearances) {
       return b.appearances - a.appearances;
@@ -311,3 +322,5 @@ export async function scrapeMoodsNetwork(): Promise<NetworkScrapeResult> {
     totalUniqueNodes: nodes.length,
   };
 }
+
+export const scrapeMoodsNetwork = scrapeAllCategoriesNetwork;

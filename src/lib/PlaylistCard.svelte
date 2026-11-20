@@ -1,13 +1,13 @@
 <script lang="ts">
-    import type { ChillPlaylist } from "./types";
-    import { getThumbnailUrl } from "./scraper";
+    import type { MoodPlaylist } from "./types.ts";
+    import { getThumbnailUrl } from "./scraper.ts";
 
     let {
         playlist,
         onSelectNode,
         onSelectShelf,
     }: {
-        playlist: ChillPlaylist;
+        playlist: MoodPlaylist;
         onSelectNode?: (playlistId: string) => void;
         onSelectShelf?: (shelf: string) => void;
     } = $props();
@@ -25,9 +25,9 @@
     const ytmUrl = $derived(
         `https://music.youtube.com/playlist?list=${fullPlaylistId}`,
     );
-    const isDeepSleepNode = $derived(
-        playlist.playlistId === "l2OjbOL4oVkkHE86UT6oQCNufuv8d0luQ",
-    );
+
+    // Every curated playlist in PeerMusic is an official curated node
+    const isNode = $derived(!playlist.playlistId.startsWith("PL"));
 
     const shelvesList = $derived(
         playlist.shelves && playlist.shelves.length > 0
@@ -59,7 +59,7 @@
     }
 </script>
 
-<article class="card" class:highlight-node={isDeepSleepNode}>
+<article class="card" class:is-node={isNode}>
     <div
         class="cover-wrapper"
         onclick={handleCardClick}
@@ -98,9 +98,7 @@
             </span>
         {/if}
 
-        {#if isDeepSleepNode}
-            <span class="node-indicator-badge">Node Available</span>
-        {/if}
+        <span class="node-indicator-badge">Node Available</span>
     </div>
 
     <div class="card-content">
@@ -175,11 +173,6 @@
         transform: translateY(-2px);
         border-color: var(--ring);
         box-shadow: var(--shadow-hover);
-    }
-
-    .card.highlight-node {
-        border-width: 1.5px;
-        border-color: var(--text);
     }
 
     .cover-wrapper {
@@ -291,6 +284,7 @@
         letter-spacing: 0.05em;
         padding: 2px 6px;
         border-radius: 3px;
+        pointer-events: none;
     }
 
     .card-content {

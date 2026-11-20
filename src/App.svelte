@@ -18,7 +18,7 @@
 
     // Navigation State - Default starting page is 'categories'
     let currentView = $state<AppView>("categories");
-    let selectedMood = $state("chill");
+    let selectedCategory = $state("chill");
     let selectedShelf = $state("all");
     let activeNodeId = $state<string>("");
     let playbackMode = $state<NodePlaybackMode>("song");
@@ -39,20 +39,22 @@
         ? import.meta.env.BASE_URL
         : `${import.meta.env.BASE_URL}/`;
 
-    // Current active mood metadata
-    const currentMoodObj = $derived.by(() => {
+    // Current active category (mood or genre) metadata
+    const currentCategoryObj = $derived.by(() => {
         if (!categoriesData) return null;
         return (
-            categoriesData.moods.find((m) => m.slug === selectedMood) || null
+            categoriesData.moods.find((m) => m.slug === selectedCategory) ||
+            categoriesData.genres.find((g) => g.slug === selectedCategory) ||
+            null
         );
     });
 
-    const currentMoodTitle = $derived.by(() => {
-        if (currentMoodObj) return currentMoodObj.title;
-        if (!selectedMood) return "Mood";
+    const currentCategoryTitle = $derived.by(() => {
+        if (currentCategoryObj) return currentCategoryObj.title;
+        if (!selectedCategory) return "Category";
         return (
-            selectedMood.charAt(0).toUpperCase() +
-            selectedMood.slice(1).replace(/_/g, " ")
+            selectedCategory.charAt(0).toUpperCase() +
+            selectedCategory.slice(1).replace(/_/g, " ")
         );
     });
 
@@ -74,7 +76,7 @@
             .slice(0, 16);
     });
 
-    // Extract unique shelf titles from active mood's playlists
+    // Extract unique shelf titles from active category's playlists
     const availableShelves = $derived.by(() => {
         const set = new Set<string>();
         for (const p of playlists) {
@@ -170,7 +172,7 @@
     // URL / History Routing Helper: Nodes are loaded with their IDs, NOT names in URL
     function buildHash(
         view: AppView,
-        mood: string = selectedMood,
+        category: string = selectedCategory,
         shelf: string = selectedShelf,
         nodeId?: string,
     ): string {
@@ -180,7 +182,7 @@
         if (view === "node" && nodeId) {
             return `#/node/${nodeId}`;
         }
-        let path = `#/moods-and-genres/${mood}`;
+        let path = `#/moods-and-genres/${category}`;
         if (shelf && shelf !== "all") {
             path += `/${encodeURIComponent(shelf)}`;
         }
@@ -189,48 +191,54 @@
 
     function navigate(
         view: AppView,
-        mood: string = selectedMood,
+        category: string = selectedCategory,
         shelf: string = "all",
         nodeId?: string,
         push = true,
     ) {
         currentView = view;
-        selectedMood = mood;
+        selectedCategory = category;
         selectedShelf = shelf;
         searchQuery = "";
         if (nodeId) {
             activeNodeId = nodeId;
         }
 
-        const newHash = buildHash(view, mood, shelf, nodeId);
+        const newHash = buildHash(view, category, shelf, nodeId);
         if (push && window.location.hash !== newHash) {
             window.history.pushState(
-                { view, mood, shelf, nodeId },
+                { view, category, shelf, nodeId },
                 "",
                 newHash,
             );
         }
 
         if (view === "playlists") {
-            loadMoodPlaylists(mood);
+            loadCategoryPlaylists(category);
         } else if (view === "node" && nodeId) {
             loadNodeById(nodeId);
         }
     }
 
-    async function loadMoodPlaylists(moodSlug: string) {
-        selectedMood = moodSlug;
+    async function loadCategoryPlaylists(slug: string) {
+        selectedCategory = slug;
         loading = true;
         try {
-            // 1. Try public/moods/<moodSlug>.json
-            const res = await fetch(`${basePath}moods/${moodSlug}.json`);
+            // 1. Try public/categories/<slug>.json, public/moods/<slug>.json, public/genres/<slug>.json
+            let res = await fetch(`${basePath}categories/${slug}.json`);
+            if (!res.ok) {
+                res = await fetch(`${basePath}moods/${slug}.json`);
+            }
+            if (!res.ok) {
+                res = await fetch(`${basePath}genres/${slug}.json`);
+            }
             if (res.ok) {
                 playlists = await res.json();
                 return;
             }
 
             // 2. Fallback mirror for chill if applicable
-            if (moodSlug === "chill") {
+            if (slug === "chill") {
                 const chillRes = await fetch(`${basePath}chill-playlists.json`);
                 if (chillRes.ok) {
                     playlists = await chillRes.json();
@@ -239,7 +247,7 @@
             }
 
             // 3. Fallback to dev server API
-            const apiRes = await fetch(`/api/mood/${moodSlug}`);
+            const apiRes = await fetch(`/api/category/${slug}`);
             if (apiRes.ok) {
                 const json = await apiRes.json();
                 if (json.playlists) {
@@ -248,9 +256,9 @@
                 }
             }
 
-            statusMessage = `Could not load playlists for mood "${moodSlug}"`;
+            statusMessage = `Could not load playlists for "${slug}"`;
         } catch (err: any) {
-            statusMessage = `Error loading mood "${moodSlug}": ${err?.message || "Network error"}`;
+            statusMessage = `Error loading "${slug}": ${err?.message || "Network error"}`;
         } finally {
             loading = false;
         }
@@ -258,7 +266,7 @@
 
     async function loadNodeById(cleanNodeId: string) {
         activeNodeId = cleanNodeId;
-        if (nodeData?.playlistId === cleanNodeId) {
+        if (nodeData?.playlistId === cleanNodeId && nodeData.atvs.length > 0) {
             return;
         }
 
@@ -341,14 +349,14 @@
             return;
         }
 
-        // Path: #/moods-and-genres/:moodSlug/:shelf?
+        // Path: #/moods-and-genres/:categorySlug/:shelf?
         if (parts[0] === "moods-and-genres" && parts[1]) {
-            const moodSlug = decodeURIComponent(parts[1]);
+            const categorySlug = decodeURIComponent(parts[1]);
             const shelfPart = parts[2] ? decodeURIComponent(parts[2]) : "all";
             currentView = "playlists";
-            selectedMood = moodSlug;
+            selectedCategory = categorySlug;
             selectedShelf = shelfPart;
-            loadMoodPlaylists(moodSlug);
+            loadCategoryPlaylists(categorySlug);
             return;
         }
 
@@ -361,12 +369,12 @@
     }
 
     function handleSelectShelf(shelf: string) {
-        navigate("playlists", selectedMood, shelf);
+        navigate("playlists", selectedCategory, shelf);
     }
 
     function handleSelectNode(playlistId: string) {
         // Navigate with node ID in the URL: #/node/<cleanId>
-        navigate("node", selectedMood, selectedShelf, playlistId);
+        navigate("node", selectedCategory, selectedShelf, playlistId);
     }
 
     async function loadData() {
@@ -394,14 +402,14 @@
     async function triggerScrape() {
         scraping = true;
         if (currentView === "playlists") {
-            statusMessage = `Scraping YouTube Music ${currentMoodTitle} shelves...`;
+            statusMessage = `Scraping YouTube Music ${currentCategoryTitle} shelves...`;
             try {
-                const res = await fetch(`/api/mood/${selectedMood}`);
+                const res = await fetch(`/api/category/${selectedCategory}`);
                 if (res.ok) {
                     const data = await res.json();
                     if (data.playlists) {
                         playlists = data.playlists;
-                        statusMessage = `Successfully refreshed ${playlists.length} playlists for ${currentMoodTitle}`;
+                        statusMessage = `Successfully refreshed ${playlists.length} playlists for ${currentCategoryTitle}`;
                     }
                 } else {
                     statusMessage = "Scrape request failed, check server logs";
@@ -426,7 +434,7 @@
                 statusMessage = "Network error while scraping node";
             }
         } else {
-            statusMessage = "Scraping all moods & network...";
+            statusMessage = "Scraping all categories & network...";
             try {
                 const res = await fetch("/api/scrape");
                 if (res.ok) {
@@ -480,7 +488,7 @@
                 {#if currentView === "categories"}
                     YouTube Music Moods & Genres Catalog • Curated Nodes Network
                 {:else if currentView === "playlists"}
-                    Moods & Genres › {currentMoodTitle} Playlists
+                    Moods & Genres › {currentCategoryTitle} Playlists
                 {:else if nodeData}
                     Node: {nodeData.playlistTitle}
                 {/if}
@@ -551,10 +559,10 @@
                         class:current={currentView === "playlists" &&
                             selectedShelf === "all"}
                         onclick={() =>
-                            navigate("playlists", selectedMood, "all")}
-                        title={`Go to ${currentMoodTitle} playlists`}
+                            navigate("playlists", selectedCategory, "all")}
+                        title={`Go to ${currentCategoryTitle} playlists`}
                     >
-                        {currentMoodTitle}
+                        {currentCategoryTitle}
                     </button>
                 </li>
 
@@ -568,7 +576,7 @@
                             onclick={() =>
                                 navigate(
                                     "playlists",
-                                    selectedMood,
+                                    selectedCategory,
                                     selectedShelf,
                                 )}
                             title={`Shelf: ${selectedShelf}`}
@@ -597,7 +605,7 @@
                 placeholder={currentView === "categories"
                     ? "Filter top nodes, moods, and genres..."
                     : currentView === "playlists"
-                      ? `Filter ${currentMoodTitle} playlists by title, shelf, or ID...`
+                      ? `Filter ${currentCategoryTitle} playlists by title, shelf, or ID...`
                       : `Search ${playbackMode === "song" ? "songs" : "videos"} by title or artist...`}
                 bind:value={searchQuery}
                 class="search-input"
@@ -627,7 +635,7 @@
                         onchange={(e) =>
                             navigate(
                                 "playlists",
-                                selectedMood,
+                                selectedCategory,
                                 (e.target as HTMLSelectElement).value,
                             )}
                         class="custom-select"
@@ -770,8 +778,8 @@
             <button
                 type="button"
                 class="clear-shelf-btn"
-                onclick={() => navigate("playlists", selectedMood, "all")}
-                title={`Clear shelf filter and show all ${currentMoodTitle} playlists`}
+                onclick={() => navigate("playlists", selectedCategory, "all")}
+                title={`Clear shelf filter and show all ${currentCategoryTitle} playlists`}
             >
                 <i class="gg-close"></i>
                 <span>Show All Shelves</span>
@@ -872,7 +880,7 @@
                 </section>
             </div>
         {:else if currentView === "playlists"}
-            <!-- MOOD PLAYLISTS GRID -->
+            <!-- CATEGORY PLAYLISTS GRID -->
             {#if filteredPlaylists.length === 0}
                 <div class="empty-state">
                     <p class="empty-title">No playlists found</p>
@@ -885,7 +893,7 @@
                         class="reset-btn"
                         onclick={() => {
                             searchQuery = "";
-                            navigate("playlists", selectedMood, "all");
+                            navigate("playlists", selectedCategory, "all");
                         }}
                     >
                         Reset Filters
@@ -917,7 +925,7 @@
                 </div>
             {:else if displayedNodeTracks.length === 0}
                 <div class="empty-state">
-                    <p class="empty-title">No tracks match your query</p>
+                    <p class="empty-title">No tracks available yet</p>
                     {#if nodeData.atvs.length === 0 && nodeData.omvs.length === 0}
                         <p class="empty-subtitle">
                             This node has not been harvested into local cache
@@ -959,11 +967,11 @@
             </span>
             <span class="footer-meta">
                 {#if currentView === "categories" && categoriesData}
-                    {categoriesData.moods.length} Moods • {networkNodes.length
-                        ? networkNodes.length + " Networked Nodes • "
-                        : ""}{categoriesData.genres.length} Genres
+                    {categoriesData.moods.length} Moods{#if networkNodes.length}
+                        • {networkNodes.length} Networked Nodes{/if} • {categoriesData
+                        .genres.length} Genres
                 {:else if currentView === "playlists"}
-                    Moods & Genres / {currentMoodTitle} • {filteredPlaylists.length}
+                    Moods & Genres / {currentCategoryTitle} • {filteredPlaylists.length}
                     / {playlists.length} Playlists
                 {:else if nodeData}
                     Node {nodeData.playlistId} • {nodeData.atvs.length} ATVs • {nodeData
