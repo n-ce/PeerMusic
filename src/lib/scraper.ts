@@ -131,8 +131,12 @@ export function parseChillPlaylists(categoryJson: any): ChillPlaylist[] {
       const rawId = watchPlaylistId || browseId;
       if (!rawId) continue;
 
+      // Only curated RDCLAK playlists allowed in display
+      if (!rawId.includes("RDCLAK5uy")) continue;
+
       const playlistId = cleanPlaylistId(rawId);
-      if (!playlistId || playlistId.length <= 11) continue; // Skip single tracks/artists
+      if (!playlistId || playlistId.length <= 11 || playlistId.startsWith("PL"))
+        continue;
 
       const thumbnails =
         r.thumbnailRenderer?.musicThumbnailRenderer?.thumbnail?.thumbnails ||

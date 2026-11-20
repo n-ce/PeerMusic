@@ -71,14 +71,20 @@
         );
     });
 
-    // Top appearing nodes across categories (Top Playlists subpage)
+    // Top appearing nodes (only curated RDCLAK nodes with >1 appearances)
+    const eligibleTopNodes = $derived.by(() => {
+        return networkNodes.filter(
+            (n) => !n.id.startsWith("PL") && n.appearances > 1,
+        );
+    });
+
     const displayedTopNodes = $derived.by(() => {
-        if (!networkNodes.length) return [];
+        if (!eligibleTopNodes.length) return [];
         if (!searchQuery.trim()) {
-            return networkNodes;
+            return eligibleTopNodes;
         }
         const q = searchQuery.toLowerCase().trim();
-        return networkNodes.filter(
+        return eligibleTopNodes.filter(
             (n) =>
                 n.title.toLowerCase().includes(q) ||
                 n.id.toLowerCase().includes(q) ||
@@ -87,12 +93,16 @@
         );
     });
 
-    // Top Albums (Top Albums subpage)
+    // Top Albums (only albums referenced across >1 nodes)
+    const eligibleTopAlbums = $derived.by(() => {
+        return topAlbums.filter((a) => a.nodeReferences > 1);
+    });
+
     const displayedTopAlbums = $derived.by(() => {
-        if (!topAlbums.length) return [];
-        if (!searchQuery.trim()) return topAlbums.slice(0, 150);
+        if (!eligibleTopAlbums.length) return [];
+        if (!searchQuery.trim()) return eligibleTopAlbums.slice(0, 150);
         const q = searchQuery.toLowerCase().trim();
-        return topAlbums
+        return eligibleTopAlbums
             .filter(
                 (a) =>
                     a.title.toLowerCase().includes(q) ||
@@ -102,12 +112,16 @@
             .slice(0, 150);
     });
 
-    // Top Artists (Top Artists subpage)
+    // Top Artists (only artists referenced across >1 nodes)
+    const eligibleTopArtists = $derived.by(() => {
+        return topArtists.filter((ar) => ar.nodeReferences > 1);
+    });
+
     const displayedTopArtists = $derived.by(() => {
-        if (!topArtists.length) return [];
-        if (!searchQuery.trim()) return topArtists.slice(0, 150);
+        if (!eligibleTopArtists.length) return [];
+        if (!searchQuery.trim()) return eligibleTopArtists.slice(0, 150);
         const q = searchQuery.toLowerCase().trim();
-        return topArtists
+        return eligibleTopArtists
             .filter(
                 (ar) =>
                     ar.name.toLowerCase().includes(q) ||
@@ -117,10 +131,11 @@
             .slice(0, 150);
     });
 
-    // Extract unique shelf titles from active category's playlists
+    // Extract unique shelf titles from curated playlists (excluding community PL playlists)
     const availableShelves = $derived.by(() => {
         const set = new Set<string>();
         for (const p of playlists) {
+            if (p.playlistId.startsWith("PL")) continue;
             if (p.shelves && p.shelves.length) {
                 p.shelves.forEach((s) => set.add(s));
             } else if (p.shelfTitle) {
@@ -153,9 +168,9 @@
         );
     });
 
-    // Filter & sort logic for playlists
+    // Filter & sort logic for playlists (community PL playlists excluded from display)
     const filteredPlaylists = $derived.by(() => {
-        let list = playlists;
+        let list = playlists.filter((p) => !p.playlistId.startsWith("PL"));
 
         if (selectedShelf !== "all") {
             list = list.filter(
@@ -574,15 +589,15 @@
                 {#if currentView === "landing"}
                     Curated Nodes Network • Moods & Genres Catalog
                 {:else if currentView === "top-playlists"}
-                    Top Curated Playlists & Nodes ({networkNodes.length} discovered)
+                    Top Curated Playlists & Nodes ({eligibleTopNodes.length} multi-referenced)
                 {:else if currentView === "moods"}
                     Moods & Moments ({categoriesData?.moods.length || 0} categories)
                 {:else if currentView === "genres"}
                     Music Genres ({categoriesData?.genres.length || 0} categories)
                 {:else if currentView === "top-albums"}
-                    Top Referenced Albums ({topAlbums.length} aggregated)
+                    Top Referenced Albums ({eligibleTopAlbums.length} multi-referenced)
                 {:else if currentView === "top-artists"}
-                    Top Referenced Artists ({topArtists.length} aggregated)
+                    Top Referenced Artists ({eligibleTopArtists.length} multi-referenced)
                 {:else if currentView === "playlists"}
                     Moods & Genres › {currentCategoryTitle} Playlists
                 {:else if nodeData}
@@ -968,18 +983,18 @@
                     <!-- 1. Top Playlists (Curated Nodes) -->
                     <HubBox
                         title="Top Playlists"
-                        description="Most appearing curated playlists & nodes aggregated across moods and moments."
-                        count={networkNodes.length ? networkNodes.length.toLocaleString() : "4,917"}
+                        description="Official curated playlists appearing across multiple moods & shelves (>1× references)."
+                        count={eligibleTopNodes.length ? eligibleTopNodes.length.toLocaleString() : "0"}
                         countLabel="Curated Nodes"
                         iconClass="gg-play-list"
-                        tag="Network"
+                        tag="Multi-Referenced"
                         onClick={() => navigate("top-playlists")}
                     />
 
                     <!-- 2. Genres -->
                     <HubBox
                         title="Genres"
-                        description="Explore 38 genre categories, shelves, and community playlists."
+                        description="Explore 38 genre categories and official curated shelves."
                         count={categoriesData?.genres.length || 38}
                         countLabel="Categories"
                         iconClass="gg-music"
@@ -990,7 +1005,7 @@
                     <!-- 3. Moods -->
                     <HubBox
                         title="Moods"
-                        description="Explore 11 mood categories, shelves, and curated playlists."
+                        description="Explore 11 mood categories and official curated shelves."
                         count={categoriesData?.moods.length || 11}
                         countLabel="Categories"
                         iconClass="gg-sun"
@@ -1001,9 +1016,9 @@
                     <!-- 4. Top Albums -->
                     <HubBox
                         title="Top Albums"
-                        description="Most referenced albums aggregated across curated mood & genre nodes tracks."
-                        count={topAlbums.length ? topAlbums.length.toLocaleString() : "1,644"}
-                        countLabel="Referenced Albums"
+                        description="Most referenced albums across curated mood & genre nodes (>1× references)."
+                        count={eligibleTopAlbums.length ? eligibleTopAlbums.length.toLocaleString() : "0"}
+                        countLabel="Multi-Referenced Albums"
                         iconClass="gg-album"
                         tag="Aggregated"
                         onClick={() => navigate("top-albums")}
@@ -1012,9 +1027,9 @@
                     <!-- 5. Top Artists -->
                     <HubBox
                         title="Top Artists"
-                        description="Most referenced artists aggregated across curated mood & genre nodes tracks."
-                        count={topArtists.length ? topArtists.length.toLocaleString() : "1,561"}
-                        countLabel="Referenced Artists"
+                        description="Most referenced artists across curated mood & genre nodes (>1× references)."
+                        count={eligibleTopArtists.length ? eligibleTopArtists.length.toLocaleString() : "0"}
+                        countLabel="Multi-Referenced Artists"
                         iconClass="gg-user"
                         tag="Aggregated"
                         onClick={() => navigate("top-artists")}
@@ -1034,7 +1049,7 @@
                     <div class="section-header-titles">
                         <h2 class="section-title">Top Curated Playlists & Nodes</h2>
                         <span class="section-subtitle">
-                            Curated nodes discovered across moods and genres, ranked by occurrences
+                            Curated nodes appearing across multiple categories & shelves (>1 appearances, ranked by occurrences)
                         </span>
                     </div>
                     <span class="section-count">
@@ -1118,7 +1133,7 @@
                     <div class="section-header-titles">
                         <h2 class="section-title">Top Referenced Albums</h2>
                         <span class="section-subtitle">
-                            Aggregated from harvested tracks across curated mood & genre nodes (ranked by node occurrences)
+                            Aggregated from harvested tracks across curated mood & genre nodes (>1 node references)
                         </span>
                     </div>
                     <span class="section-count">
@@ -1149,7 +1164,7 @@
                     <div class="section-header-titles">
                         <h2 class="section-title">Top Referenced Artists</h2>
                         <span class="section-subtitle">
-                            Aggregated from harvested tracks across curated mood & genre nodes (ranked by node occurrences)
+                            Aggregated from harvested tracks across curated mood & genre nodes (>1 node references)
                         </span>
                     </div>
                     <span class="section-count">
@@ -1261,17 +1276,17 @@
             </span>
             <span class="footer-meta">
                 {#if currentView === "landing"}
-                    5 Exploration Hubs • {networkNodes.length} Nodes • {topAlbums.length} Albums • {topArtists.length} Artists
+                    5 Exploration Hubs • {eligibleTopNodes.length} Nodes (>1×) • {eligibleTopAlbums.length} Albums (>1×) • {eligibleTopArtists.length} Artists (>1×)
                 {:else if currentView === "top-playlists"}
-                    {networkNodes.length} Curated Network Nodes
+                    {eligibleTopNodes.length} Curated Network Nodes (>1× appearances)
                 {:else if currentView === "moods" && categoriesData}
                     {categoriesData.moods.length} Mood Categories
                 {:else if currentView === "genres" && categoriesData}
                     {categoriesData.genres.length} Genre Categories
                 {:else if currentView === "top-albums"}
-                    {topAlbums.length} Aggregated Albums
+                    {eligibleTopAlbums.length} Multi-Referenced Albums (>1×)
                 {:else if currentView === "top-artists"}
-                    {topArtists.length} Aggregated Artists
+                    {eligibleTopArtists.length} Multi-Referenced Artists (>1×)
                 {:else if currentView === "playlists"}
                     Moods & Genres / {currentCategoryTitle} • {filteredPlaylists.length} / {playlists.length} Playlists
                 {:else if nodeData}

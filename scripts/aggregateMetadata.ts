@@ -91,15 +91,20 @@ export function buildAggregatedMetadata(nodesDir: string, publicDir: string) {
     }
   }
 
-  const sortedAlbums = Array.from(albumMap.values()).sort(
-    (a, b) =>
-      b.nodeReferences - a.nodeReferences || b.trackCount - a.trackCount,
-  );
+  // Only albums and artists referenced MORE THAN ONCE across nodes are displayed
+  const sortedAlbums = Array.from(albumMap.values())
+    .filter((a) => a.nodeReferences > 1)
+    .sort(
+      (a, b) =>
+        b.nodeReferences - a.nodeReferences || b.trackCount - a.trackCount,
+    );
 
-  const sortedArtists = Array.from(artistMap.values()).sort(
-    (a, b) =>
-      b.nodeReferences - a.nodeReferences || b.trackCount - a.trackCount,
-  );
+  const sortedArtists = Array.from(artistMap.values())
+    .filter((ar) => ar.nodeReferences > 1)
+    .sort(
+      (a, b) =>
+        b.nodeReferences - a.nodeReferences || b.trackCount - a.trackCount,
+    );
 
   writeFileSync(
     resolve(publicDir, "top-albums.json"),
@@ -114,7 +119,7 @@ export function buildAggregatedMetadata(nodesDir: string, publicDir: string) {
   );
 
   console.log(
-    `Saved ${sortedAlbums.length} albums to public/top-albums.json and ${sortedArtists.length} artists to public/top-artists.json`,
+    `Saved ${sortedAlbums.length} multi-referenced albums to public/top-albums.json and ${sortedArtists.length} multi-referenced artists to public/top-artists.json`,
   );
 
   return { albums: sortedAlbums, artists: sortedArtists };

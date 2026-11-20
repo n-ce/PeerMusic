@@ -106,6 +106,7 @@ export async function fetchMoodsAndGenresList(): Promise<CategoriesData> {
 
 /**
  * Fetches category shelves for a single mood or genre using its live params.
+ * Filters out community playlists: only official RDCLAK curated playlists are returned.
  */
 export async function fetchMoodCategoryPlaylists(
   params: string,
@@ -190,8 +191,13 @@ export async function fetchMoodCategoryPlaylists(
       const rawId = watchPlaylistId || browseId;
       if (!rawId) continue;
 
+      // Community playlists (PL...) are NOT allowed in data display (only in node data aggregation)
+      // Only official curated RDCLAK playlists are kept
+      if (!rawId.includes("RDCLAK5uy")) continue;
+
       const playlistId = cleanPlaylistId(rawId);
-      if (!playlistId || playlistId.length <= 11) continue;
+      if (!playlistId || playlistId.length <= 11 || playlistId.startsWith("PL"))
+        continue;
 
       const thumbnails =
         r.thumbnailRenderer?.musicThumbnailRenderer?.thumbnail?.thumbnails ||
@@ -254,8 +260,8 @@ export interface NetworkScrapeResult {
 }
 
 /**
- * Scrapes all live categories (moods and genres) and constructs the
- * comprehensive RDCLAK5uy nodes network across all shelves.
+ * Scrapes all moods and genres, filters out community playlists,
+ * and networks multi-referenced RDCLAK nodes (appearances > 1).
  */
 export async function scrapeAllCategoriesNetwork(
   includeGenres = true,
@@ -276,6 +282,9 @@ export async function scrapeAllCategoriesNetwork(
       cat.playlistCount = playlists.length;
 
       for (const p of playlists) {
+        // Double-check: never allow community playlists into network nodes
+        if (p.playlistId.startsWith("PL")) continue;
+
         if (!networkMap.has(p.playlistId)) {
           networkMap.set(p.playlistId, {
             id: p.playlistId,
@@ -307,13 +316,15 @@ export async function scrapeAllCategoriesNetwork(
     }
   }
 
-  // Sort network nodes by total appearances across all categories/shelves, then title
-  const nodes = Array.from(networkMap.values()).sort((a, b) => {
-    if (b.appearances !== a.appearances) {
-      return b.appearances - a.appearances;
-    }
-    return a.title.localeCompare(b.title);
-  });
+  // Only multi-referenced curated RDCLAK nodes are kept in networkNodes (appearances > 1)
+  const nodes = Array.from(networkMap.values())
+    .filter((n) => !n.id.startsWith("PL") && n.appearances > 1)
+    .sort((a, b) => {
+      if (b.appearances !== a.appearances) {
+        return b.appearances - a.appearances;
+      }
+      return a.title.localeCompare(b.title);
+    });
 
   return {
     nodes,

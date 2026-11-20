@@ -119,38 +119,5 @@
       "Featured playlists"
     ],
     "firstAppearanceIndex": 10
-  },
-  {
-    "playlistId": "PLvqMTP22MXxt95NuvjyR9oQ2HfUAp3Ir1",
-    "thumbnailId": "4Qb3h41-W6vn5rDKAI-B1HVSUmFCjvPmA7fdK0oeatrU-XVt-mXcCknROBKuAPZbCOD09XySLQ",
-    "playlistTitle": "Fusion",
-    "shelfTitle": "Community playlists",
-    "appearances": 1,
-    "shelves": [
-      "Community playlists"
-    ],
-    "firstAppearanceIndex": 11
-  },
-  {
-    "playlistId": "PL3-dCIBecDJmaIHoqVTSkdXxUZUv6vX_s",
-    "thumbnailId": "zWWlsfBPQ8vxq3UrSfMEyaupaIlijPjEU-BqwZGhQfwKqeX7Wd3PEeg1bH8MML9DQ3-EUCOdgWA",
-    "playlistTitle": "nice songs",
-    "shelfTitle": "Community playlists",
-    "appearances": 1,
-    "shelves": [
-      "Community playlists"
-    ],
-    "firstAppearanceIndex": 12
-  },
-  {
-    "playlistId": "PLSsFphAL9pmDhuyiFs-Zct_6bdADtIRyD",
-    "thumbnailId": "tE8nnMKRFtwqExgxtpFI1QxHcSjBNYju0tQO54RcGObtD0jAfvCO3jVY2TVJTRZx93n9qvGWc_I",
-    "playlistTitle": "Devotional songs",
-    "shelfTitle": "Community playlists",
-    "appearances": 1,
-    "shelves": [
-      "Community playlists"
-    ],
-    "firstAppearanceIndex": 13
   }
 ]
