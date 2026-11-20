@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { CategoryChip } from "./types";
+    import type { CategoryChip } from "./types.ts";
 
     let {
         category,
@@ -11,16 +11,14 @@
         onSelect: (category: CategoryChip) => void;
     } = $props();
 
-    const isChill = $derived(category.slug === "chill");
-    const count = $derived(
-        category.playlistCount || (isChill ? 203 : undefined),
-    );
+    const count = $derived(category.playlistCount);
+    const hasPlaylists = $derived((category.playlistCount ?? 0) > 0);
 </script>
 
 <button
     type="button"
     class="category-card"
-    class:is-active={isChill}
+    class:is-ready={hasPlaylists}
     onclick={() => onSelect(category)}
     aria-label={`Select ${category.title} ${type}`}
 >
@@ -43,7 +41,7 @@
 
     <div class="card-bottom">
         <span class="explore-label">
-            {#if isChill}
+            {#if hasPlaylists}
                 Explore Shelves
             {:else}
                 Browse {type}
@@ -81,9 +79,8 @@
         background: var(--card-hover);
     }
 
-    .category-card.is-active {
-        border-width: 1.5px;
-        border-color: var(--text);
+    .category-card.is-ready {
+        border-color: var(--border);
     }
 
     .card-top {
@@ -105,6 +102,7 @@
     }
 
     .status-chip {
+        font-family: var(--font-mono);
         font-size: 10.5px;
         font-optical-sizing: auto;
         font-variation-settings: "wght" 700;

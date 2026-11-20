@@ -1,34 +1,32 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import type {
-        NetworkNode,
-        ChillPlaylist,
+        MoodPlaylist,
         NodeData,
+        NetworkNode,
         CategoriesData,
         CategoryChip,
         SortMode,
         AppView,
         NodePlaybackMode,
-    } from "./lib/types";
+    } from "./lib/types.ts";
     import CategoryCard from "./lib/CategoryCard.svelte";
     import PlaylistCard from "./lib/PlaylistCard.svelte";
     import TrackCard from "./lib/TrackCard.svelte";
     import RelatedNodeCard from "./lib/RelatedNodeCard.svelte";
+    import NetworkNodeCard from "./lib/NetworkNodeCard.svelte";
 
     // Navigation State - Default starting page is 'categories'
     let currentView = $state<AppView>("categories");
+    let selectedMood = $state("chill");
     let selectedShelf = $state("all");
     let activeNodeId = $state<string>("");
     let playbackMode = $state<NodePlaybackMode>("song");
 
     let categoriesData = $state<CategoriesData | null>(null);
-    let playlists = $state<ChillPlaylist[]>([]);
-    let nodeData = $state<NodeData | null>(null);
     let networkNodes = $state<NetworkNode[]>([]);
-
-    const basePath = import.meta.env.BASE_URL.endsWith("/")
-        ? import.meta.env.BASE_URL
-        : `${import.meta.env.BASE_URL}/`;
+    let playlists = $state<MoodPlaylist[]>([]);
+    let nodeData = $state<NodeData | null>(null);
 
     let loading = $state(true);
     let nodeLoading = $state(false);
@@ -37,7 +35,46 @@
     let sortBy = $state<SortMode>("appearances");
     let statusMessage = $state("");
 
-    // Extract unique shelf titles from playlists
+    const basePath = import.meta.env.BASE_URL.endsWith("/")
+        ? import.meta.env.BASE_URL
+        : `${import.meta.env.BASE_URL}/`;
+
+    // Current active mood metadata
+    const currentMoodObj = $derived.by(() => {
+        if (!categoriesData) return null;
+        return (
+            categoriesData.moods.find((m) => m.slug === selectedMood) || null
+        );
+    });
+
+    const currentMoodTitle = $derived.by(() => {
+        if (currentMoodObj) return currentMoodObj.title;
+        if (!selectedMood) return "Mood";
+        return (
+            selectedMood.charAt(0).toUpperCase() +
+            selectedMood.slice(1).replace(/_/g, " ")
+        );
+    });
+
+    // Top appearing nodes across categories (shown above the moods list on starting page)
+    const displayedTopNodes = $derived.by(() => {
+        if (!networkNodes.length) return [];
+        if (!searchQuery.trim()) {
+            return networkNodes.slice(0, 12);
+        }
+        const q = searchQuery.toLowerCase().trim();
+        return networkNodes
+            .filter(
+                (n) =>
+                    n.title.toLowerCase().includes(q) ||
+                    n.id.toLowerCase().includes(q) ||
+                    n.moods.some((m) => m.toLowerCase().includes(q)) ||
+                    n.shelves.some((s) => s.toLowerCase().includes(q)),
+            )
+            .slice(0, 16);
+    });
+
+    // Extract unique shelf titles from active mood's playlists
     const availableShelves = $derived.by(() => {
         const set = new Set<string>();
         for (const p of playlists) {
@@ -131,14 +168,19 @@
     });
 
     // URL / History Routing Helper: Nodes are loaded with their IDs, NOT names in URL
-    function buildHash(view: AppView, shelf: string, nodeId?: string): string {
+    function buildHash(
+        view: AppView,
+        mood: string = selectedMood,
+        shelf: string = selectedShelf,
+        nodeId?: string,
+    ): string {
         if (view === "categories") {
             return "#/moods-and-genres";
         }
         if (view === "node" && nodeId) {
             return `#/node/${nodeId}`;
         }
-        let path = "#/moods-and-genres/chill";
+        let path = `#/moods-and-genres/${mood}`;
         if (shelf && shelf !== "all") {
             path += `/${encodeURIComponent(shelf)}`;
         }
@@ -147,24 +189,70 @@
 
     function navigate(
         view: AppView,
+        mood: string = selectedMood,
         shelf: string = "all",
         nodeId?: string,
         push = true,
     ) {
         currentView = view;
+        selectedMood = mood;
         selectedShelf = shelf;
         searchQuery = "";
         if (nodeId) {
             activeNodeId = nodeId;
         }
 
-        const newHash = buildHash(view, shelf, nodeId);
+        const newHash = buildHash(view, mood, shelf, nodeId);
         if (push && window.location.hash !== newHash) {
-            window.history.pushState({ view, shelf, nodeId }, "", newHash);
+            window.history.pushState(
+                { view, mood, shelf, nodeId },
+                "",
+                newHash,
+            );
         }
 
-        if (view === "node" && nodeId) {
+        if (view === "playlists") {
+            loadMoodPlaylists(mood);
+        } else if (view === "node" && nodeId) {
             loadNodeById(nodeId);
+        }
+    }
+
+    async function loadMoodPlaylists(moodSlug: string) {
+        selectedMood = moodSlug;
+        loading = true;
+        try {
+            // 1. Try public/moods/<moodSlug>.json
+            const res = await fetch(`${basePath}moods/${moodSlug}.json`);
+            if (res.ok) {
+                playlists = await res.json();
+                return;
+            }
+
+            // 2. Fallback mirror for chill if applicable
+            if (moodSlug === "chill") {
+                const chillRes = await fetch(`${basePath}chill-playlists.json`);
+                if (chillRes.ok) {
+                    playlists = await chillRes.json();
+                    return;
+                }
+            }
+
+            // 3. Fallback to dev server API
+            const apiRes = await fetch(`/api/mood/${moodSlug}`);
+            if (apiRes.ok) {
+                const json = await apiRes.json();
+                if (json.playlists) {
+                    playlists = json.playlists;
+                    return;
+                }
+            }
+
+            statusMessage = `Could not load playlists for mood "${moodSlug}"`;
+        } catch (err: any) {
+            statusMessage = `Error loading mood "${moodSlug}": ${err?.message || "Network error"}`;
+        } finally {
+            loading = false;
         }
     }
 
@@ -176,20 +264,28 @@
 
         nodeLoading = true;
         try {
-            // 1. If it's Deep Sleep Meditation, try pre-generated file
+            // 1. Try public/nodes/<cleanNodeId>.json
+            const res = await fetch(`${basePath}nodes/${cleanNodeId}.json`);
+            if (res.ok) {
+                nodeData = await res.json();
+                return;
+            }
+
+            // 2. Fallback mirror for deep-sleep-meditation
             if (cleanNodeId === "l2OjbOL4oVkkHE86UT6oQCNufuv8d0luQ") {
-                const res = await fetch(`${basePath}node-deep-sleep-meditation.json`);
-                if (res.ok) {
-                    nodeData = await res.json();
-                    nodeLoading = false;
+                const dsmRes = await fetch(
+                    `${basePath}node-deep-sleep-meditation.json`,
+                );
+                if (dsmRes.ok) {
+                    nodeData = await dsmRes.json();
                     return;
                 }
             }
 
-            // 2. Fetch via dev server / API
-            const res = await fetch(`/api/node/${cleanNodeId}`);
-            if (res.ok) {
-                const json = await res.json();
+            // 3. Fetch via dev server / API
+            const apiRes = await fetch(`/api/node/${cleanNodeId}`);
+            if (apiRes.ok) {
+                const json = await apiRes.json();
                 if (json.data) {
                     nodeData = json.data;
                     statusMessage = `Loaded node: ${nodeData?.playlistTitle}`;
@@ -197,7 +293,7 @@
                 }
             }
 
-            // 3. Fallback to network nodes registry
+            // 4. Fallback to network nodes registry info
             const known = networkNodes.find((n) => n.id === cleanNodeId);
             if (known) {
                 nodeData = {
@@ -210,7 +306,7 @@
                     communityPlaylistsScraped: 0,
                 };
             } else {
-                statusMessage = `Failed to scrape node ${cleanNodeId}`;
+                statusMessage = `Node ${cleanNodeId} not pre-scraped`;
             }
         } catch (err: any) {
             statusMessage = `Error loading node: ${err?.message || "Network error"}`;
@@ -245,11 +341,14 @@
             return;
         }
 
-        // Path: #/moods-and-genres/chill/:shelf?
-        if (parts[0] === "moods-and-genres" && parts[1] === "chill") {
+        // Path: #/moods-and-genres/:moodSlug/:shelf?
+        if (parts[0] === "moods-and-genres" && parts[1]) {
+            const moodSlug = decodeURIComponent(parts[1]);
             const shelfPart = parts[2] ? decodeURIComponent(parts[2]) : "all";
             currentView = "playlists";
+            selectedMood = moodSlug;
             selectedShelf = shelfPart;
+            loadMoodPlaylists(moodSlug);
             return;
         }
 
@@ -258,43 +357,28 @@
     }
 
     function handleSelectCategory(cat: CategoryChip) {
-        if (cat.slug === "chill") {
-            navigate("playlists", "all");
-        } else {
-            statusMessage = `Category "${cat.title}" selected. Initial focus is on Chill. Loading Chill catalog...`;
-            setTimeout(() => {
-                navigate("playlists", "all");
-            }, 700);
-        }
+        navigate("playlists", cat.slug, "all");
     }
 
     function handleSelectShelf(shelf: string) {
-        navigate("playlists", shelf);
+        navigate("playlists", selectedMood, shelf);
     }
 
     function handleSelectNode(playlistId: string) {
         // Navigate with node ID in the URL: #/node/<cleanId>
-        navigate("node", selectedShelf, playlistId);
+        navigate("node", selectedMood, selectedShelf, playlistId);
     }
 
     async function loadData() {
         loading = true;
         try {
-            const [cRes, pRes, nRes, netRes] = await Promise.allSettled([
+            const [cRes, netRes] = await Promise.allSettled([
                 fetch(`${basePath}categories.json`),
-                fetch(`${basePath}chill-playlists.json`),
-                fetch(`${basePath}node-deep-sleep-meditation.json`),
                 fetch(`${basePath}nodes-network.json`),
             ]);
 
             if (cRes.status === "fulfilled" && cRes.value.ok) {
                 categoriesData = await cRes.value.json();
-            }
-            if (pRes.status === "fulfilled" && pRes.value.ok) {
-                playlists = await pRes.value.json();
-            }
-            if (nRes.status === "fulfilled" && nRes.value.ok) {
-                nodeData = await nRes.value.json();
             }
             if (netRes.status === "fulfilled" && netRes.value.ok) {
                 networkNodes = await netRes.value.json();
@@ -309,15 +393,15 @@
 
     async function triggerScrape() {
         scraping = true;
-        if (currentView === "playlists" || currentView === "categories") {
-            statusMessage = "Scraping YouTube Music Chill shelves...";
+        if (currentView === "playlists") {
+            statusMessage = `Scraping YouTube Music ${currentMoodTitle} shelves...`;
             try {
-                const res = await fetch("/api/scrape");
+                const res = await fetch(`/api/mood/${selectedMood}`);
                 if (res.ok) {
                     const data = await res.json();
                     if (data.playlists) {
                         playlists = data.playlists;
-                        statusMessage = `Successfully refreshed ${playlists.length} playlists`;
+                        statusMessage = `Successfully refreshed ${playlists.length} playlists for ${currentMoodTitle}`;
                     }
                 } else {
                     statusMessage = "Scrape request failed, check server logs";
@@ -340,6 +424,17 @@
                 }
             } catch {
                 statusMessage = "Network error while scraping node";
+            }
+        } else {
+            statusMessage = "Scraping all moods & network...";
+            try {
+                const res = await fetch("/api/scrape");
+                if (res.ok) {
+                    await loadData();
+                    statusMessage = "Network refreshed!";
+                }
+            } catch {
+                statusMessage = "Scrape request failed";
             }
         }
 
@@ -383,9 +478,9 @@
             </div>
             <p class="subtitle">
                 {#if currentView === "categories"}
-                    YouTube Music Moods & Genres Catalog
+                    YouTube Music Moods & Genres Catalog • Curated Nodes Network
                 {:else if currentView === "playlists"}
-                    Moods & Genres › Chill Playlists
+                    Moods & Genres › {currentMoodTitle} Playlists
                 {:else if nodeData}
                     Node: {nodeData.playlistTitle}
                 {/if}
@@ -455,10 +550,11 @@
                         class="crumb-link"
                         class:current={currentView === "playlists" &&
                             selectedShelf === "all"}
-                        onclick={() => navigate("playlists", "all")}
-                        title="Go to Chill playlists"
+                        onclick={() =>
+                            navigate("playlists", selectedMood, "all")}
+                        title={`Go to ${currentMoodTitle} playlists`}
                     >
-                        Chill
+                        {currentMoodTitle}
                     </button>
                 </li>
 
@@ -469,7 +565,12 @@
                             type="button"
                             class="crumb-link"
                             class:current={currentView === "playlists"}
-                            onclick={() => navigate("playlists", selectedShelf)}
+                            onclick={() =>
+                                navigate(
+                                    "playlists",
+                                    selectedMood,
+                                    selectedShelf,
+                                )}
                             title={`Shelf: ${selectedShelf}`}
                         >
                             {selectedShelf}
@@ -494,9 +595,9 @@
             <input
                 type="search"
                 placeholder={currentView === "categories"
-                    ? "Filter moods and genres..."
+                    ? "Filter top nodes, moods, and genres..."
                     : currentView === "playlists"
-                      ? "Filter playlists by title, shelf name, or ID..."
+                      ? `Filter ${currentMoodTitle} playlists by title, shelf, or ID...`
                       : `Search ${playbackMode === "song" ? "songs" : "videos"} by title or artist...`}
                 bind:value={searchQuery}
                 class="search-input"
@@ -526,6 +627,7 @@
                         onchange={(e) =>
                             navigate(
                                 "playlists",
+                                selectedMood,
                                 (e.target as HTMLSelectElement).value,
                             )}
                         class="custom-select"
@@ -560,7 +662,9 @@
         {:else if currentView === "categories" && categoriesData}
             <div class="categories-count-badge">
                 <span>
-                    {categoriesData.moods.length} Moods{#if networkNodes.length} • {networkNodes.length} Networked Nodes{/if} • {categoriesData.genres.length} Genres
+                    {categoriesData.moods.length} Moods{#if networkNodes.length}
+                        • {networkNodes.length} Networked Nodes{/if} • {categoriesData
+                        .genres.length} Genres
                 </span>
             </div>
         {:else if currentView === "node"}
@@ -666,8 +770,8 @@
             <button
                 type="button"
                 class="clear-shelf-btn"
-                onclick={() => navigate("playlists", "all")}
-                title="Clear shelf filter and show all chill playlists"
+                onclick={() => navigate("playlists", selectedMood, "all")}
+                title={`Clear shelf filter and show all ${currentMoodTitle} playlists`}
             >
                 <i class="gg-close"></i>
                 <span>Show All Shelves</span>
@@ -694,8 +798,39 @@
                 </p>
             </div>
         {:else if currentView === "categories"}
-            <!-- STARTING PAGE: MOODS & GENRES LIST -->
+            <!-- STARTING PAGE: TOP NODES + MOODS & GENRES LIST -->
             <div class="categories-container">
+                <!-- TOP CURATED NODES LIST JUST ABOVE THE MOODS LIST -->
+                {#if displayedTopNodes.length > 0}
+                    <section
+                        class="category-section"
+                        aria-label="Most appearing curated nodes across categories"
+                    >
+                        <div class="section-header">
+                            <div class="section-header-titles">
+                                <h2 class="section-title">Top Curated Nodes</h2>
+                                <span class="section-subtitle">
+                                    Most appearing playlists across moods &
+                                    moments
+                                </span>
+                            </div>
+                            <span class="section-count">
+                                {displayedTopNodes.length} nodes
+                            </span>
+                        </div>
+
+                        <div class="top-nodes-grid">
+                            {#each displayedTopNodes as node, idx (node.id)}
+                                <NetworkNodeCard
+                                    {node}
+                                    rank={idx + 1}
+                                    onSelect={handleSelectNode}
+                                />
+                            {/each}
+                        </div>
+                    </section>
+                {/if}
+
                 <!-- Moods Section -->
                 <section class="category-section">
                     <div class="section-header">
@@ -737,7 +872,7 @@
                 </section>
             </div>
         {:else if currentView === "playlists"}
-            <!-- CHILL PLAYLISTS GRID -->
+            <!-- MOOD PLAYLISTS GRID -->
             {#if filteredPlaylists.length === 0}
                 <div class="empty-state">
                     <p class="empty-title">No playlists found</p>
@@ -750,7 +885,7 @@
                         class="reset-btn"
                         onclick={() => {
                             searchQuery = "";
-                            navigate("playlists", "all");
+                            navigate("playlists", selectedMood, "all");
                         }}
                     >
                         Reset Filters
@@ -783,13 +918,27 @@
             {:else if displayedNodeTracks.length === 0}
                 <div class="empty-state">
                     <p class="empty-title">No tracks match your query</p>
-                    <button
-                        type="button"
-                        class="reset-btn"
-                        onclick={() => (searchQuery = "")}
-                    >
-                        Clear Filter
-                    </button>
+                    {#if nodeData.atvs.length === 0 && nodeData.omvs.length === 0}
+                        <p class="empty-subtitle">
+                            This node has not been harvested into local cache
+                            yet.
+                        </p>
+                        <button
+                            type="button"
+                            class="reset-btn"
+                            onclick={triggerScrape}
+                        >
+                            Live Scrape Node Now
+                        </button>
+                    {:else}
+                        <button
+                            type="button"
+                            class="reset-btn"
+                            onclick={() => (searchQuery = "")}
+                        >
+                            Clear Filter
+                        </button>
+                    {/if}
                 </div>
             {:else}
                 <div class="tracks-list">
@@ -810,10 +959,12 @@
             </span>
             <span class="footer-meta">
                 {#if currentView === "categories" && categoriesData}
-                    {categoriesData.moods.length} Moods • {networkNodes.length ? networkNodes.length + " Networked Nodes • " : ""}{categoriesData.genres.length} Genres
+                    {categoriesData.moods.length} Moods • {networkNodes.length
+                        ? networkNodes.length + " Networked Nodes • "
+                        : ""}{categoriesData.genres.length} Genres
                 {:else if currentView === "playlists"}
-                    Moods & Genres / Chill • {filteredPlaylists.length} / {playlists.length}
-                    Playlists
+                    Moods & Genres / {currentMoodTitle} • {filteredPlaylists.length}
+                    / {playlists.length} Playlists
                 {:else if nodeData}
                     Node {nodeData.playlistId} • {nodeData.atvs.length} ATVs • {nodeData
                         .omvs.length} OMVs • {nodeData.relatedNodes?.length ||
@@ -900,11 +1051,11 @@
         cursor: pointer;
         transition:
             opacity 0.15s ease,
-            transform 0.1s ease;
+            transform 0.15s ease;
     }
 
     .action-btn:hover:not(:disabled) {
-        opacity: 0.88;
+        opacity: 0.9;
         transform: translateY(-1px);
     }
 
@@ -913,8 +1064,14 @@
         cursor: not-allowed;
     }
 
-    .btn-icon.spin {
-        animation: spin 1s linear infinite;
+    .btn-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .spin {
+        animation: spin 0.8s linear infinite;
     }
 
     @keyframes spin {
@@ -926,22 +1083,26 @@
         }
     }
 
-    /* File Browser Style Navigation Bar */
+    /* Browser Nav Bar */
     .browser-nav-bar {
         display: flex;
         align-items: center;
         gap: 12px;
-        padding: 8px 12px;
+        padding: 8px 14px;
         background: var(--surface);
         border: 1px solid var(--border);
         border-radius: 8px;
-        flex-wrap: wrap;
+        overflow-x: auto;
+        scrollbar-width: thin;
     }
 
     .history-controls {
         display: flex;
         align-items: center;
         gap: 4px;
+        flex-shrink: 0;
+        border-right: 1px solid var(--border);
+        padding-right: 8px;
     }
 
     .nav-icon-btn {
@@ -950,30 +1111,28 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 28px;
-        height: 28px;
+        width: 26px;
+        height: 26px;
         border-radius: 4px;
-        border: 1px solid var(--border);
-        background: var(--card-bg);
-        color: var(--text);
+        color: var(--text-muted);
         transition:
-            background 0.12s ease,
-            border-color 0.12s ease;
+            color 0.15s ease,
+            background 0.15s ease;
     }
 
     .nav-icon-btn:hover {
-        background: var(--surface-hover);
-        border-color: var(--ring);
+        color: var(--text);
+        background: var(--card-bg);
     }
 
-    /* Breadcrumb Trail */
     .breadcrumb-trail {
+        all: unset;
         display: flex;
         align-items: center;
         gap: 6px;
+        font-size: 13px;
+        white-space: nowrap;
         list-style: none;
-        font-size: 13.5px;
-        flex-wrap: wrap;
     }
 
     .crumb-item {
@@ -994,13 +1153,11 @@
 
     .crumb-link:hover {
         color: var(--text);
-        background: var(--surface-hover);
-        text-decoration: underline;
+        background: var(--card-bg);
     }
 
     .crumb-link.current {
         color: var(--text);
-        font-optical-sizing: auto;
         font-variation-settings: "wght" 650;
     }
 
@@ -1011,17 +1168,141 @@
     }
 
     .current-leaf {
-        font-optical-sizing: auto;
-        font-variation-settings: "wght" 700;
         color: var(--text);
+        font-variation-settings: "wght" 650;
         padding: 2px 6px;
     }
 
-    /* Categories Starting Page Layout */
+    /* Controls Bar */
+    .controls-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        flex-wrap: wrap;
+    }
+
+    .search-box {
+        position: relative;
+        flex: 1;
+        min-width: 260px;
+        display: flex;
+        align-items: center;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 12px;
+        color: var(--text-muted);
+        pointer-events: none;
+        font-size: 12px;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 8px 34px 8px 34px;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+        background: var(--card-bg);
+        color: var(--text);
+        font-size: 13.5px;
+        font-family: inherit;
+        outline: none;
+        transition:
+            border-color 0.15s ease,
+            box-shadow 0.15s ease;
+    }
+
+    .search-input:focus {
+        border-color: var(--ring);
+        box-shadow: 0 0 0 1px var(--ring);
+    }
+
+    .clear-btn {
+        all: unset;
+        position: absolute;
+        right: 10px;
+        cursor: pointer;
+        color: var(--text-muted);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 18px;
+        height: 18px;
+        font-size: 10px;
+    }
+
+    .clear-btn:hover {
+        color: var(--text);
+    }
+
+    .filter-actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .select-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .control-label {
+        font-size: 12px;
+        color: var(--text-muted);
+        font-variation-settings: "wght" 550;
+    }
+
+    .custom-select {
+        padding: 6px 10px;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+        background: var(--card-bg);
+        color: var(--text);
+        font-size: 13px;
+        font-family: inherit;
+        outline: none;
+        cursor: pointer;
+        transition: border-color 0.15s ease;
+    }
+
+    .custom-select:focus {
+        border-color: var(--ring);
+    }
+
+    /* Top Curated Nodes Grid */
+    .section-header-titles {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .section-subtitle {
+        font-size: 12px;
+        color: var(--text-muted);
+        font-weight: 400;
+    }
+
+    .top-nodes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+        gap: 12px;
+    }
+
+    @media (max-width: 640px) {
+        .top-nodes-grid {
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+    }
+
+    /* Categories Views */
     .categories-container {
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 28px;
     }
 
     .category-section {
@@ -1034,6 +1315,7 @@
         display: flex;
         align-items: baseline;
         justify-content: space-between;
+        gap: 12px;
         border-bottom: 1px solid var(--border-subtle);
         padding-bottom: 8px;
     }
@@ -1041,9 +1323,9 @@
     .section-title {
         font-size: 18px;
         font-optical-sizing: auto;
-        font-variation-settings: "wght" 680;
+        font-variation-settings: "wght" 700;
         color: var(--text);
-        letter-spacing: -0.01em;
+        letter-spacing: -0.02em;
     }
 
     .section-count {
@@ -1153,8 +1435,8 @@
         font-size: 20px;
         font-optical-sizing: auto;
         font-variation-settings: "wght" 700;
-        letter-spacing: -0.02em;
         color: var(--text);
+        letter-spacing: -0.02em;
     }
 
     .node-meta-row {
@@ -1165,22 +1447,58 @@
     }
 
     .node-chip {
-        font-size: 11.5px;
         font-family: var(--font-mono);
-        font-optical-sizing: auto;
-        font-variant-numeric: tabular-nums;
-        padding: 2px 8px;
+        font-size: 11px;
+        padding: 2px 7px;
         border-radius: 4px;
         background: var(--card-bg);
         border: 1px solid var(--border);
-        color: var(--text-secondary);
+        color: var(--text-muted);
+    }
+
+    .mode-selector {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background: var(--card-bg);
+        padding: 4px;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+    }
+
+    .mode-btn {
+        all: unset;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-size: 12.5px;
+        font-optical-sizing: auto;
+        font-variation-settings: "wght" 550;
+        color: var(--text-muted);
+        transition:
+            color 0.12s ease,
+            background 0.12s ease;
+    }
+
+    .mode-btn.active {
+        background: var(--text);
+        color: var(--bg);
+        font-variation-settings: "wght" 650;
+    }
+
+    .mode-btn:hover:not(.active) {
+        color: var(--text);
+        background: var(--surface);
     }
 
     /* Related Nodes Section */
     .related-nodes-section {
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 10px;
         padding: 14px 16px;
         background: var(--surface);
         border: 1px solid var(--border);
@@ -1190,8 +1508,7 @@
     .related-header {
         display: flex;
         align-items: baseline;
-        justify-content: space-between;
-        gap: 8px;
+        gap: 10px;
         flex-wrap: wrap;
     }
 
@@ -1209,128 +1526,8 @@
 
     .related-nodes-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
         gap: 10px;
-    }
-
-    /* Mode Selector (Song Mode / Video Mode) */
-    .mode-selector {
-        display: flex;
-        align-items: center;
-        background: var(--card-bg);
-        border: 1px solid var(--border);
-        border-radius: 6px;
-        padding: 3px;
-        gap: 2px;
-    }
-
-    .mode-btn {
-        all: unset;
-        cursor: pointer;
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 6px 14px;
-        border-radius: 4px;
-        font-size: 13px;
-        font-optical-sizing: auto;
-        font-variation-settings: "wght" 500;
-        color: var(--text-secondary);
-        transition:
-            background 0.15s ease,
-            color 0.15s ease;
-    }
-
-    .mode-btn.active {
-        background: var(--text);
-        color: var(--bg);
-        font-variation-settings: "wght" 650;
-    }
-
-    /* Controls Bar */
-    .controls-bar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 12px;
-        flex-wrap: wrap;
-    }
-
-    .search-box {
-        position: relative;
-        display: flex;
-        align-items: center;
-        flex: 1;
-        min-width: 240px;
-        max-width: 480px;
-    }
-
-    .search-icon {
-        position: absolute;
-        left: 12px;
-        color: var(--text-muted);
-        pointer-events: none;
-        font-size: 14px;
-    }
-
-    .search-input {
-        width: 100%;
-        padding: 8px 32px 8px 36px;
-        border-radius: 6px;
-        border: 1px solid var(--border);
-        background: var(--card-bg);
-        color: var(--text);
-        font-size: 13.5px;
-        outline: none;
-        transition:
-            border-color 0.15s ease,
-            box-shadow 0.15s ease;
-    }
-
-    .search-input:focus {
-        border-color: var(--ring);
-        box-shadow: 0 0 0 1px var(--ring);
-    }
-
-    .clear-btn {
-        position: absolute;
-        right: 10px;
-        background: none;
-        border: none;
-        color: var(--text-muted);
-        font-size: 12px;
-        cursor: pointer;
-        padding: 2px 4px;
-    }
-
-    .filter-actions {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        flex-wrap: wrap;
-    }
-
-    .select-wrapper {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        font-size: 13px;
-        color: var(--text-secondary);
-    }
-
-    .control-label {
-        font-weight: 500;
-    }
-
-    .custom-select {
-        padding: 7px 12px;
-        border-radius: 6px;
-        border: 1px solid var(--border);
-        background: var(--card-bg);
-        color: var(--text);
-        font-size: 13px;
-        outline: none;
-        cursor: pointer;
     }
 
     .ranking-rule-badge {
@@ -1338,30 +1535,36 @@
         color: var(--text-secondary);
         background: var(--surface);
         border: 1px solid var(--border);
-        padding: 5px 10px;
+        padding: 6px 12px;
         border-radius: 6px;
-        font-family: var(--font-mono);
     }
 
     /* Status Banner */
     .status-banner {
         padding: 8px 14px;
-        border-radius: 6px;
         background: var(--surface);
         border: 1px solid var(--border);
+        border-radius: 6px;
         font-size: 12.5px;
         color: var(--text);
-        font-family: var(--font-mono);
+        animation: fadeIn 0.2s ease;
     }
 
-    /* Main View */
-    .content-container {
-        flex: 1;
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-4px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 
+    /* Playlists Grid */
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
         gap: 16px;
     }
 

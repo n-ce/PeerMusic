@@ -1,0 +1,3915 @@
+[
+  {
+    "playlistId": "ldLj_raotpFCQGWiQ7L-Ag5GTbGOyjgRY",
+    "thumbnailId": "eKIUu0x74PRwdst4LEQewuo8sCGQGaFP1uSc2L1xFLmNDppCUCsit_tAH0Z_95Rg02s0AX57c5pruw",
+    "playlistTitle": "Classical Meditation",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 3,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled",
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 20
+  },
+  {
+    "playlistId": "kt-go7XG0VHtsoJenljp0ibAjhwtHhyOs",
+    "thumbnailId": "U64QnLF0GDKkV4qhPjn0mSCBhb7qh4LaWI-tKf4GeltgMS_Gk9al2envbVHaI4rE4I32mtp0kPSQvAPS",
+    "playlistTitle": "'60s Drive",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 3,
+    "shelves": [
+      "Relaxing commute",
+      "Try something upbeat",
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 31
+  },
+  {
+    "playlistId": "kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
+    "thumbnailId": "bgyYaDg4vQmS4TB1A5vZbnTO0X3Dp2K466u7ZJcEKB7fY4o8Mg3BAObHle4ZMGhEVBWGJ17YMoYqgQ",
+    "playlistTitle": "Chroma: Today's Dance Hits",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 3,
+    "shelves": [
+      "Try something upbeat",
+      "New music discovery",
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 79
+  },
+  {
+    "playlistId": "k27uu-EtQ_b5U2r26DNDZOmNqGdccUIGQ",
+    "thumbnailId": "nCDl_6ln8CYUUfRpxEjvjStXVvCnBWpRqyVrcv8nmLa6KQxa7yHGey1rf-KGVamUDNkvePNe76oHdOEH",
+    "playlistTitle": "K.iNG",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 3,
+    "shelves": [
+      "Try something upbeat",
+      "Today's hits",
+      "Korean wave drive"
+    ],
+    "firstAppearanceIndex": 80
+  },
+  {
+    "playlistId": "muSr5invJTS52u5SQSx35KszesmY-YMWQ",
+    "thumbnailId": "5N5dVyJMTa8dCaNpLQshWyG2E-m7Z-qlKRaWo8nkpRRYmQBDlwFhFQ-c73HumSwAJF4S-I3JeVoxEA",
+    "playlistTitle": "Alternative Funk",
+    "shelfTitle": "Feel-good music",
+    "appearances": 2,
+    "shelves": [
+      "Feel-good music",
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 6
+  },
+  {
+    "playlistId": "n3ReXhjzPL8oUuFUb-ZIVJRonSHhk3_Fc",
+    "thumbnailId": "EQ_7AnycUAkQuzU1uRXQnmbO-y6yb3NynKbDMAURAbPOl_h4KtrOhqFIevOLfTu_kazafYEUhDfK2g",
+    "playlistTitle": "Upbeat Jazz Commute",
+    "shelfTitle": "Feel-good music",
+    "appearances": 2,
+    "shelves": [
+      "Feel-good music",
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 8
+  },
+  {
+    "playlistId": "mxcaNVxJiVbP_IThqc98V5cbjqfovF36I",
+    "thumbnailId": "-LPVsIXuLax56VZfxpiuLADIl7RT2Hov69wOjzY0avWtZoElKbi9gM-KafzFUm7ljSe3hzDA0XtvtO8",
+    "playlistTitle": "Unplugged Commute",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 16
+  },
+  {
+    "playlistId": "myzznSrnHv4d3VAWYEFRkjuSvgiAXZshk",
+    "thumbnailId": "nnfd-MRJ1GofXOsI_GNP3lKYFw4iL8jfSHec7MaV2ZeNc_3OYL4UU1dUC6cfUkxcEgCIhKsL-gQJVek",
+    "playlistTitle": "Chilled Hip-Hop",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 19
+  },
+  {
+    "playlistId": "kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM",
+    "thumbnailId": "9I45SYZAfTeR17ByV9i2yDpWhQ5DTWMCrW3Lei8vMIiZzeyUnf2zRFUDBob4TGwgUkXAAR_x1Xa8VA",
+    "playlistTitle": "Lofi Loft",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 21
+  },
+  {
+    "playlistId": "m_0U5VQNyyzwwH1lRi7cPAAGXqNQnAOqY",
+    "thumbnailId": "IKBTW8jZAxhiUfUkM9u-BLTuuFYrO2833EMuUmH4od_9Acn2pOhh0xOda0iSxo_C24TW3EHGPkkXF2o",
+    "playlistTitle": "Laid-Back Sofa Pop",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 22
+  },
+  {
+    "playlistId": "m2p5A1NXN8SInEzfsxzFEvQ6zws-V-wBo",
+    "thumbnailId": "8psoIIvcQhqSUljk5cYVTSBbIfK4n3uaQ7Sa2NN0NnlNmeAIVBhptLrorZ3UZgh0mbKF0CF55bcD5w",
+    "playlistTitle": "Gentle Chamber Music",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 23
+  },
+  {
+    "playlistId": "mPolD_J22gS1SKxufARWcTZd1UrAH_0ZI",
+    "thumbnailId": "W-d-Yf4kNuESQAswMbEcXhYcyn3A-bbTEZQK9vzJhyrOuIIhnzi0PyKunsVCPNtMOg_Cu_-F0DeP00gk",
+    "playlistTitle": "deep chill",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 24
+  },
+  {
+    "playlistId": "nQXTlvzUfwEzk3B4wnaeaQqZ7FFRd1_rY",
+    "thumbnailId": "XxfCv6LW60cUiBx_Q0g9l6hwc1Lvhl0_Qh-ckRL6qD4KUGzGwGDvSaRqm-e0zuRQvxg_1lue6nQ6Snh1",
+    "playlistTitle": "Slow Down",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 26
+  },
+  {
+    "playlistId": "lfrhcsA9mi5r8rMaOxUXZigyRfM9Gc-jU",
+    "thumbnailId": "xI-zvSy504SonsKJM2c8g2QAUurcW03PAYR0wpRAwivuaYynp8htIfXTWO08v0ZEqVTMbW6bfZfYDoqf",
+    "playlistTitle": "Latin Road Trip",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 29
+  },
+  {
+    "playlistId": "m6XXtQxtjnB5lr_FhgBANwp7mHKY5Yoik",
+    "thumbnailId": "t_nl8Y2nAlpQKoEQDu1oUaG5BA4jcc1QXNERMuJ71vJWdXZ__dXvbtJl88Xi3BHDCOQ2JnCHTLQ2AQ",
+    "playlistTitle": "Acoustic Singer-Songwriters",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 38
+  },
+  {
+    "playlistId": "n7sTcaLpQClN41GSmP1jFn2pZs2uPeSw4",
+    "thumbnailId": "x9_0iAH1gNIN3Nt62BBonYfWHD87wr40UTGisTOG_1tNIvziTY-aOIxXe58gSOeVdoSYr4373X3V_w",
+    "playlistTitle": "Soothing Classical Harp",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 39
+  },
+  {
+    "playlistId": "l2rBVv_GxQS9tD1qAm2S4TK_NeZ-1YA-Y",
+    "thumbnailId": "mZjwDlKPEx4s2raWXiyO6HeyErOj-Y-MWX2aen0vI4HmC4LnCsPsnD7m6PAgDBLIl1Vi3Gl_KJ7dY20",
+    "playlistTitle": "Tollywood Long Drive",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 49
+  },
+  {
+    "playlistId": "mXVPog4cAEhi39RcmTCLhtbocf-DGa0jM",
+    "thumbnailId": "3FiV_eEExAAN7XuH3PDHYrf6wo5dXOvDJge0WoippFXYPagMfsoZWUE_46dzqBF3KjdjAiLVLGipFBw",
+    "playlistTitle": "Door to Door: J-Pop Commute",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 55
+  },
+  {
+    "playlistId": "n38QBvlkETFzw_TX8Z7wfA733kKr2vo0o",
+    "thumbnailId": "fpOcwFvxGdiVimi9apA4oISOfbGxXZbSrvTySjcozMg2J_aKlfYr4fHlUo1Ngh0IKnleh7qnQ0DYCm8B",
+    "playlistTitle": "Brazilian Phonk (slowed)",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 60
+  },
+  {
+    "playlistId": "lzovqKuo2WXDbKmON6Jrl51hmqoK1uo04",
+    "thumbnailId": "K9SYco70ii1Gg56ZbYrXgbub-X9WvY1o4RWHXe1b-RuJSGIBPNiJXPvNlJr2WkKGPuE2SQrfwBZuSw",
+    "playlistTitle": "slowcore",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 2,
+    "shelves": [
+      "Relaxing commute",
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 61
+  },
+  {
+    "playlistId": "lWy02cQBnTVTlwuRauaGKeUDH3L6PXNxI",
+    "thumbnailId": "r3Ti5V6f8r4kXDSa8MRds5qLYnil-HPOYMYy0J1B2V3Ffg0NPw6SKtjCV-izF9xFFdAlqZEWedEc0nKI",
+    "playlistTitle": "Feel-Good Classic Rock",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 2,
+    "shelves": [
+      "Try something upbeat",
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 69
+  },
+  {
+    "playlistId": "l2zLaMIWOqWSePvTSmt49GcuR8460ZR10",
+    "thumbnailId": "8QAvBU7EabmeoXp8wtBoFPROpZy0LVDU5CqrMmKy6ubrwixctxAJdWs7u9ZkZIx1dbB37hAnx6tHXRgh",
+    "playlistTitle": "Hits Remixed",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 2,
+    "shelves": [
+      "Try something upbeat",
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 88
+  },
+  {
+    "playlistId": "n4g8XbXdlPTtik7Fwl4RU3Gij-63HBsmo",
+    "thumbnailId": "7Xd3G-pjhlpnjy_650ynR38ShQHrwURVqRAlY8VWtynMUilKgr_ACW0AWYiV89SF4OAPCwqYEUGCB6Mg",
+    "playlistTitle": "'00s Hip Hop",
+    "shelfTitle": "Classic hits",
+    "appearances": 2,
+    "shelves": [
+      "Classic hits",
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 113
+  },
+  {
+    "playlistId": "nhrn9P59Ud6qvVDGuKJKJlkkuLivIzahc",
+    "thumbnailId": "Pz7jnSQ06f4JFBji5G3DOxuiI21Q3duSFjaJLTHf0EqFQt1MJMTKJydFyWbmOsYMjs1JzJtDfseWO2Yj",
+    "playlistTitle": "Disco 2026",
+    "shelfTitle": "Classic hits",
+    "appearances": 2,
+    "shelves": [
+      "Classic hits",
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 179
+  },
+  {
+    "playlistId": "ldooV6iHaoPy6VKyVuHDq0DT4lh-3tRqQ",
+    "thumbnailId": "w_IkywS60PT1JsZafZXkcUtpFR83tsa1vlziPdAP8syGHsMVLOH4QwQKZk8yRi0Lv_eWju4bNQVpz6yj",
+    "playlistTitle": "Gentle Piano",
+    "shelfTitle": "Try something chilled",
+    "appearances": 2,
+    "shelves": [
+      "Try something chilled",
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 189
+  },
+  {
+    "playlistId": "mS5x3haS3YiflmBHa8rK0rOZHgn0lhG0w",
+    "thumbnailId": "UJhpG7kQzhoanrDAw8bTRD4syjTiDzpqMSa8axay3QCdbj4T6ochCwFpiHBZJlxTOjjmjEFsMT4qK32O",
+    "playlistTitle": "Symphonic Serenity",
+    "shelfTitle": "Try something chilled",
+    "appearances": 2,
+    "shelves": [
+      "Try something chilled",
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 198
+  },
+  {
+    "playlistId": "lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs",
+    "thumbnailId": "W-IZGI1GXn2LAji4xdFDxDoaLXX7FKQ56-L51Zm51an8HS7BY2zoCcMfxFG-8aKcKrvsoFobz0f34Sg",
+    "playlistTitle": "On Everything: Today's Hip-Hop Hits",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 2,
+    "shelves": [
+      "Hip-hop drive",
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 232
+  },
+  {
+    "playlistId": "k7O9KByATGA1TqFYhyOkylpJ6fM1avtww",
+    "thumbnailId": "caEy1Gub4bBSZCpgaJiDWZoneZTZ_48CKRFSsgB6bAC6tDyl6F7sDQXYFHqIr-WPJlrtpvk0z9sXPOQ",
+    "playlistTitle": "Clout Rising: New Hip-Hop",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 2,
+    "shelves": [
+      "Hip-hop drive",
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 238
+  },
+  {
+    "playlistId": "l7wbVbkC-dG5fyEQQsBfjm_z3dLAhYyvo",
+    "thumbnailId": "1-H7K5EHyTtVlyefBqfDf1baavyk3YBs_hbUW2BO0bNk7unvC6cavrPqhqsDvr1GWwseXNI3iOPwND8e",
+    "playlistTitle": "K-HITLIST",
+    "shelfTitle": "Today's hits",
+    "appearances": 2,
+    "shelves": [
+      "Today's hits",
+      "Korean wave drive"
+    ],
+    "firstAppearanceIndex": 310
+  },
+  {
+    "playlistId": "nMqMWmqwZwDvMcqcAohgO_Dp_7zT1nSC8",
+    "thumbnailId": "ynOD76BfDJV2HqKJEU5av7XfCSgT_mQIGLBOin7ouKG9pFrBlRVF208knU1l1U5obK9nV6RL2Jwf40U",
+    "playlistTitle": "BEAT ON",
+    "shelfTitle": "Today's hits",
+    "appearances": 2,
+    "shelves": [
+      "Today's hits",
+      "Korean wave drive"
+    ],
+    "firstAppearanceIndex": 313
+  },
+  {
+    "playlistId": "lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM",
+    "thumbnailId": "IWQMZL2itFFK-UbHANsDqhOs-6SKw88zMfR7aBjRyvb3WCZE2A7f47tSfQZbU1hs1Ef69oxUYo546aEH",
+    "playlistTitle": "Latin Now",
+    "shelfTitle": "Today's hits",
+    "appearances": 2,
+    "shelves": [
+      "Today's hits",
+      "Música tropical drive"
+    ],
+    "firstAppearanceIndex": 314
+  },
+  {
+    "playlistId": "m9ty3WvAucm7-5KsKdro9_HnocE8LSS9o",
+    "thumbnailId": "FR8B0EOPpDfqn5FPOt6ZOZwvhnh8pFmykBYIBh4XRAuNDrvRm36e3OFErd5IXRFA_4wYw8ZSb1f_Lw",
+    "playlistTitle": "감성 ON",
+    "shelfTitle": "Today's hits",
+    "appearances": 2,
+    "shelves": [
+      "Today's hits",
+      "Korean wave drive"
+    ],
+    "firstAppearanceIndex": 315
+  },
+  {
+    "playlistId": "mMRkzfvFXzNQbSl3K-hE_FJ7g8TqMtSlo",
+    "thumbnailId": "AGNYYlrlN-O2aMW5SDRK3SkaHjLHaoU038cnWbvV__w1iiiO0LileduvxUiA1gMPM9yHMddSyVKe7pc",
+    "playlistTitle": "Groove On",
+    "shelfTitle": "Today's hits",
+    "appearances": 2,
+    "shelves": [
+      "Today's hits",
+      "Korean wave drive"
+    ],
+    "firstAppearanceIndex": 317
+  },
+  {
+    "playlistId": "lYPvoz4gPFnKMw_BFojpMk7xRSIqVBkEE",
+    "thumbnailId": "H9RU53tniaDMtf5suJEMlR-73p6O1_EcO8M5q5UDm7q5WG5pkbxN-FOLt-FDj-ZG0tiqvv4nFpGX9A",
+    "playlistTitle": "SWAG ON",
+    "shelfTitle": "Today's hits",
+    "appearances": 2,
+    "shelves": [
+      "Today's hits",
+      "Korean wave drive"
+    ],
+    "firstAppearanceIndex": 320
+  },
+  {
+    "playlistId": "mjCKq8hnUQJqul0W6YW6x2Ep4P67jQ5Po",
+    "thumbnailId": "o9YsDteSIeR-eAJrWHpq4GD_7YUCyGa1rpVlDjIIUh6HVFvgwgcYikjj7ALIdPxqj4Jbxi01_nm6kNw",
+    "playlistTitle": "쉼온",
+    "shelfTitle": "Today's hits",
+    "appearances": 2,
+    "shelves": [
+      "Today's hits",
+      "Korean wave drive"
+    ],
+    "firstAppearanceIndex": 323
+  },
+  {
+    "playlistId": "kRRqnSpfrRZ9OJyTB2IE5WsAqYluG0uYo",
+    "thumbnailId": "Z1Da8esZ_uOEoxyKNumPF4ftEzphjq8ksb81NWpy2-wDjn4xXK8-PlteaC3qWpkBrUJV8RohittN3g",
+    "playlistTitle": "SCENE ON",
+    "shelfTitle": "Today's hits",
+    "appearances": 2,
+    "shelves": [
+      "Today's hits",
+      "Korean wave drive"
+    ],
+    "firstAppearanceIndex": 332
+  },
+  {
+    "playlistId": "lBfTSdVdgXeN399Mxt2L3C6hLarC1aaN0",
+    "thumbnailId": "uK6X2nGTllnAFXwVSz5X2tRmpOLBDB4bzERT6Hq1YNTrHNNBv_vQ38A_4MCGUylP7xnu6ciw_KwpnH4",
+    "playlistTitle": "Amp On",
+    "shelfTitle": "Today's hits",
+    "appearances": 2,
+    "shelves": [
+      "Today's hits",
+      "Korean wave drive"
+    ],
+    "firstAppearanceIndex": 333
+  },
+  {
+    "playlistId": "mkEwQuegHYB8_aAzBO8Q__6gGoaFblISw",
+    "thumbnailId": "TALQkjUiJF2lNPNzYAFFAvJfJPiLHtSHF2YbtXKLA84h-ZaN7X8scDed7OTAiFgKx6CZ4K2ZAZyqUUw",
+    "playlistTitle": "Feel-Good Hip Hop and R&B",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 0
+  },
+  {
+    "playlistId": "lGEOjy5U8xV41C8_LyqNnAZKOH6sGyutI",
+    "thumbnailId": "LdHZKfih_bCyAVi4k2xuN5gG8EdDd7RA9eQKiC03slIJm5FnJwG3OfKgxy4szcjxBCrFz1R6BLPEyEU",
+    "playlistTitle": "Bubble Pop",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 1
+  },
+  {
+    "playlistId": "nEOENcLJBr5ZWcX5KsRFqlkLp05vN23Yk",
+    "thumbnailId": "QOS0dEP50RYwcd9u867cIOX1nBdEB5FZIxSHMNfgtwmoSaRRQZWug8DopTSZpr9zZqs7sx-poJwLUr4",
+    "playlistTitle": "Feel Good! K-Pop Dance Music",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 2
+  },
+  {
+    "playlistId": "l5vsK_hF93SboJt2sqZ94fLp-aE8aO9Tw",
+    "thumbnailId": "PeSJ13SJWQxSwUlQNqDzvcshCVp-jdUoqXT7ROp6tBiYc8mamKlkpP9Giampx610N90pM23Dd1FIhjya",
+    "playlistTitle": "The Happiest Pop Hits",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 3
+  },
+  {
+    "playlistId": "kY7Uomg8uSGAGuvMIKc3HsVg_ipocKTrE",
+    "thumbnailId": "9xuBhZHWq9fnHLYgrCD_H_EEfhyYqCWo0BmHCekfDLKzPs2-JOQfN9RTxKZvoWkiTHrm3mOgsOP89I4R",
+    "playlistTitle": "Feel-Good Pop Hits",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 4
+  },
+  {
+    "playlistId": "l5fqcqrL-bmWMGgd4Zot1VCpeU0tjtbLY",
+    "thumbnailId": "ur1AJiVIp8OKRJdqVz-T3dGGC1x7hrhZ61pYukRyjVoTg1887NXTJvzYoR1AbB2TLer_P2qSCIWuU_A",
+    "playlistTitle": "Feelin' Good in the '00s",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 5
+  },
+  {
+    "playlistId": "k4sXYMRc7kePx3BjjVv5z2fB1CePqvVDw",
+    "thumbnailId": "1XWwcowCLklGEv2AF_q4AEPSRUq51EBf0eMeTryYWp4gtLSTn8_5pmWcJNBav6kjgUlKcnNyolR17lc",
+    "playlistTitle": "Classic Feel-Good Pop",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 7
+  },
+  {
+    "playlistId": "kE0vvgVWAlCocHObLKiGe8lTvaKUsXM-Q",
+    "thumbnailId": "lKlV_-tr7SVLXJmRdGQz0V3Qs_xUs-LttaoL7yzkgcO7QwYnT9TGkDy3AlFcK2fL7nt8aniuKx7rqCU",
+    "playlistTitle": "Korean Rapper x Sweet Vocal",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 9
+  },
+  {
+    "playlistId": "mijutvVbzp7bbNlWt-B5U90qb5KplCkSQ",
+    "thumbnailId": "gJFDdLNJmG913MZcXq8kq8qhZtHo4ZSd2EA2tuwNLkhHXzOmmeK6-qQ7M89MWQzYMtUDlDmEswYAkrc",
+    "playlistTitle": "Easy-listen Mandopop",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 10
+  },
+  {
+    "playlistId": "kbqXHXB9aBQaqThDKOimGGcZEPubq3znc",
+    "thumbnailId": "6hZcTZJi27kWTcV4fXMfmf3V_0HnMwlwqKQKGTSMWDV9waYjmpbTlCOXhBW4XgpUgTFSHl9tfEmRvtY",
+    "playlistTitle": "The Happiest Pop",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 11
+  },
+  {
+    "playlistId": "lFEoPERQkmQaGbKsaqcQdaKRFcJ4gIn_s",
+    "thumbnailId": "iKOGJa2l3j30xofQ0tVJ2IjwWOoxlLP7QINarawQGGipHOYR25rhKfY95FD4laEwZxR-_udAL2bcgQ",
+    "playlistTitle": "It's a Beautiful Day",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 12
+  },
+  {
+    "playlistId": "lijxTrN9H-IeegaWgv_YHMQBSZTzscJmg",
+    "thumbnailId": "54k10jKlVq7MLa-kCWlgRsKc1sCdbxKtEV17xnOYyAJQBKCadIRfwkLNUJunUUG3vDZ4GN4-VQ3Gvgm1",
+    "playlistTitle": "Happy Beats",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 13
+  },
+  {
+    "playlistId": "ntzgOvxLlMDmCx8osXT2tfhKYdy6t58hs",
+    "thumbnailId": "Ji5EHkkTguMikZ1rGjpVv_q6phFpOxXZTHkL-Tqt2ceqTm3fEptLlW62Nfxj8igyqBJgjIZCL6AgBg",
+    "playlistTitle": "Feel-Good Rock Hits",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 14
+  },
+  {
+    "playlistId": "kaf_YgdM_0fuv59B_ImJMRZG738-q9KJs",
+    "thumbnailId": "T77OxvLBXUgKGdrRlde6oz9x4qijWMX-7TI0Iaez6btX87sZ2dCLAY3pPruIz-wCxU4QuLkMCnz4aE0",
+    "playlistTitle": "Kick-Back Country",
+    "shelfTitle": "Feel-good music",
+    "appearances": 1,
+    "shelves": [
+      "Feel-good music"
+    ],
+    "firstAppearanceIndex": 15
+  },
+  {
+    "playlistId": "l8ohbe556smHVTBGt3YcKCsrablXt_BXk",
+    "thumbnailId": "cARv1-rsCuisHy_sPlBno5QKZC0Ogge3zl_OITcQd_9LAwvcGrJwTheox2zVjEFxj3miACIViL1QQA",
+    "playlistTitle": "Easy Bollywood Drive",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 17
+  },
+  {
+    "playlistId": "m_hXTIKF2MjTVBpLZMeSRk6Wr81x2BhJQ",
+    "thumbnailId": "IyDHT-NAoZtq2LAYVm9oxHHwjqmpyZkoLfd3x0uhFsv3cqA_5sKWtKBURr5bqXkx7lvcDPg_pxk_4sI",
+    "playlistTitle": "Vibes on Deck",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 18
+  },
+  {
+    "playlistId": "l3Bakjk6LXgoaoUDbuL9RRZU408Iq0ikA",
+    "thumbnailId": "fe6tFqxBW0Wa2mjXsE12AUvi6g4nDjljGSv2wUdvRmXM02BTx1nuyXi5ExKocsAhVWOHObZHUyRtRBc",
+    "playlistTitle": "Night Drive",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 25
+  },
+  {
+    "playlistId": "nVvcylvST4Lpcsrpz7njLfBO7GBR40Wso",
+    "thumbnailId": "IeIg7PZXUTPls0moAbPcpFUkxhzLxQPcyqVTHcI2YOdAk4NNm91_gIZAu4cEfsgb5XmYTj987E_Fkdg",
+    "playlistTitle": "Real Talk",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 27
+  },
+  {
+    "playlistId": "mqTOjIa-R-KZHEF5uRe61oKhhaUpm-xoU",
+    "thumbnailId": "USD5fATrqJ81rle8UOb33jFHmFOx8zVYrpB9j4Gn_qZ-ZKd59kXwL89RopUW-ezKjGHuFl5zpY7k8A",
+    "playlistTitle": "Por Las Calles",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 28
+  },
+  {
+    "playlistId": "nQUUdRSxb6HFpsXnOvexL_BcjHt5vj9PE",
+    "thumbnailId": "BhfpQ0IZiH_R-aoar8F4EQoc1ET5kEmfFXRRrAlVMD3PeBFxbR_AiyPwLP7Kfsn5d0dOCO2hQFK4tHo",
+    "playlistTitle": "OPM Commute",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 30
+  },
+  {
+    "playlistId": "nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA",
+    "thumbnailId": "rAUuEbLF7CYEYBXU3yAY4npMCzTgPxMhlD-ygH9iv_SuDXGDuDvO0Z4MTh33xAI6o3UnpWFe26MS_hBZ",
+    "playlistTitle": "Pop Gold",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 32
+  },
+  {
+    "playlistId": "l2Y9mrA559EY5tfe8kK8YxdUVR0rADYBI",
+    "thumbnailId": "HeM8hWIFXerwAPsdpV2Dy5C8FgW2bI2XS9edf8GKexw9ZnWiNTfX-gHP5zHXuSGuuDTs1hiV0zTV26k",
+    "playlistTitle": "Mellow Turkish Indie",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 33
+  },
+  {
+    "playlistId": "kXvJt59314AsVv6QdJnFqHL7W75HkqtB4",
+    "thumbnailId": "QbMcbgiMHCedCNBELR_cdEvRPO1sG1Pzx0E2-A--R2qNf2RnOLVuxYn3lt9MP31w9uteRTzFiJp_gHc",
+    "playlistTitle": "Cinematic Ambience",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 34
+  },
+  {
+    "playlistId": "n_0vMGj-9WtHuj2fbdwMGsSxL_7qglBCI",
+    "thumbnailId": "2x4YDDGH0XqNnznVXKGvW6U3o9JQjtzR74st22sozs1tiV5dTOxp_STqWQW3FhPXKVGz4-OeyHInHZ20",
+    "playlistTitle": "Egyptian Chill",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 35
+  },
+  {
+    "playlistId": "m_nTTDNmqZqV2E3Trgyxz8f-d_my9YSZk",
+    "thumbnailId": "YT_V4pabv74zJA5qGEnzYnBDf5MbI-M7JKyuswjDnZxAP6He-8Dphq29146lvV_wmbycrNFNNixTegE",
+    "playlistTitle": "Turkish Saz Masters",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 36
+  },
+  {
+    "playlistId": "kKEOZ3x5ED4hNxb8lHXhOp5cHFW_CbwMk",
+    "thumbnailId": "n8mugJZjyNoIB2wP0pOWw-3YDAstr7v-lpPAAHuD8wgUBYkjfBqjPTyWUo6l9XtBWnNIQqHmIMFG6mU",
+    "playlistTitle": "Low Key",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 37
+  },
+  {
+    "playlistId": "l98GhjIKA5yKA4lCEq4uAyMpAvJtupQ0k",
+    "thumbnailId": "ZuX5dazhwxg52KK4D2cfgNuqvdtyViUBSpw2v15ZcsKBJQQ-zJlY1bL-WtFB-vWkdNjMAQwjqpI7y3xi",
+    "playlistTitle": "Mellow Indie",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 40
+  },
+  {
+    "playlistId": "lRr2S1Nmk-a4qeSFpU0WoLuVETphGyBP8",
+    "thumbnailId": "ssH8s0KNYxagmStF67p6RSkP1cx0a2G2APl7uWWCEDGXWfA4z0QAueTQXy2i6OQoKXy6lg-Hw7n4BUM",
+    "playlistTitle": "Minimal Techno Flow",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 41
+  },
+  {
+    "playlistId": "k3dazOzqqDagSIBhGET4VrDKHS9dEjXPA",
+    "thumbnailId": "_5Uzjh4bm8tMSny2LHtc-exkcloPWJ_Rdff3br3SHGe425WST-ld1FHG1TU8SirwMGZZjj7geZU-xGAI",
+    "playlistTitle": "Khaleeji Chill",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 42
+  },
+  {
+    "playlistId": "lXWhlJsihey6xq1b50d7Uv93NLqle8TSc",
+    "thumbnailId": "i1cf2IRNeECrZsxufoFzkBb9yC89L42HuwkNawo_PZ94VG3v9tU5zHvv6mS9bBM0N9y_fmTIzspAnQ",
+    "playlistTitle": "Take It Easy Indie",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 43
+  },
+  {
+    "playlistId": "nOUUn0uPng2213dSoIyfl-LCgC_IuGjbM",
+    "thumbnailId": "Wa3_DOPX7Z80dDZsQps7fCKo03cd-iaiDuT7A0x_V-Nmjhwc1yGXPg8PLPXkfyKhvm53fHAoMcVD30o",
+    "playlistTitle": "Calm Instrumental from Turkey",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 44
+  },
+  {
+    "playlistId": "lWfuEE9muOjxNxKnvVL_KZOhsMG7-FxMI",
+    "thumbnailId": "8bZoYe4ui5wWgXHI87-WX1Zzv-FbdaHW_pW_NLTE4W-MfCdtp_INK4t0rRzATOl8R3_4zod_Paid3w",
+    "playlistTitle": "Electro Deceleration",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 45
+  },
+  {
+    "playlistId": "k5psGic7w1Z8Udh8rwqpoKxqznjhq8p54",
+    "thumbnailId": "f2BX8WWG1onCNG5-4tAS5wDCaNgQCvREnvqv7RSdwdkIcsZnJbvQBFCAB9ugdIxtHWPG_5o3qmcqvn8",
+    "playlistTitle": "Classy Arabic",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 46
+  },
+  {
+    "playlistId": "khs3a0YMI9WYs2k1Oqb2ukWX3dA3-lnwI",
+    "thumbnailId": "IpXCw6kxX2rqQsxx6rvrEqGq0WIVzOEJ2Rd5ujOTCSUiHWbPcTs_LdSlD45_GGcmuN7Mb-Ro9RHRC9U",
+    "playlistTitle": "Relaxing Soft Pop",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 47
+  },
+  {
+    "playlistId": "lk-XEQ33hlGUYXZ2A-e6H-mM0cBhcGv5A",
+    "thumbnailId": "Ap1wN0T8Yrn9y5vBGLIVjh6wvoniW3qo-OCWulaGwUHGIHLrhHVUXSBImfYUJc20w8k5A3Oyu0C5guA",
+    "playlistTitle": "Turkish Latin Pop",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 48
+  },
+  {
+    "playlistId": "mq5j5AbaoXdLopqcdpFSvJRSLCxbkcIfQ",
+    "thumbnailId": "z3UfK27Bql9RpRKbCIMVcscWNEL9M7wNBS4rtLFnUP7UXdSJcU3TL2NnbSppRip2TO_RkVmopj9X3A8",
+    "playlistTitle": "Indie Backpack",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 50
+  },
+  {
+    "playlistId": "k0CJnpnYMvTqpCseQ5KG2gtuljxvdZB1o",
+    "thumbnailId": "DOWNbTi4usMzlnwoZBccb3foUhh9yog8Nz8fX4MR3gpoIBjEY03Sx9yi9Zq7MiIL__2WcEGwex_BXsY",
+    "playlistTitle": "Kollywood Sing-along",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 51
+  },
+  {
+    "playlistId": "kdu5Q7ctozEGcywhXnp09qaLW1WYCIUsU",
+    "thumbnailId": "tVa76Ebn7gpY0ROXM16w5J6DzbQwPlhPs9cN5Y0Jl4JllJgMsMjRC9g7hb_iJGaitfhPo2xSv_i1PpRg",
+    "playlistTitle": "'00s Slow Jams",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 52
+  },
+  {
+    "playlistId": "kw51J8eezCDxhJey4hGwBNtly_sIfVZ7I",
+    "thumbnailId": "YrtVjl9hIJIrMKorfcCVfJMux23nvLE1UShEVI45FKHJgZRKDmo7BsrybMjCDMFXPq28noyaRmYJ2S4",
+    "playlistTitle": "Indonesian Pop Ballads",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 53
+  },
+  {
+    "playlistId": "nbh5oG5wfU0hOVQ55GaDcUEwJX1-lHuAw",
+    "thumbnailId": "uhHPiBTzPd-UlBIxmIqquHusz0b6LJ4Z7v93CJ38biuyixkPh4bW-myN2qrTDEnYD-tvaiJJ5msYfg",
+    "playlistTitle": "Modas de viola",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 54
+  },
+  {
+    "playlistId": "nB3jkG9c7flf4s4uxr9bg-X_7A2s3bhEc",
+    "thumbnailId": "qC0Zaeuh5VU3GsyRrh5fgqCaQ6uUqM69XafScwHkkMniHHMf_VRovhGzI0h4h4nbQpKgMzuqJk7dsI0",
+    "playlistTitle": "R&B Blueprints",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 56
+  },
+  {
+    "playlistId": "mj4hCBtv24qsXcCcVZjBq-6LO7DkJVqPE",
+    "thumbnailId": "23BfNRzbfCeG-rNexIfPRMkpU-7cGtMwXlAEBAVF47VaI1Rc_3OzGPcsP6wXFYfcVxJBvDBlfyEyRw",
+    "playlistTitle": "Grown Folks Choice",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 57
+  },
+  {
+    "playlistId": "lyevq8yYHBWApU2AKRwrLdcWFXaRk94kk",
+    "thumbnailId": "o1NIa0j1N7xlQqwgWMzo3EjqNXylyo91aaxSAY7EDsN2KQQJXbJ4OoTgqFiRY79YGq_K7OAgUCN5Px4",
+    "playlistTitle": "J-Lofi",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 58
+  },
+  {
+    "playlistId": "mk6FCBl094c5801bL5c0BU3mR5TqbrNDc",
+    "thumbnailId": "9s7cuGfSHPuIUOk140lo8gZLFHHNON4AVX965NYq-LM9uAp_Bo5JU7dWW3rXLT8cQObPAH9HZP60TwXk",
+    "playlistTitle": "Unplugged Best Of",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 59
+  },
+  {
+    "playlistId": "nPKG3faKyALfUXrqEe2vRJlrfefQo1B0s",
+    "thumbnailId": "uWAqqviTlm0sxm4a8KOJ6UEHcY4Kqi3ZLs9sk-RRyp0Hd1pPWw1qMouz2do6EvPKqA-VTxcq6FRAjUk",
+    "playlistTitle": "Cozy Gaming",
+    "shelfTitle": "Relaxing commute",
+    "appearances": 1,
+    "shelves": [
+      "Relaxing commute"
+    ],
+    "firstAppearanceIndex": 62
+  },
+  {
+    "playlistId": "npkiQvDU863KxBgX_eaYo-LCIuM3qZtqo",
+    "thumbnailId": "qx4lnqt4qmSfQS3P5MXEyZqXJ1L9eMR4oQoCefo7W5oyS1Vn8QkPtDla8aYFM-6Ho6mNNTwH_gZfUA",
+    "playlistTitle": "Windows-Down EDM",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 63
+  },
+  {
+    "playlistId": "legzBwc-1CVVWXeVLP33uP3aH_nfE_nqQ",
+    "thumbnailId": "b5rEiumMtrHqtDPsT4cPhrnGjAWgWo7uuxtMI05hMKj8VkITPJ1PgKrMr1_-Nk6ihVi3qhy_S5FDmg",
+    "playlistTitle": "Oldies Out Loud",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 64
+  },
+  {
+    "playlistId": "mbAnKcLof04zqrTZhycIa1i-bZaG0YdOE",
+    "thumbnailId": "BSIKjtCY-sMw8NpepPWv7gGwk8ij7TvDH785SAdfEsQ6Zf1AVT1FKOYbSB3FlEAeeiKPwvfLNNkIktU",
+    "playlistTitle": "Rock on the Road",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 65
+  },
+  {
+    "playlistId": "mVTPKuxOCw9lTge4lfOCcFyzG5S6Xllp4",
+    "thumbnailId": "ZKZrih51s3hzzDs41ZKR-d6Dz48hkNFHnkmAsxhenosWqaNpgbSB3EE7o3DPF7PtdQ5EagJxHWDFHjk",
+    "playlistTitle": "Street Rap",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 66
+  },
+  {
+    "playlistId": "kWiJXUNLZM9EyS3GBGznl1ku8_cOos97U",
+    "thumbnailId": "Lld802Wk-_qbAttIghD3-R2U9wjKT87qsY-9sUbxl1G4AQ4VKwA02HGg6QF56thp9HA-u6VCj76W",
+    "playlistTitle": "Huge Dance Hits",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 67
+  },
+  {
+    "playlistId": "mjFIQx6np0uEk0EFQnkGFxqR3OMxReYv0",
+    "thumbnailId": "H5qN9zP5eH8nhZabo-ayRr2A601H1v_yupNx7PAeagwyDs6icv0Hq67pZ59F7q0w32mwHFwsRBizXjw",
+    "playlistTitle": "Hip-Hop Energy",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 68
+  },
+  {
+    "playlistId": "lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4",
+    "thumbnailId": "FMCwSPwfljFSruc1BGZTotGQ00ZnCY2oTsN7UHMZ5xObsIQmywYdJ0PaQZ15k2UmkzceU_fZiZJOsA",
+    "playlistTitle": "Shout-Out Pop Hits",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 70
+  },
+  {
+    "playlistId": "mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI",
+    "thumbnailId": "JIRC5O4q_DLuo7roG_jpBtLmDzMjRLkz4kMHxij4jb3E-mISOEUPh_wSPwdF3pqOfxevLNgxre3xT50",
+    "playlistTitle": "Happy Pop Hits",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 71
+  },
+  {
+    "playlistId": "mplKe9BIYCO3ZuNWSHZr48bm9DUDzbWnE",
+    "thumbnailId": "spiOCpseLXJyJLqaSmy6tr-XDCNwxmt6nG7tshZhIbb6mwA_4T9F6Yzb5SIzu1Xn5QOiuAx5289cWOA",
+    "playlistTitle": "The Millennial Mixtape",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 72
+  },
+  {
+    "playlistId": "mU1mi2mlNym0yTsQsFnrPRsQdDcS6-y6k",
+    "thumbnailId": "7Qkl-Dbt009Q06zB8z1ISiURl98lwFvFSKh4qCr9IFChzpIywcvGy7UyUyeSu6-VphSv75Dx67oZWKM",
+    "playlistTitle": "Turkish Rock Road Trip",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 73
+  },
+  {
+    "playlistId": "msV9Vc8q_guumIXgLkzYs58uBZHVVBPtE",
+    "thumbnailId": "tS9yzbssQxFvVdWuoqROUUTaAtHbM4ajJSqe9Rz3w1zzKEKruetN3_Gs3hcAQlZrnxOOOpUyKYqGW5g",
+    "playlistTitle": "Korean Pop in Motion",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 74
+  },
+  {
+    "playlistId": "mJYuU4vvhUKe2eFm2oJ57gWwZA4KiXZGI",
+    "thumbnailId": "kd4wjSPodlyzdEfFxJ0qKHx0oUb1jO45DNCblyOUWdXhVAY4ZHDnBSGWWT7Sfy7Zhs6RkvtWMkR4jew",
+    "playlistTitle": "House Music Deep Dive",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 75
+  },
+  {
+    "playlistId": "lgUFbKzv-IwB8Q9T6R8v5ki_NUc0kLHBw",
+    "thumbnailId": "48DGEnD2myfVPilVidKoYh_k11S-itXQecn9U-09952Ah02W0Z3WTrSjFOEBG3b5NsskXPjpIb38QBU",
+    "playlistTitle": "Traffic Jams: Tamil",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 76
+  },
+  {
+    "playlistId": "nCwX5FYQWZrOxNO9Rzb-dA0Zc-5Q39kVE",
+    "thumbnailId": "IR3KMqeHiHdQcIjcE0EpdQAstCmAVlj5QKAvtQNI0EXWg5Typup_1sq_X74fMoAjSLlUgMPQ5_Fcflc",
+    "playlistTitle": "Para Cantar En La Carretera",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 77
+  },
+  {
+    "playlistId": "n24VQSq-J5UBG0hJUFTThmNJZEdWApSUw",
+    "thumbnailId": "p8l3FNDGdmxUDyMEDKVBehWLMkAC6fJW0v4-7Rd6oo-4HtZ9mRbZe6ZfcVmFJIL-_2_uFcIw-C5MDA",
+    "playlistTitle": "Drum & Bass Anthems",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 78
+  },
+  {
+    "playlistId": "nDVIvez-uLWJPb86S25zDqieTZRiGGS8Q",
+    "thumbnailId": "4-bayYbObKeD11Yupkat-ZfUZi3g2qvVIr0tCkVdyk1HDjgM07T0a12UGM4fyr1F4hC7tLo19yvB-6c",
+    "playlistTitle": "Energetic Turkish Rock",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 81
+  },
+  {
+    "playlistId": "mSn-M-lIm2IdR8jiJpnYnbwO8BUCTAjX0",
+    "thumbnailId": "6xyMnVBEaaGSMs5TqZZqGcoPYql2RAJdp7xn8fFFj4YgZHHNtYvpRS3LfrtMLbYJKpTkJfdiorT0bsXE",
+    "playlistTitle": "AmaPiano Trip",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 82
+  },
+  {
+    "playlistId": "m0xHLyJGyDbei7BcriOKfl_L2unRo724c",
+    "thumbnailId": "QAHkWYcjJ3_Ffujm8jFg8wtJMj6QLG7AYY32BH32PcchzjsQ_KovTNZ6ywrQ53nBgzL7gCzDv-hlTfgm",
+    "playlistTitle": "90s Sing-along: Hindi",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 83
+  },
+  {
+    "playlistId": "mC6cJlKJYzu5UqmrF-qIK9W8vJDxEwKFk",
+    "thumbnailId": "C7nk6N95Ns43ZlaZH_4VhMeVVTcjRtGvPwifavt_Q2OFmYPamzLt4I2UOwdIY_Ew53dxN2umUzxpGQ",
+    "playlistTitle": "Beach Beats",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 84
+  },
+  {
+    "playlistId": "mIQflmQBA90-jAkgaySBrqPONwaiI_CAA",
+    "thumbnailId": "vLpR3f93Ngl156_gORPHItaQxVdZ_rR-jrz_9OnD_zrEwOwF6mHfe7LCu7KAk6gHlzSFULSg9CwZuEY",
+    "playlistTitle": "Kings of the Rap Game",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 85
+  },
+  {
+    "playlistId": "miEDbTEB2wkTklDaoV0_srC3Jqez-pTwA",
+    "thumbnailId": "kJ0MdAhGU_2RlQvMNPs-8GZSxv0s3crr8Tf3AI8r75EFj1fK0wskxsld6G5NQS6_yJgOe158H5pnrem7",
+    "playlistTitle": "Such Fun",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 86
+  },
+  {
+    "playlistId": "mzYSsYfdCm5vN0hl-VFLn3qllz2G2kjzY",
+    "thumbnailId": "J08-qZVStzxYWHJs_TJyhrNiZZw0EHmp445vOBPLz0fZo6G5A74y14DV1oQ0h7CMSr5RpD9It11cutSQ",
+    "playlistTitle": "Infallible Brazilian Pop hits",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 87
+  },
+  {
+    "playlistId": "maODQhMkZta_OOGDlwg0W4uXTGzVrUq3Y",
+    "thumbnailId": "iHxnMtvcnZxy8eC5RqmuGtqUD-2XF4wfG5zM0XYXh8GpELD6xWP68PEHbQKckl801cliuFHqNFahNTA",
+    "playlistTitle": "Celestial Electronic",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 89
+  },
+  {
+    "playlistId": "k3ZZMbcC_yMLnKyto6L54zeVkj7Yytk3g",
+    "thumbnailId": "o27oW8A28ov4OimxpRMUSNOcZevD0TV_0KLwgNjJowoV-I-hoeDPvydUVnEmdWEgfl62EN7FFtgsEdQ",
+    "playlistTitle": "Today's Hardstyle",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 90
+  },
+  {
+    "playlistId": "ktbe4Tsk60yxKW5C6M3_N5pMwftU8ZsAg",
+    "thumbnailId": "N3FyZIlu2S0zHtVKPdzAMw5OjocMyUhhqv5ehoLfTlKYYm48kWgj8jQnr2XBWAwnE58QlSa0dGGEF0j_",
+    "playlistTitle": "Dabkeh Party Starters",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 91
+  },
+  {
+    "playlistId": "npj3EI5VV_uv_GdeeNgVpsGe5n_9YwzoI",
+    "thumbnailId": "YbgfJBnXpbDB7k5_biSfw7c1_QEKYeYrgvUvgjaqK2bP3E5JtQFdU87lwLRnnEn0t_hLvzaU5byJXB8",
+    "playlistTitle": "Pop Hotlist",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 92
+  },
+  {
+    "playlistId": "nJbR-8l4mhUUclTVrykXZdK1vqjU3caCg",
+    "thumbnailId": "LaxxMJ76HVzDDRIPQaQJVsxOj1wa3UQG8G_pDmYXJ8b5pAqTf0NiwCaAbvq9yPuZGGadj1DkyajdFYdI",
+    "playlistTitle": "Energy Boost - Pop & Dance",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 93
+  },
+  {
+    "playlistId": "lpDndrjgkdnk6rdJ2-dpwdb41Mt4caq8s",
+    "thumbnailId": "72KjY0NSDmcK8KewgPGX8bJBZ1_SERujPR-EpovNYvSwipjq47Cm_FJPNi8NjTqduxTnuvAWFjhxNTI",
+    "playlistTitle": "Today’s Club Sounds",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 94
+  },
+  {
+    "playlistId": "nAMC9uqfyVcU6eIqEC47D2uFNyqjlcvUg",
+    "thumbnailId": "hQ24ciLFjvsfhEI5raMundqc7beFqtpvaql2uwGvWoJK1lf5DwCQVdT07icq-ik2Uu_DFA0MVWfcS0Q",
+    "playlistTitle": "Russian Rave",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 95
+  },
+  {
+    "playlistId": "kALCBm3tpg2jxGslk0EAtH6iujrEupNEc",
+    "thumbnailId": "pKbpbbt2xuC-oRr5cKwC8TZ_fp48yTXCbM6qFhKEsJJ4pEw-Qsmeu3xRGkcaPTbIW_8g0ulHf-W3n2A",
+    "playlistTitle": "German Rap Party",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 96
+  },
+  {
+    "playlistId": "nGKsW16ocmP8l8wL1oMIyR53cu4N5fyKI",
+    "thumbnailId": "wdKzaDHPcidOAd587vKqSjBkZRseq_jvAyW8MBzoULVBkOBlkiLqAEKvbMrmBiDSgpke4pQ8egbprA",
+    "playlistTitle": "GIF Pop BR",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 97
+  },
+  {
+    "playlistId": "nZ-kEsmlcJGdCIYuPv4miPsFUf5uFK2v8",
+    "thumbnailId": "w8AfhV0NczfPPcHl3qsBi5c3cBagpuCxuM4N697jaQFO5cbwig9aRkUuXKlL1DK3CKK3rs_anQP4DQ",
+    "playlistTitle": "Party Arabic Style",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 98
+  },
+  {
+    "playlistId": "nmIXHaaeVFhiHZtMELYpv6_dNb6t3jPrM",
+    "thumbnailId": "4iTJQSskXda4Q1YZMYZW-NIVMX4OkWz-N1FNdzqfsvR9JKWi22s08S2dqjSdJ3L9tz9FLn_JtqjhGtgA",
+    "playlistTitle": "Schlager Motivation",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 99
+  },
+  {
+    "playlistId": "npQKlKQ8OHt82UTqPHGw6eg_dRtThs5iU",
+    "thumbnailId": "YCl63tX2cwkDmTG8vLEmOVP9E8jrD02KAwqXmc1k9vbZSK9rYREvEdqBX9u_Z63ETvK7z2SHANwWRA",
+    "playlistTitle": "Afro-Electronic & Dance",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 100
+  },
+  {
+    "playlistId": "nxzdB0EdFt4nltOjmc0c_KizCy52uNaIg",
+    "thumbnailId": "qay-QjmyxdDjbIGTulrxsLS4VC-vt9M0bXTdjIXQbDCRDGrQJ-GR5Q18A0eUnJzQ8nJqM0HCKxd1gVY",
+    "playlistTitle": "Happy Indonesian Pop",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 101
+  },
+  {
+    "playlistId": "nHl3QTEJsWnqZQU8pzNrBudfrbzr_kLCg",
+    "thumbnailId": "OSoQ_awoXpWBO4einauDRReBMFxOJJwcOxLcMR-rBto-HJtks-fOEonMYthPzs3mU4nG_DRh-insXdg",
+    "playlistTitle": "Don't Worry Be Happy",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 102
+  },
+  {
+    "playlistId": "nv-k4tlNoIYtsPgLrt19JSIBQNGYuLdns",
+    "thumbnailId": "OhB9umybthAC2_pABaA_WBZVLmdnvhZkemABnfCBLk4oeSI8WvqyxKjR3G-sFxNpe9fQoKDUcXVXcg",
+    "playlistTitle": "Egyptian Party Starters",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 103
+  },
+  {
+    "playlistId": "mODoXSJeiOpgt_UVHmVsURrDfXEx3Ruok",
+    "thumbnailId": "vPQLPiomnc2xpjyYifkD1OPapaNFugKi5mof1BMonQ2EOnTmjHbMfOS0cneg1BYjI2_Pf8Haj9eoXLk",
+    "playlistTitle": "Spanish Pop hits",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 104
+  },
+  {
+    "playlistId": "kf1hoXaojt03GldOxbRcxTX5mMNK2AI68",
+    "thumbnailId": "1nTL_nw9J1dAsWB1CfF1oBEMThDDFUWCb9LkVSmk6Tk5bnfnRYANAoY8u5RDJNMXeZ547Tq0JYha9KQR",
+    "playlistTitle": "Metro Tunes: Telugu",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 105
+  },
+  {
+    "playlistId": "lfTOUBaGMSEoO2The1XiaG75RghLtrVtM",
+    "thumbnailId": "U_IPKDWPJKqFQkICqMlJgoiyasU-Fm7eGmqFM9UvQTLsxgoAkkPsqxRRKJgLaLKjd9PdbEG8eFxflAGp",
+    "playlistTitle": "Indie Disco",
+    "shelfTitle": "Try something upbeat",
+    "appearances": 1,
+    "shelves": [
+      "Try something upbeat"
+    ],
+    "firstAppearanceIndex": 106
+  },
+  {
+    "playlistId": "nZiG9ehz_MQoWQxY5yElsLHCcG0tv9PRg",
+    "thumbnailId": "w8QDcpITg-64iylxia0Z4oWzbmlkHdSeSNyGslc_0ZcJgCtgLHkhugunsDRh_t87UQadn_si6-gPpvI",
+    "playlistTitle": "Classic Rock's Greatest Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 107
+  },
+  {
+    "playlistId": "kP2172rQNb3KFXz880xp6M98R_ME5CIKA",
+    "thumbnailId": "QbaOnF8DHmwx70wCX4E3e8QcmkZNaO91jkIqz1U-UcW_PFYzA2419D7icVlUZRrWwsDqxAal_RzCOg",
+    "playlistTitle": "Hip-Hop Classics",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 108
+  },
+  {
+    "playlistId": "k6PkYWus1Mt-aKrbb0Ne8SkA2BgAk1Yy4",
+    "thumbnailId": "BJEqYDBiNwOS5x7siLvlpqISZOjTNTNmWBk5QzBF70y8RotdBrkHg24o5VFLxfrfheO8SFYyhUqAUJY",
+    "playlistTitle": "Dance Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 109
+  },
+  {
+    "playlistId": "nQkPLhMF6chdzKSlWdX8NHMrLVpdci-eU",
+    "thumbnailId": "B8E9fq8u20DKZsSzeCnBw03S2WifECB_xs_d8CsP9Vkomclj7K4YFq2m3svNG_kMlvdv1ajAelU8Fw",
+    "playlistTitle": "The Hits: '90s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 110
+  },
+  {
+    "playlistId": "l2pHac-aawJYLcesgTf67gaKU-B9ekk1o",
+    "thumbnailId": "0W8vICbG1q6a9WQnzMBCm0Vq9uV9qWz-eLP7psNFNvLbzo7FfR5vKDO7rt6UrLpGSu3DgfmHsnGzZrQk",
+    "playlistTitle": "The Hits: '00s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 111
+  },
+  {
+    "playlistId": "mhLCwdOhIfhWnBCZnN-B22eC2TbgXooqM",
+    "thumbnailId": "cLZ_cK1jNofLPa19ePJorcHWvoil-EuxlM1P9ACKANtPZmlojFa-1LqpiREgc12NfsjltQeRmtJafg",
+    "playlistTitle": "The Turkish Hits: 90s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 112
+  },
+  {
+    "playlistId": "k5cx6i-puyGDCZrYN-XNoqH1ap3LIgo_M",
+    "thumbnailId": "mygbfiQw-Y05VrK_a7aR2b-radeAgWfQ3j5C9bIbnIw9mACawyp-8ZhkiOggxfavytTe5hnlGQA8uPTZ",
+    "playlistTitle": "Unforgettable Arabesk",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 114
+  },
+  {
+    "playlistId": "mr4jZnUpTfqqDqv04G7nf6o2ZtlJpNRMk",
+    "thumbnailId": "j6Igkzw3G63sUI3sA_NzUJ8vDZ61WaJxdog2cqts2iqcv8mJhOTparSmMwHdtlI98NJiRKjLZQMwMT4",
+    "playlistTitle": "Heisei Era Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 115
+  },
+  {
+    "playlistId": "km8O-Ih1wUwDSDLdsobHb0PURoU136_5Q",
+    "thumbnailId": "hTLQYeo48l9a7l49f1_IhA04cgupRbx5W-Njt6wYAT4rwel1AO6HRh-zaZKmc_1Gpqc1m2vNtlJmMHA",
+    "playlistTitle": "Unstoppable Rock Anthems",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 116
+  },
+  {
+    "playlistId": "liEN-UUeSCXa0iIeuHMeswEkxQXncSoXE",
+    "thumbnailId": "qKHK0mcQigx78raXqyHv_j5JKIzQuCI98qN7ZbrR_m4bZtGANJFQVDSPrZEvOJLyqgD-aE17fGMlIk8",
+    "playlistTitle": "Non-Stop Lite Pop",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 117
+  },
+  {
+    "playlistId": "n0BEng8y9HmKm6-moud8jAQ9RkE7Ie1G4",
+    "thumbnailId": "mhGRlIWZP4WAI5faJLdPQhwTBxyxh9Bm4uOA1NdQrg5UgPVE_AMNnmuGszxvSPoRjjHydSyz92tj1ew",
+    "playlistTitle": "Turkish Folk Classics",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 118
+  },
+  {
+    "playlistId": "marQRZafMZINvyjyl_52k3oz1UJxs3Hk4",
+    "thumbnailId": "Ul8urfLOG5rrNP70y6u41iljsMpLijFgfu03FZvyZKYEe-XOvkWsFcoa3W-eGs9eNw2QfqZCot0xi5Lk",
+    "playlistTitle": "Japan Hits: '90s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 119
+  },
+  {
+    "playlistId": "maC8_YA458CPC-VeeLpyPPJbj2mA9Y6lY",
+    "thumbnailId": "iTBYAAOaOZv_LWBbBfoYMc7-BTkT9yOYiH5RuKMBJ0Z9wc_GoMcGo6soXI-jTdEdR6gA2r_3tVLCR7-r",
+    "playlistTitle": "'70s Lite Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 120
+  },
+  {
+    "playlistId": "kjp6zyHpOx8iOCNf3PsYthXDWTY8ZtlW0",
+    "thumbnailId": "kwAKQGiQcSwsAlF89JuS_SGuKfzZvNRsimT02AFr-ejsz4_vNHEsVJClYThWFKJahYEOyhDhM11XKF2G",
+    "playlistTitle": "Japan Hits: '00s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 121
+  },
+  {
+    "playlistId": "l9zGPtwEeIpwVXtBZ216yRhklsre5bbOM",
+    "thumbnailId": "PhHmoR-M2slxxiB2MH1YjUqmjV5LJWCr0vUPv5Dn4mNLctwtKU-_CZN5i3uKhL_IDmMweShP6mIoWrY",
+    "playlistTitle": "The Hits: '70s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 122
+  },
+  {
+    "playlistId": "nkN2Fde5lIJN38ta7Tyvr8Uona03aHnRo",
+    "thumbnailId": "XPQ-imvGrt2C2PaNq4axqlLT_epPFyqD6Ltn14Rc6AnIicBLOOK8Bb99CJypr3f42_hdXxwSpMFeoGoA",
+    "playlistTitle": "Anatolian Rock Classics",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 123
+  },
+  {
+    "playlistId": "mGYde2Wyx9INZd6GbPcMWkxDOu6Utmedw",
+    "thumbnailId": "PzpjzCcvOOWN7fRIGzI5su0UEbtbF1va8Vb1ylLUwLnTxIjwOP2twr7TPfoR7ZBXMUfu09H5a16bc6ox",
+    "playlistTitle": "The Hits: '10s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 124
+  },
+  {
+    "playlistId": "kARjHJyNbGSYZZ_YHvXPP0wR3s1nrBiIc",
+    "thumbnailId": "N9WvRMCKFefopDYval9VVucksJRT1KGaLlgoQf0rBMYKW242k_EPHStJ-uNf4axJcSS5EwvtjccqEg",
+    "playlistTitle": "Ultimate Turkish Pop Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 125
+  },
+  {
+    "playlistId": "kb4Y5W59NyIOPPWTR01n1zQkTJ787Tgk0",
+    "thumbnailId": "xC1av08jYJsjdT9EMyex8lRETcUUNO9Cw9f105iM7KNTXo7PPxlxfxwjorxqGCU_lUkpj7Cq-LoJhQY",
+    "playlistTitle": "The Turkish Hits: 00s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 126
+  },
+  {
+    "playlistId": "loo-8N6E9gYLKQCNNwIbYQj8HH7lV1TfE",
+    "thumbnailId": "TsbVKncGaPL9dKV16HvJC8CFB0KeYXpU8_ZCTfxu8D6ljW7KmYfwjLdNoZvtoC8JKqJ8HoEWN3GJnA",
+    "playlistTitle": "OPM Rock",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 127
+  },
+  {
+    "playlistId": "nUYyVbOpSSt7KMST3NamWI_zTjZqmGn2o",
+    "thumbnailId": "op5PATilENzcdOeEXWqdS83DJ1IygqfXPtOdDSSdLnOAiZd0f-s42yqjnU7vLsKL_7w5Su18fTBr7BgZ",
+    "playlistTitle": "OPM Urban",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 128
+  },
+  {
+    "playlistId": "k1xPjCtMRjetA1MAL7uvdG07c1BY4zHEw",
+    "thumbnailId": "yhRsesVMm-XxUpJNL-FpZJXU50Qa4qVKuUnAMJbcUfW2SVFKihQhZXQ9hgxzzFEOdg3PNw449080Q43O",
+    "playlistTitle": "Showa Era Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 129
+  },
+  {
+    "playlistId": "lHpBhjR3PefMmM-_sCM4cWOY6AcpxtCIk",
+    "thumbnailId": "aXujg5jLYYyiXejyWEinBsN2b0w6atupVlV-SPK1rf0u-aApSHVCOExATcSRb4QHhDDk2tpa6uGtlQ",
+    "playlistTitle": "90s Chill: Bollywood",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 130
+  },
+  {
+    "playlistId": "kdvxMsHE0RUWzsMvo_HxpFf4eYX0WdhxU",
+    "thumbnailId": "XUWyoOvZsqjk3Jq6XVqQy2Npif_rLk-Tm2iwkKo4bYHr8ekw_Izj4Rb_60oNknnn5hWEwuSz_RpZtUv7",
+    "playlistTitle": "'00s Dance",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 131
+  },
+  {
+    "playlistId": "nptezepKPSceWDwbXkMVfIYSD2rLRjiCA",
+    "thumbnailId": "joFBKfS7mK1_7FGyZIIKECqevWi4aifaCLPYWgzDu2L71gTPs1Feq0LUw7mcM9RdtkY3LN-VWshI1mw9",
+    "playlistTitle": "Salsa & Merengue Classics",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 132
+  },
+  {
+    "playlistId": "miLVOuCHnbtfW7swwNA8o-LjeiaDXy3x8",
+    "thumbnailId": "ieMovByZFV9rJd7WNAE2SV9kYmoA4bxGagaS6UbS52orbMYFJtjRLkF6lgK4caSNZSmDUZVOQM1Z5bLh",
+    "playlistTitle": "Turkish Rap Pioneers",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 133
+  },
+  {
+    "playlistId": "n-6deo45Lmg4QTpcrmpalSGb46Z6eWpc4",
+    "thumbnailId": "nhSJFqHabp3p6ubBbxhM7Xa52MbRjWkMYrlEzXdQkVrbvL4E8EI0Wxvted9HwDEGIy9ScPoIF83u-fo",
+    "playlistTitle": "'90s Kollywood",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 134
+  },
+  {
+    "playlistId": "kjQJh9d85PwdTFi8V03RleRqWdE6_17vo",
+    "thumbnailId": "JtAu7u8csJ-Db0F0waO2YJkA6e9GgQWPfqBo2AZXNqzEoHPFcxajxLcQkYpInu8ZtDAYgmYxOQI2Vw",
+    "playlistTitle": "Turkish Acoustic Classics",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 135
+  },
+  {
+    "playlistId": "ms55UKAmQE5XAkphnhV1GPaWnd6fx_5Fc",
+    "thumbnailId": "sCpJfqYGRvN8YqugjJJ3LPujuc8OjLhInGuyg172T0XwmcgSRh5Nrl6oQpWpU8U5DMYCJ8slXzo9-g",
+    "playlistTitle": "90s Sing-Alongs",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 136
+  },
+  {
+    "playlistId": "kEKTPKBC1v7lmR6uIdqDp6jg4R67imeXs",
+    "thumbnailId": "qRV1uIQixHBWskMncQZY1H2ZFlbRPmDQYKEkuUq0hlx2pJKbrvgXhdrutES7XPw4kyVmM6xReX-5bJI",
+    "playlistTitle": "Japan Hits: '80s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 137
+  },
+  {
+    "playlistId": "n6iqNhDXRhsVpd55eGkp3ndGORCHcK22E",
+    "thumbnailId": "fnia_4SzNIpA3praFD8pGUpYjSCnfZZRzvghjWdRCwQsaS8tKWHSl1glQDMUMfeCJiwSIrN8VHQEr-2s",
+    "playlistTitle": "80s Music TV Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 138
+  },
+  {
+    "playlistId": "mDQ7NUGEEtEnCRVZKjFDqqT00mT4N8lbk",
+    "thumbnailId": "6s9Casnpx4huPpmAVeOrrW2KOHXc3iSujYwSVuN5n9ciLB9FsSOa89-adgn0mg6DblC-qQ-FR5IKOA",
+    "playlistTitle": "Arabesk Rap Catalogue",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 139
+  },
+  {
+    "playlistId": "lKXN_dz1MWKldqPyT6K-G79Sw4kC0XOsQ",
+    "thumbnailId": "Hl6wuyV8yBzknvOKNwEAYo8MIURJnffqT9pyRJxzsM3yO3-QruxstF2uvqHrTRVm1hGGxeVEGSWphX0",
+    "playlistTitle": "Turkish Club Anthems",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 140
+  },
+  {
+    "playlistId": "nSR-QoChAT-W_U7lm3RV71eOgH5_coOkU",
+    "thumbnailId": "JV7Pe5j9E3wighvmDKSHcDE7noln2Ze-DAu-8Xh_J00QNc3SqDpBc3haHRxzHUeymnd-QTnQyRqxcJs",
+    "playlistTitle": "Nostalgic Oldies",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 141
+  },
+  {
+    "playlistId": "myv3cB_L96tlcINvAx0uS9LdgTdweJMYM",
+    "thumbnailId": "5LuLCUImWlANvBUtH7clBO-Cv7N-P2ZOOc7QuGpEN4OK4knGX48dY_9RYKhoG2PYOCSva-kg6Z8T-zc",
+    "playlistTitle": "'90s Indian Pop",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 142
+  },
+  {
+    "playlistId": "k-msS6PWOCGNcJo7gx0NQIPfyFzHglYEk",
+    "thumbnailId": "xP5IGUDVEbEA5ja_0bQs8ptGdSRdpoODhyiSB8tNXCXJL5OtoKd60jRNNkVX414UtzhsbCebADJ2z8Ys",
+    "playlistTitle": "J-Rock!",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 143
+  },
+  {
+    "playlistId": "mq6KpOULj_9zLh4CH3s9IIT_87Tyf9eIk",
+    "thumbnailId": "HvHA4I7zfiuGJC9n3eR52H_VARvOvzYPRtj6QpRMcCFygz_C31AGfEgYFQmHcxki7chR3H_Bc6VIHA",
+    "playlistTitle": "Turkish Rock Legends",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 144
+  },
+  {
+    "playlistId": "l_OoFwPbm0VooI2_KA7IlIlfXwK_Z3YyM",
+    "thumbnailId": "trHGbeLNh2-i3KZijcXJe1vQJe0Bh65q-ZtwdAjZWv9gA7eCMIhyqiVDJI7MgXsumbtXZFYhN_ZvdzA",
+    "playlistTitle": "Kings and Queens of Fantezi",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 145
+  },
+  {
+    "playlistId": "nCZiH1ufDEK9aRoi-xipbtgDi9bgMqVjM",
+    "thumbnailId": "2WRhf-QXPEv3Pu0nOGamYsyykFDA5hynQGpkeMQa6eEwpLbCzAiCNlavG-EKKJjbhFzr0t20VvwcvA",
+    "playlistTitle": "Essential '80s R&B",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 146
+  },
+  {
+    "playlistId": "mM9KAjdJ5fcD34qUO3IclaRMLPNO-ChN4",
+    "thumbnailId": "REx7K4IfHHPA6gk2xfivkrd_Fx4THzT0lcVo0NfTiz99IrqAApgYdv-chHTh6mhXpsipYjytLZatIbs",
+    "playlistTitle": "Sing Along Together",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 147
+  },
+  {
+    "playlistId": "kW_5sIprB_RcIjhOjSTIqd0aZWdQeH8hw",
+    "thumbnailId": "zuFOP0d-TFX7CLxJ8-kr0lUvIqGcPiZAtPYYunVSdIFkphH9Ff0UI1Ef_whaWaoG7hszozkTZlbRAZdd",
+    "playlistTitle": "R&B Diva Classics",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 148
+  },
+  {
+    "playlistId": "lujIXFjDER42RK1TByRtrZSMGXoMqfMCs",
+    "thumbnailId": "u_1kYlVdMV3eP4AIVPeqU5eGnHILzR9uV9QoT6yNGvx-7_c9QPWQMdMdkswesJvqpH5vK8nNmwzO0mo",
+    "playlistTitle": "'10s Pop",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 149
+  },
+  {
+    "playlistId": "k441aATpPZWUfYb5hW9Sm_mFZ1gnHnfak",
+    "thumbnailId": "JEXmxJwlbmzqYLb1YNpVVbFbTdU0Wzi2B6sIg7ipyN1grExaXzG84niZXABVrjEf1HFc7lRhqI9XfUs",
+    "playlistTitle": "The Turkish Hits: 80s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 150
+  },
+  {
+    "playlistId": "kNzoWW0t1-XKu9wVhCr9LupejabDK3jrE",
+    "thumbnailId": "XFUy9PBl5pLV-Mu2UryG0qqoWLlweL37qkgKOOOJ0zDTdH0Qbt4ZR7kSvCJ7_VltDWtolN-pVzBwHg",
+    "playlistTitle": "Turkish Rock Party",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 151
+  },
+  {
+    "playlistId": "mnvuhZke__zGYhdT9rP6Et9jnmfGR2azc",
+    "thumbnailId": "HmewfO-Py18RUkP0sntyV3OQffcApkLAeXwBngbs5KF1s7K-YJV92N9GTO-xf07_HN8iTf-LSuRE86Y",
+    "playlistTitle": "Japan Hits: '70s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 152
+  },
+  {
+    "playlistId": "m4PlsftW0w4vkLArkk2nt3vITURqCbGZE",
+    "thumbnailId": "oiJ5xgQW-V4p3Npj4KDTkRi92Vl42xyoig00hHmqEZslD687xgHJ275sNcxORlfaT4vdLPufuctmnw",
+    "playlistTitle": "Summer Dance Classics",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 153
+  },
+  {
+    "playlistId": "m9Rw_g5eCJtMhuRgP1eqU3H-XW7UL6uWQ",
+    "thumbnailId": "gJtpy_U_Wv68m7jI5HWe6dKUPW2HNmQU5GEagGf6M51VB_K2vKE-nZBQ103jqVGDotH8NR8E46eJc4c",
+    "playlistTitle": "Indie Anthems",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 154
+  },
+  {
+    "playlistId": "mShagnU3yYDUU_H7XQ0M5y7nXcRntSzHA",
+    "thumbnailId": "_g3CC_z17cOdZ-bg9f-DFe_9ll0HwZJ-gj93k2UD7RyukH92ZRr90b0jNEVUZ2wpqIzCjbu2M44Gq9w",
+    "playlistTitle": "Swinging Sixties Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 155
+  },
+  {
+    "playlistId": "mn6mX0GYERCgJxFbmlSXE8Vxqhafy1VoY",
+    "thumbnailId": "yYNwo7bohDnSY91AwYz2_f_yEurfHGaA1hG4pPT7GxUG-yGbPb8Hp9HPCO3-PyuzcLX7OrWDZoj8Eg1C",
+    "playlistTitle": "Culture tubes",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 156
+  },
+  {
+    "playlistId": "mLJT5wcS3U47A03u-fgab2S6Yba9GwVtA",
+    "thumbnailId": "3tPOUtB1KW0bywL3qHx8G4BKMTybY3Gzq_0_SdfFt2Xrfk6oZQf0fi-hB3H-SaQ-VVzR3cqohzh-aw",
+    "playlistTitle": "Timeless 80s & 90s Korean Ballad",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 157
+  },
+  {
+    "playlistId": "mWwefjEmOc-aIL0y5ce5hrur6-HPEHRsM",
+    "thumbnailId": "ldh198x_Vohj8Tb1-fMc7E0VnICTzXgfJEBhlBc3h_xXlg8JIgjCtTqCirHUAK7pBTwPBhIc6sUETgA",
+    "playlistTitle": "80s French Pop",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 158
+  },
+  {
+    "playlistId": "nc1ZTFel4232Z5KKm0pBcosMu1AePIvSk",
+    "thumbnailId": "6MeBu7NQax4mEelT2iI44shxRFULmI8D8m1grB_kfqLIU5RZAtFBhtqDTDQ-hAp2Xah5LNzoDLHX1Q",
+    "playlistTitle": "The Turkish Hits: 70s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 159
+  },
+  {
+    "playlistId": "n4PuqfjXs63tz7E3lEs2av_rSBmuJqf-k",
+    "thumbnailId": "xueJfZpyzByWkNQCT-IVqCkKQ-v1ixEtvjhayT4fFDolYisjCaGQ2hvdRGJ5d3eBKYxoPJVH9i7iJxU",
+    "playlistTitle": "Shout-Out Party Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 160
+  },
+  {
+    "playlistId": "nwxGRHNyJa9Cf3jX2P5nRlumdirbKYRj8",
+    "thumbnailId": "kqPkjN5otXrlFWiI6HPCN1CJBCyZ3wVAq7QNTnfVB7jxj4q_bQ9fPMjDUtNLQxtagHXHhg9DXHms2a8",
+    "playlistTitle": "OPM Covers",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 161
+  },
+  {
+    "playlistId": "kh8Lql3OCDc5uAW9WsrPpQFymSgp5euyI",
+    "thumbnailId": "mqbfHaABxFr-bKbVJhMZJZqi0GHt9SNMZt1DXzPA2GVDu4Z6y1czCXm5bCoxTJfRf88nq_fX0f6QVMAW",
+    "playlistTitle": "Neue Deutsche Welle",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 162
+  },
+  {
+    "playlistId": "nwmU7GOH9bo9N3RB566bAfjrMTZHJ6AhY",
+    "thumbnailId": "EeemjaOQHV6ikTLNOLUWugb8ejVtn9R3pvLHewscPExJi0KqFkH3-ZqmcDj6QL1RYg20fCId_e8ZFOI",
+    "playlistTitle": "French Rap Classics",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 163
+  },
+  {
+    "playlistId": "m74vq-4_Q1Ayo52oKHdUtkcbUb8moNzMM",
+    "thumbnailId": "r4HnNGcy1yOUUjobnMOygYllINeqH2I5FnN6rdhooAmnL5NYJ45XA1R_FQFRWITOXSIvIgNHwQKvazaH",
+    "playlistTitle": "Wide Open Country",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 164
+  },
+  {
+    "playlistId": "mgp55cLDaUpOfO6foH8FeCecHjwcf7WQk",
+    "thumbnailId": "sLDTrSUVIlBiKB0mxo12IRay4nioJKseE5QoJAHTGpxlaABW-XxTiExmBYR-ue0ieGnvLR3c7USumw",
+    "playlistTitle": "German Schlager Classics",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 165
+  },
+  {
+    "playlistId": "kpU2lLw70yfDQARwPHZczMb6XnAOzJPN8",
+    "thumbnailId": "wlDKyPs7lQarnGfH2AsQEzt_iT9yoc_MvN946J2IY8Je_tEeg4JIqJjrPhgbxvFhh4a9tQ6fRs6FrA",
+    "playlistTitle": "'90s Arabic Sing-along Anthems",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 166
+  },
+  {
+    "playlistId": "kyrZb6bOpTdTXYjKEukHrBQTAmxdKAOZg",
+    "thumbnailId": "iSkDqPth1NslvOCTwOyQSnBJXdh2ExqoOpsO3geyNRzGMW_U6Th29bphpOHFzsLjtlefL_YWFd6kDKE",
+    "playlistTitle": "'00s Arabic Sing-along Anthems",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 167
+  },
+  {
+    "playlistId": "k8M88-3MJRUSCbipYWLH5socYNhDI06Sc",
+    "thumbnailId": "2XiXUUeC61YCXfsh4pCohpUnDokt6Q81Cgoq-iI_9SWU2LgXY_ZRdEfk3poFjTBSuMxPKJG0c5UJYRM",
+    "playlistTitle": "EDM Anthems",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 168
+  },
+  {
+    "playlistId": "m55iAnFa25l8bl7m8vsTsmGph3-_yVBW0",
+    "thumbnailId": "PvnWrs4H51A7SUGj-KE_T_knoOeOX6p4RhrEIZ8r5ht3HbOpfVK3wodkPBwlKoCRWYUYlqZ7PZ-3Nrlx",
+    "playlistTitle": "Singalong Hits Germany",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 169
+  },
+  {
+    "playlistId": "lKjq8RJB5Z9hbbUMFhvwtzOBW9Wjns7Mo",
+    "thumbnailId": "6qIahOg3YI3CQ9nDO50P7NjXdgvaIuZEBSDynh9ZEIj2fS7Ih3Knrk7LC3HnAe5UbNfAWAOd43MfNbg",
+    "playlistTitle": "New & Timeless Soul Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 170
+  },
+  {
+    "playlistId": "nUb1klqZ6t3wV1pKAJ96Mfgj2tuxfSgJA",
+    "thumbnailId": "C130Eoc2pQyZzAQ6RTwsvzW6VA8T20Mfrbc93BlQNe5XwVPUq6B-IpKxQrblGwQ1W1yyIZv9b4Me",
+    "playlistTitle": "Egyptian '90s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 171
+  },
+  {
+    "playlistId": "kkmYQJUx6MqEE1Uj3Y0UhBxzwOfAWpHm0",
+    "thumbnailId": "8x13gPtq9KGrTmaHI5tL8ypuYlZWhwOsZDxgc3MWWeqPXpzb8esdXP7Gg73XiG49fYPsxRNSPkjXH-4",
+    "playlistTitle": "10s Bollywood Dance",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 172
+  },
+  {
+    "playlistId": "kwGsU3ogYBmwOWMIV79BQ-oxejjGotagA",
+    "thumbnailId": "b7hiogDARc7PGKrAJjvtSnUtSRyPQzd38UaTJkl4oBCG-PoG4zEMeQ1Dfuk_8yFho047YhV_0_Uv6Q",
+    "playlistTitle": "Turkish Pop Summer Classics",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 173
+  },
+  {
+    "playlistId": "lAFyo08yCp6_aSsDCwLcrDTGEzPzryjtE",
+    "thumbnailId": "9Q7OFS4J1y__fmIlq5pfl02em1qrlxeJJuV_hxk8NH1EnicaoE42A3tSHB-aqp0KesjYXp8wwdHAGYQ",
+    "playlistTitle": "90s French Pop",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 174
+  },
+  {
+    "playlistId": "lqSrdwHepiTVMT-jNl5tEGxoPCsYg0tEo",
+    "thumbnailId": "XOa4b7Pe-mHK2pDdO3QGdhMAWJ-fKauWEh-znbKW86pla9sCRTqQe4Czi33zi4LImB3HfKU096mmPj0",
+    "playlistTitle": "Egyptian '00s",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 175
+  },
+  {
+    "playlistId": "k1c7hWYtIeUbGpjBIqrx8mZn5nLXM1z1Q",
+    "thumbnailId": "dzWoNwISXKTu5SofBRpYBpmXDbqiyQOK1x7G-lrpEdqfTO6sVeDqFRl0lCfZgQQ0xBtWSWR5zaSa5Q",
+    "playlistTitle": "South African 90s Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 176
+  },
+  {
+    "playlistId": "nmw0Pp3igA8T5EPdiAaTSsY7SFHNUltrg",
+    "thumbnailId": "jJfSPMJKSr9rzjhuhSWjouZyVWRAh_TCubcMNjqQZ5ukkeCmlllnqEWpsykKU3dcMegSlCKwcrdl_w",
+    "playlistTitle": "'10s Indie",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 177
+  },
+  {
+    "playlistId": "m2asL1XXo0rjoclJKHRXRwbHTgGKZLOtc",
+    "thumbnailId": "knleusS3jATeETpNMdhbBxhC8-WLp4GcP4eI4sKrQwYgdCavfpapo9zu41KEyhUsdK8Pmq-Vsnify2Q",
+    "playlistTitle": "'10s Dance",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 178
+  },
+  {
+    "playlistId": "lsgbsKWdu4Y3WNHzqWLlfsUAel-NRgco8",
+    "thumbnailId": "GIFWTW8gCZ6L0DI8E5wSioIuy3hkjzNQeOvz4hLaxud-tMfP2gdqi-WDLCZs5odDnxu-uOQu1d6wAGY",
+    "playlistTitle": "‘10s French Rap",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 180
+  },
+  {
+    "playlistId": "llwhpLWwY9jJ9lh8SDkPX0c2fPOr7bbbg",
+    "thumbnailId": "7_D5nx8e8JcWCVxwbOAy9I9P1ObXxwJMQethkQbzrBgEfl-TPxYS32gpANXGwA089XbdLxmME9Y5xSJ4",
+    "playlistTitle": "10s Tollywood Dance Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 181
+  },
+  {
+    "playlistId": "lMjfjPj17StEIYtXOnCA673OOyVV73X9w",
+    "thumbnailId": "UUH4nqk_XJQo-Nl0FBhZ9w2K_pA9ft06qURGMnd_eqtXLdXbls8W4f-OObQkHoBvTV1CWGN-rYV1ZNI",
+    "playlistTitle": "10s Kollywood Romance Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 182
+  },
+  {
+    "playlistId": "mv4e9SpmcwJQS93U9_CVrmYSjnIDdJbI0",
+    "thumbnailId": "Ac0A7zrjQ0lZ7Tc_Tw2VC9_h7Vtqx0f2F7G91I4N5Bpp7bdtj2dIhl2FuAgfRTDpBGh_dvDuysaCaA",
+    "playlistTitle": "South African 2000s Hits",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 183
+  },
+  {
+    "playlistId": "lvnl-qLThmB2VUUwN33HvXwwCOesXrH1s",
+    "thumbnailId": "wAnOtJP3p13A_yLt2QgdwKQjI_95it_J9Dq7iU0c1tT6Ro1pSoq_9Rr7W4NF-xp86MuPhOxn1vplpg",
+    "playlistTitle": "'10s Electronic",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 184
+  },
+  {
+    "playlistId": "nfs_t4FUu00E5ED6lveEBBX1VMYe1mFjk",
+    "thumbnailId": "p8Xk7wNROf-HEnsoqdIok9kKmp5vMdVSbJFq_Kf-g_mVdqwAx2NlgKqST-WxBoEasTdpomFnibKy59o",
+    "playlistTitle": "Dance Pop Bangers",
+    "shelfTitle": "Classic hits",
+    "appearances": 1,
+    "shelves": [
+      "Classic hits"
+    ],
+    "firstAppearanceIndex": 185
+  },
+  {
+    "playlistId": "kL57PLcOmExjhzqGfGhvA82ZWe4fPH2c4",
+    "thumbnailId": "9LRgeba47a0U1xYHxZnLvo9HUG3ML7b26A9gx0JcBZR7sQimfE2cI0N1yGtQGOqMFPEW0NpwII0YGw",
+    "playlistTitle": "Muted Jazz",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 186
+  },
+  {
+    "playlistId": "kvzSF-chVVpH1r55Frc3fuHXCyRc01sYg",
+    "thumbnailId": "HoJO8oJOEr3rHyOKyhoQRi98lMFPpAOGb3vLlR6AF4_jA5DB5f6vAx1UFzBKYTf4zIPhpgjTsiaY5g",
+    "playlistTitle": "Relaxing 80s Rock",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 187
+  },
+  {
+    "playlistId": "mX4JK0m7lhZ8Egv1E7bbXox_e0k6rGejo",
+    "thumbnailId": "os2tezdGFEBR345LVPDbBsyUgnMBu2yXtl8-1DPZg1vu7LYikXg_yot_y1VmYZ8Jl2gK8UVq74T3WA",
+    "playlistTitle": "Chill R&B",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 188
+  },
+  {
+    "playlistId": "kWm5me-X3IbEMBOWHd2fI7d4aQoauMcbI",
+    "thumbnailId": "xaEIt7PBZ3tp76RAfyypxoakouS8BmMjdbPD1GhpIXIeHBpklnOJ9Ii-c86Biy-ZIGuisl7DOkCZZDVp",
+    "playlistTitle": "Laid-Back Hip Hop",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 190
+  },
+  {
+    "playlistId": "neriXH6JbZPr7Pf4LOi5bGQP-_lWRZXs4",
+    "thumbnailId": "TSUtbquRFr7lhlYJq_fZnfxn8FnzXpbzWiZLJb8-WscOEWDXfldNPT3OcTxkdBL_1vKFG_Ni0_nJ8P5h",
+    "playlistTitle": "Cozy Jazz",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 191
+  },
+  {
+    "playlistId": "lbcexX19-ShfMgzXpxayVFh_9l4Dml-kg",
+    "thumbnailId": "CzqNOsy9Lj5cKRJtsRXruWwHn3P0_Cqy9xM0CsJEZzoL7JtmThflUTfGv0uNXyneaCyzArbY2qnCYUg",
+    "playlistTitle": "Mellow Solo Piano",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 192
+  },
+  {
+    "playlistId": "km8j1Msn0n8FTLRIw0krI9k2sf-t1Z4hg",
+    "thumbnailId": "Gzvo5VvqNiV-Xr-rGmYrSEPL5L3yAMtp0PVaGG9ekpqiOin6kcGIiV-a-3Vl_r7GgB5TaPJk7AqzNmw",
+    "playlistTitle": "Acoustic Covers of Love Songs",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 193
+  },
+  {
+    "playlistId": "nDL8KeBrUagwyISwNmyEiSfYgz1gVCesg",
+    "thumbnailId": "WIpNILSEB_Fs-esO3Z_jRiQgkRvHK41un394zFPHwG49pO1Kn9qVI_ud_J2BuGaoJiRVAUjOKOE9kRmN",
+    "playlistTitle": "Mellow Pop Classics",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 194
+  },
+  {
+    "playlistId": "kqQ1zj3L4fZK6ye75srlXMLYXdh2jMFPQ",
+    "thumbnailId": "NEbM6_71W14Fj09GQRQQ7donpcZ1VljnrNSmieRje_UKyIq91HiimtffL0py9LelDdf8o8rOv05qqCI",
+    "playlistTitle": "Easy Modern Soul",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 195
+  },
+  {
+    "playlistId": "m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY",
+    "thumbnailId": "dQaic8cocQVGqI0ZHfCIaow7mCJCy2fe4I-G1Kim0yqgcvvJftZ5dZnbLp7U-mkwD9asaXIuzycVmQ",
+    "playlistTitle": "Freshly Chilled: Alt Pop and Indie",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 196
+  },
+  {
+    "playlistId": "nIS4kZng78XMjia0cDnzYy8EHwPrHIDX0",
+    "thumbnailId": "BnF_9HW4TNNUuTHphV_QfG7TfY2QcPw9dCwwzkvIxrIwGi7fnTS-LqScSut3HmRikQEs5dAQL60fxQ",
+    "playlistTitle": "Acoustic Turkish Pop",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 197
+  },
+  {
+    "playlistId": "kiLhvcwQ77iHCtSSBSJd9b9qO3pqabOpk",
+    "thumbnailId": "TYZQDcwqceAYz-Ik3Am6uZoMWWgvsI6hikbG8jgsVrOnPMVpWOxmqVo2NKjIJpoPtPoApTpuvJx9Kl_p",
+    "playlistTitle": "Fresh Coffee",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 199
+  },
+  {
+    "playlistId": "kL7seJinYAVpulQQbre887jeaIDkrnAg0",
+    "thumbnailId": "OYJPNfj51KL4b17grXq3QkMOpYNk71Z2aUKLE2vSu74wcHBUXZxLzerTWXBfhwaQdUmmWrOoVW6Dcxs",
+    "playlistTitle": "Background Jazz",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 200
+  },
+  {
+    "playlistId": "njvsGKIUycy_a4h7zTS8upbKhHcMVzHFM",
+    "thumbnailId": "j5IpK4riMymgVlZOMQrxo4WkLTFofJ-JG_-_Zca2epcu7EvTfXbdwtcGO4oO3-qdobVS_mmYJmjVUuM",
+    "playlistTitle": "Easy-Going Pop & Rock",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 201
+  },
+  {
+    "playlistId": "nA42_0IX0YmeKb7pLRjm_J8e2ja445Urc",
+    "thumbnailId": "PlQSxuGLm8bF97gW6771Akz_OENSg_PYF2wSZZwKCbed7u9lJR_NRW7wWUcVNQBoBWqEQuvatU4DqrI",
+    "playlistTitle": "Mellow Jazz",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 202
+  },
+  {
+    "playlistId": "l33rnweoz4jR7hsfgDJrpkExUnA-9B45E",
+    "thumbnailId": "SIf9CNBm4qzzSNrr71gjxVPXWXtv-C9CJaPPcLq6bBD6SzEOhSmO56qrhD_PQzvRtibAeGNeuhmvDQ",
+    "playlistTitle": "Le coin chill",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 203
+  },
+  {
+    "playlistId": "n3rFQJnhQR59naMK9w-UkDN_gHRyATJzY",
+    "thumbnailId": "FLoH97DXz1rYf3TWOsXobZZ4-wCVrWZudBB04gpVx9yuGzgzt-g8VvULC5Xd9fw3ocAywonwHEAlTsl7",
+    "playlistTitle": "Abstract Hip-Hop",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 204
+  },
+  {
+    "playlistId": "mxqgyPRK9n6mflkAhpQAXpebl2Y9E4atM",
+    "thumbnailId": "kapsKjFgjRCer7AReEpjGgODW1x6bb1-SNHCQayWXU1RGtPAO7SUUygPfCFf2JAout3URYIe5tO20ZV2",
+    "playlistTitle": "90s Safarnama: Hindi",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 205
+  },
+  {
+    "playlistId": "kgpCGgJj2cEqRIaeMfGEYDHVr-m5wHQlM",
+    "thumbnailId": "h0uXRDQkkGjQnWMa1FBJQng16HOz9dypSANFpg7LWZH3E20b6DdtOYqCGA746fxxKRlQ1gWiaVawIA",
+    "playlistTitle": "Drift Away Indie",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 206
+  },
+  {
+    "playlistId": "nWEJYv-Uz64iDaI_cc9ink9grqEpQViPc",
+    "thumbnailId": "fKwb7bFl-Ba8CJmQfFJvTV1dCAWobNARSULzCFizxBeW8bWtQa-3S1BoN8zVq01q-dvd8jPTAEGciJM",
+    "playlistTitle": "Go Slower",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 207
+  },
+  {
+    "playlistId": "kyiI0YDVHzT-IsAObUN9w0aBMLVBiKYoo",
+    "thumbnailId": "SaMp4V0wBLdzUJa4BqOoqlcjHwEBkAlqYNqUzs-FKTcT_pk1O4F-9Y7yfq8v4XmjNu_PLas2dw-fE20",
+    "playlistTitle": "desconectao'",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 208
+  },
+  {
+    "playlistId": "kaRoBBGlE8Xh1enKL7w9DqNyCkBaZJjOI",
+    "thumbnailId": "L3rASwwwDWpIncCPyhy_8Qm0HCcreQIO98FtHzf142igdPZrXOVUrcOPmpYlTDa6XrSqmsLIn5QKm_0",
+    "playlistTitle": "Turkish Acoustic Lovers",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 209
+  },
+  {
+    "playlistId": "nZexkv7Z-x6_aS9MlGSpmnXZceVKEsBms",
+    "thumbnailId": "cW-HdzbLEtJGWXHcN5TGqPRBd1tNa69eI9lc3OAsDf2-1YKuS8fHnU8iK7sjKQp3fzCFwa8A10f6s3Y",
+    "playlistTitle": "Ukrainian Pop Ballads",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 210
+  },
+  {
+    "playlistId": "mRb8mqke6FbyQzO--8S_h7SOonjz9cq4k",
+    "thumbnailId": "P00P5RkNlBmIaGgmI9C3d2yS80kWy5TfDHLI0ThN1p6ccjTfwStOIxYKHzq05Shns0tx_d0ya2w5-A",
+    "playlistTitle": "Easy Breezy Retro: Hindi",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 211
+  },
+  {
+    "playlistId": "kFR_dUAeIwAH_KMLOVWjd0Vd-8pviVMCQ",
+    "thumbnailId": "NblZ89z-h2MCH1Bo8aLj_sp8XdthY6hT3or99X_aNdyArApZipisvqmoG_w4b-OqjDuFqozHGcrVj14w",
+    "playlistTitle": "Soul & Stripped",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 212
+  },
+  {
+    "playlistId": "ktkqrgIqlP46yBkUsZp4go2j59McnSsYY",
+    "thumbnailId": "VB8agRvJBNNQQl7DeUJ6Ivn6uZPEUSNZRwb_Dpokqiw4OU1SEurWstNmMQQy8Oxk0Aq4ghRNN9jJgVk",
+    "playlistTitle": "Mellow Hype",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 213
+  },
+  {
+    "playlistId": "laqTzdIfMc0lFCcLCFWl0BG468ZP19wNg",
+    "thumbnailId": "_MJDr94IskXF7A-XfrJVH3CxSw1jbqNOusiBFRUy7JzBvwfYv6o0FSys4z1F9tbHpoxgf7g8FZ9YTA",
+    "playlistTitle": "Feel Good Arabic",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 214
+  },
+  {
+    "playlistId": "lxBOrv0RrMMVEmV0Gl9gDBPH0JYC1_j24",
+    "thumbnailId": "B1Cm3GUnybx2Qk1D4J1XmJvSK1Oz8PEmkjD8MASyJsAK4SB1Zh1Gfqb-Kyf2nDVDLLwlcXYI42iuXs8",
+    "playlistTitle": "Electronic Dream",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 215
+  },
+  {
+    "playlistId": "lml6KPCmMD7uHrduvNq5qrSJTZKa5hc0E",
+    "thumbnailId": "w3LqRy3ix0MdIdOtzMg8IGCs3ULlaOExaCklkUDkivkiorylyigbsAlYm4kVqtgGGxioYrDubbw6Mg",
+    "playlistTitle": "Chill with Punjabi Pop",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 216
+  },
+  {
+    "playlistId": "kEh2q1HiHBKJnuKqqWydLcR9ccKH4lzL8",
+    "thumbnailId": "W62VCqx0rGUl7gAEsFKb7MOy5FADyLHL5ReNaFpNCq4_F2chXAEr00mEfukxjwguN6bWkgeqllJ13Ck",
+    "playlistTitle": "Indie Feels",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 217
+  },
+  {
+    "playlistId": "kh_Nb0B9ye_BOVJluQzUm3D0Q7_6xar6I",
+    "thumbnailId": "0JD1WKSIoR-jtx4BiXq8NrLLaUEWsZAIthZJq4GtsLN2OL9aEL1v8Toiuw04QvH5IkL6oo1uYVkUtbY",
+    "playlistTitle": "Jakarta City Pop",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 218
+  },
+  {
+    "playlistId": "nbu2-fubCWEuBFeksTcYQGCax2kixpsp4",
+    "thumbnailId": "zJjcN6s9Df8Us56RKzu5QqUYzmXeg-je4Num2uj4_aJXBsRdm3O_0exJ7-m-lkClq56IL9iyiOKAOoo",
+    "playlistTitle": "Khaleeji Feel Good",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 219
+  },
+  {
+    "playlistId": "lIW3ypboNs_OcFEJgmrdMIF0PPgCJyT6s",
+    "thumbnailId": "L2dqRQLrs_0sPv4-p69BCZOeLWg_-wsqDDlHaO8PPns4S1A1RkX8YmxXRoajZMjNTDO_4VowFdtD4nU",
+    "playlistTitle": "The New Roots",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 220
+  },
+  {
+    "playlistId": "kMV-MZlhQ76DPQIe5pyEYQYD24D7_AX6Y",
+    "thumbnailId": "WmR3VEbKdbX0rT46h-u6qRUtFp4dPPMaHmJTxw8gmZQAfy0bnwViuv2BEIt991Pvwj-9vf-Gw4ELAW4",
+    "playlistTitle": "Latenite Laidback",
+    "shelfTitle": "Try something chilled",
+    "appearances": 1,
+    "shelves": [
+      "Try something chilled"
+    ],
+    "firstAppearanceIndex": 221
+  },
+  {
+    "playlistId": "mCXhWGz-gsaTHRXqbJ3SavV9rGzZ-tUtE",
+    "thumbnailId": "Ht6v1E3Sqquz6jQLY3usMh2MfNXN9b5VxSSqoy8U05878ZA3JIt-Tpz0aKCrf-OZGzaWd5r_C9NZaET3",
+    "playlistTitle": "Classical Commute",
+    "shelfTitle": "Classical commute",
+    "appearances": 1,
+    "shelves": [
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 222
+  },
+  {
+    "playlistId": "lnT790jjnx0IDmitYyxTHX7VniBXN0vsU",
+    "thumbnailId": "MT4qXC_y8Z8GPHW6lIwFq6tTrC1HumLB279sT_R4u6W53P_nADNDgsmxWii2nxPRiYgtKTk6DKpNTfM",
+    "playlistTitle": "Classical Morning",
+    "shelfTitle": "Classical commute",
+    "appearances": 1,
+    "shelves": [
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 223
+  },
+  {
+    "playlistId": "n9hGvSNdO2TpX8jJuiThvnfrfIi1qNRnY",
+    "thumbnailId": "Jx8ayDHUoBH0ZDj87d2Jibuvd0nXxeVf3RAbYUAf3f2o3Sr9vWkMVVGfgMLjjAuFBXcp7Wl-JW3pVzw",
+    "playlistTitle": "Classical Focus",
+    "shelfTitle": "Classical commute",
+    "appearances": 1,
+    "shelves": [
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 224
+  },
+  {
+    "playlistId": "mnJwDlxR05gYNAwsDSZYQNmI1eMm5qCYQ",
+    "thumbnailId": "xMa1dmQx69G3MBwW4YQDIWKmy91VMhlvIZYcXh4xnyGVkJQUmlEsPECKULosIUXpKDFppGzB9zha7Q",
+    "playlistTitle": "Classical New & Timeless",
+    "shelfTitle": "Classical commute",
+    "appearances": 1,
+    "shelves": [
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 225
+  },
+  {
+    "playlistId": "kmK1aMjb7sJ6eWV95Co02JwJJmdi0z05M",
+    "thumbnailId": "Oqy21N5liarP3dhmBg7J3NECiG-RAH2NavdLV62ugcmgR6v_dushUh52ZN_FRjP1BTvAvREAYCwcew",
+    "playlistTitle": "Classical Solo Piano",
+    "shelfTitle": "Classical commute",
+    "appearances": 1,
+    "shelves": [
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 226
+  },
+  {
+    "playlistId": "nNaRgDdtxqig84vFR4hHMYsCXRZpUbfNE",
+    "thumbnailId": "ron_VA73vnRP7gKB0XL2FRbrLhieZJjPu_8r7VosBM7sy1MBXJmjquKMC3n3POF9CXMjsLdBu9sP6OU",
+    "playlistTitle": "Late Night Classical Music",
+    "shelfTitle": "Classical commute",
+    "appearances": 1,
+    "shelves": [
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 227
+  },
+  {
+    "playlistId": "lbQ87tFQihzaDxmmfDoHbw5xQwBWUrMDk",
+    "thumbnailId": "JZJ53Vqo6HabaB5sPW9wi2oaIGk2O3yxOeeNCvNwwU770GDEUT_LX-aZbiOxWH1qRi4iH7Rj8z1teok",
+    "playlistTitle": "Conducted",
+    "shelfTitle": "Classical commute",
+    "appearances": 1,
+    "shelves": [
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 228
+  },
+  {
+    "playlistId": "kzRI4gV3VWWpZqtF9F404806IYXoFzbUU",
+    "thumbnailId": "xqmGVY0NjY4y-AXvPWwkLJjcuAiGeTDXZBlVZDDf4o6JL9obDuSRUHm8esX87LSeZVQXI1i868tXpKO0",
+    "playlistTitle": "Classical Chamber Music",
+    "shelfTitle": "Classical commute",
+    "appearances": 1,
+    "shelves": [
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 229
+  },
+  {
+    "playlistId": "li40oRtkZfR06nf8rRzgRMraDx764TEN0",
+    "thumbnailId": "9GTdK0ASn_0M6jlnWBVqbGm4iUFmIhJhZs_luU3sqJOZ4Qvr-v9Y3U_9YLQOFhSt83MYXtnmqj6mUeY",
+    "playlistTitle": "Mellow Cello",
+    "shelfTitle": "Classical commute",
+    "appearances": 1,
+    "shelves": [
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 230
+  },
+  {
+    "playlistId": "mv1P2oVguxLCIDXavV-jcDG1lQyukfSpo",
+    "thumbnailId": "gkQ7vbmDn5Mdo2e0-dpTdiTD7uTEYXML6uPPTFLiRxe4ZVyAi5XNkzj_Of0WCwinF-Iup7YcM8O5iw",
+    "playlistTitle": "Essential Classical",
+    "shelfTitle": "Classical commute",
+    "appearances": 1,
+    "shelves": [
+      "Classical commute"
+    ],
+    "firstAppearanceIndex": 231
+  },
+  {
+    "playlistId": "kw2wIlEv9llILhO0qoMTLsBBhmjzuibAc",
+    "thumbnailId": "lFM71dt9Ze8yErnr6uJq723WIjH_22QXFJ5qeBqog3_6SNKAS-NfPVfVg1snX6fGMSIt2010v5Ox5Nk",
+    "playlistTitle": "All-Time Hip Hop Hits",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 233
+  },
+  {
+    "playlistId": "mVRuj5egfh21e-pXyA3ymx_0p4Xlg-c0I",
+    "thumbnailId": "hRQQtCUK7m2QCMIjkGrGt0GWS7Mtmn-Er2BN-Rh3YqeezyYkRPI6MXMf1tKr-yPgzUJXDMqDj5QLwH1B",
+    "playlistTitle": "Hip Hop Essentials",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 234
+  },
+  {
+    "playlistId": "nr96xyZDAYajRMchGlje_A0Sl-VvU0_Po",
+    "thumbnailId": "MSO-4NBsuXJVgIzbnBvXi3f9tltPsrrEqydvAD8kFJdgeBa16oZ0AxYQhI2bb-GLqQryzGv4Y9FRdA",
+    "playlistTitle": "Trapical",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 235
+  },
+  {
+    "playlistId": "mxV9eKF23-5CnY31srg0QORG20_J8CaYU",
+    "thumbnailId": "hKhb_uWZQcTJux54fqJjpiY-RO4bSjo2XuM1M6Kbn1Ij4UYIKFWXv_8AEiAYWrYCZekIi2bQ9TwT7QY",
+    "playlistTitle": "Pega a Visão",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 236
+  },
+  {
+    "playlistId": "n7QjhERM2Q4Ha5B6t6ZmzyhOtRYjQtxKk",
+    "thumbnailId": "_tWwMUJ5foOos8X4Xzo0DqXmGkCEYjQfX53zi84OpAeIwjdvieApFX3oae2LmlcXz2r9VSwqtOPlx5U",
+    "playlistTitle": "Flow Superior",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 237
+  },
+  {
+    "playlistId": "nw_HsAh4RUoqLazzpalfWycO3BItUjEmY",
+    "thumbnailId": "z791-9yA42PAOAl8alLFYq_MW0wNU4ptdUM_W7RMWZugLzUIi4kADstLhwDtaFHxuR5ZB2dm0IS1Tmo",
+    "playlistTitle": "Queens of Rap",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 239
+  },
+  {
+    "playlistId": "nY_4tOjk2a_pNtiplJ_96RH0Hi5PQB5OQ",
+    "thumbnailId": "VOunONxT7XOY9-G5GLD5UsHXO1aShl0WNo8YXLAa8hG5Nr6Co6TVjgEGahCXI8Mt1itaNIN9JqkLzt4",
+    "playlistTitle": "J-Rap Flows",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 240
+  },
+  {
+    "playlistId": "l05yygbLmD5tBMjLU99Ih--utS3UQ3W0E",
+    "thumbnailId": "K1JNnfAlDnFJS6jC1K0ovNf56g2t3MBo1950M7xq5yrenvCnDxRrpTk604qh0bdTa_9bi2NcLnTOxks",
+    "playlistTitle": "Desi Hip Hop Head Bop",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 241
+  },
+  {
+    "playlistId": "lZ-4f0CRz94qy10Lrlcq11WudztfGCWu4",
+    "thumbnailId": "_BYDXB4T2WocHoCoJ5uux2Z40rR4QGjgT00dgrZhBLUFziMBjGij-VTY13VIH01KMNgD6p_rC2sguQ",
+    "playlistTitle": "Desi Hip Hop Drivin'",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 242
+  },
+  {
+    "playlistId": "k-d1uyw-XSYfPS4vWLWPP0Oh5srgoYZsg",
+    "thumbnailId": "SMpT_3hW0yjMrAoiZ3EhiGP45ettuyjdSxJ2dHShO1N8hg1EOkBtv0sBRApF4bsSmIZw-w4BGilxMc8",
+    "playlistTitle": "Voices of the Strees",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 243
+  },
+  {
+    "playlistId": "kNjkuXtSRVcg-SJU8ZIoG6rAcBeCjk0_4",
+    "thumbnailId": "4kgSSVeVMgyHFS-YFk9wuQL9KfwobulNNHJr8d4mM31hClXX7EtUD7NPIXdqyPDafJeusK2cJ-LnY2c",
+    "playlistTitle": "J-Rap Drive",
+    "shelfTitle": "Hip-hop drive",
+    "appearances": 1,
+    "shelves": [
+      "Hip-hop drive"
+    ],
+    "firstAppearanceIndex": 244
+  },
+  {
+    "playlistId": "kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8",
+    "thumbnailId": "zGcGqa_jxZkFvp2HxfzAoK2Jdd99UzErb3oLImHuaegjt7LFCKfcqqKd-qVwwkkM1k6l8PvU61ospPI",
+    "playlistTitle": "New Electronica",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 245
+  },
+  {
+    "playlistId": "kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
+    "thumbnailId": "06kC67V971Z2LMxNtF-JggCq_d-HGC5QG027AC4iNBfI0B3g7ZfUCxS16jCpG9LDRAxjJIJmZehJGIs",
+    "playlistTitle": "House Music 2026",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 246
+  },
+  {
+    "playlistId": "nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI",
+    "thumbnailId": "lj48S5qJPKYaHjF5p7OqmBa_rESNctKeMxS4mbzWGsBKKvafPykI3Cabcb6DzkZ1CrtZzJu-cxnE0K4",
+    "playlistTitle": "New R&B",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 247
+  },
+  {
+    "playlistId": "n0vqPVYwwLGVv8XMpjj7IovO50hqegreo",
+    "thumbnailId": "MN7ey48mntCel-6aofoU_3VPmGO7dUZcjGXn3ABYdb1bolIzVa9xJKiAOm3Kf-oVmLpQUzUYUKGJosI",
+    "playlistTitle": "Country's New Crop",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 248
+  },
+  {
+    "playlistId": "kkkZR6KAV5kBSqDCeaBb_pDDhA83VGFwg",
+    "thumbnailId": "Ri6paIBEBdkHiaaRgL6uF8QiFxf6MTBQ9y6XEqlILEFTl-8qo9l6F2_Q_oaKDLOu4Qs1uBpHPvAe6Mw",
+    "playlistTitle": "Pop Before It Breaks",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 249
+  },
+  {
+    "playlistId": "kHqJTKgRLbBjlK0SRmaLgecTtXtyAhjvs",
+    "thumbnailId": "1Vf76ylHQIKXkYkG2adFUkmRVw01sGMdkkqPxvNWE-oupxTmVYHrRt5k2pdDZJovtlgQomZnTo5UzkY",
+    "playlistTitle": "New Dance 2026",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 250
+  },
+  {
+    "playlistId": "ksEjgm3H_7zOJ_RHzRjN1wY-_FFcs7aAU",
+    "thumbnailId": "T4Z6DJmM21lhaEhSA6EyChcJBnfV7UMsX-rg6H-obDe7cXY8tYjGXM1Wwylk7gwmS6agWA4kwJX1xLJl",
+    "playlistTitle": "RELEASED",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 251
+  },
+  {
+    "playlistId": "nNhhgRET3NcJ4SJBvqhAIJ6t7vjsQYowc",
+    "thumbnailId": "yBNajxrR9rON8boK3beixxG_li6zx25p7D0-cQYEXjFCICgKURXURLIvIMlfj8L57kX2ORtTPdYvw60",
+    "playlistTitle": "New Music Hindi",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 252
+  },
+  {
+    "playlistId": "knDxxA86J7eMR2wbjretIDCu6tZIW9ss0",
+    "thumbnailId": "eZdJeYM2KhYxfUd3RxC7fXediygSEj6-TscwgEmOVn0KlmRkOQK8lvKeykerlt13uKP6stt2_M96tw",
+    "playlistTitle": "Brazilian Funk 2026",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 253
+  },
+  {
+    "playlistId": "mk3xwsayv9PxawuXS-U6ao9eMeNmSwYAM",
+    "thumbnailId": "st1cd2mYqqg2GqdDaJDoFMl_FuRVGIyFnbmcVWZk4pyIOF_xPLgkwZ12Ksk8gRqI_mFlcKCa8CNg31l2",
+    "playlistTitle": "New Music Punjabi",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 254
+  },
+  {
+    "playlistId": "nVQAtE2KBWk-ROQIc5o39Oup3hOLnYV0g",
+    "thumbnailId": "s9mE6_ZVclFKct5jTkvt2vfwqBpmW4OJKOaF4awq2x5CyHbJ3oP_iqL6oDV7wahGn-0e9vILQ2wUWWo",
+    "playlistTitle": "New Music Tamil",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 255
+  },
+  {
+    "playlistId": "l8CaYQvBQWVT2st1VsW9JjODWisR_vd3U",
+    "thumbnailId": "dqwr_-_2ZFYhQ5_B7LAE7tOwvuaUgq8K_XdwhtN3_R1XUfMSILYldJg338zkyw2UIN6xkJ3Ax_ip0g",
+    "playlistTitle": "New Music Telugu",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 256
+  },
+  {
+    "playlistId": "kyttsX1y1cRq3B6X-ohiJJHwxkCArzPds",
+    "thumbnailId": "TlENqCe4F9SKbVck3B5UO_lvXYBpBMBIeAC12Nfp_wCwUU53g9OEls0TmXcWChQZMArL-5-T2iOGKrM",
+    "playlistTitle": "New Music Malayalam",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 257
+  },
+  {
+    "playlistId": "m4Nf66w53gEgzlYDl8qywtm_jOAIXvnrM",
+    "thumbnailId": "QauWmAZtETwW_-T7s5KmBuyDRmK9d8BJmrw26CYeC_pTVmaAyzxOum21yioLIQAehdLMm38U-C2esQ",
+    "playlistTitle": "RapLab TR",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 258
+  },
+  {
+    "playlistId": "nTnqah_CdeOdgJqrTGspJoN7YwiKEtTyU",
+    "thumbnailId": "juIY3sU3s-P2sR-dew2JZjAb9neNVtC91G4xkkiGbZOjyjdSDsYjPhohFVhR0xyTGhHuaeExQKqkUkc",
+    "playlistTitle": "Sertanejo 2026",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 259
+  },
+  {
+    "playlistId": "mVBAam6Saaqa_DeJRxGkawqqxwPTBrGXM",
+    "thumbnailId": "S7xBlWbXJTyXHt9m0Ia8SE2050qYqKI10t1oBlmEKdrSaBGBOIw0tUzLnt4eUBRDDdR5s_tBbKC0KhH1",
+    "playlistTitle": "Brand New Korean Music",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 260
+  },
+  {
+    "playlistId": "k31GPZp_nSsHeJEniR4MqtqFBRJatI-JI",
+    "thumbnailId": "5qszg4S_3YTj5t-gbNsbgVkzwB-ng7lTXj8RYyW8eYruXbq_Nqtb2Teua6bQ-M6O5qQpRBNoxzk1IQ",
+    "playlistTitle": "New Turkish Pop",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 261
+  },
+  {
+    "playlistId": "k66J6mE65JgdE4zoeNSzmw_16JB_ueINE",
+    "thumbnailId": "Suv2wFsBmn5lDxFwBhDJrIcH_VfC_M2ej_iWr3DHSnZTdGiXMj3e-782IObAa9F_-aqqfkB5MmhtEgI",
+    "playlistTitle": "New Indian Pop",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 262
+  },
+  {
+    "playlistId": "n2YZ2tg_cPKwwuyYdZJwHHRG6pjc6DpTA",
+    "thumbnailId": "24vd9WfxAnL0WSq8HudIgJtI8VTUKPVMx_NUA1rr2T5_liDfunIE88XX9IlzKR2xSa2krWX7OGXppQ",
+    "playlistTitle": "New Turkish Rap",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 263
+  },
+  {
+    "playlistId": "nSXzy1xT2e6vGUm1wfnc1oMpPyVa7QwqE",
+    "thumbnailId": "8Hu18TiD3sGXwkbvwWQcxULpKzNB3z-6fy9vPJ9bhGuHZup-w3I7mJFezE1FibPpJkUnPfBlD4Opf7nt",
+    "playlistTitle": "Gospel Station",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 264
+  },
+  {
+    "playlistId": "lz5JFPtP81ZHEwQ9rGIz4nxC2n4a1Y1tY",
+    "thumbnailId": "8d1xbgjsdaLSmacDif5eVHcFqgDDCIPz6q0CKTATu6A46kj6lAjUOSd5N7skHymJHrhNwEZb7_cs8B0",
+    "playlistTitle": "Onda Mexicana",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 265
+  },
+  {
+    "playlistId": "nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+    "thumbnailId": "-v8kRj5ls11LWzumNM9JHOidrBgecpX8Prh4j0Z1OFAUzeGTRNyQmpbjA3efvXeQ2Zqnep0GidflDg",
+    "playlistTitle": "Pagode Samba Club",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 266
+  },
+  {
+    "playlistId": "k2CeIv7y1di4d2-Hu2fSz8o9lqwaccApA",
+    "thumbnailId": "r9yIgdsfI95JrflmHAwDT5acl8i_X4DIlCGUc6cX0e1DNBpSe6XkYlM1ccwNeaWivgne2K1CfZWMaxg",
+    "playlistTitle": "New Music Kannada",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 267
+  },
+  {
+    "playlistId": "lz175mC_wAtZHK0hbDqLrxb5J28QbUznQ",
+    "thumbnailId": "tRz_Y34QgjfhjZjoGDT02ABj6mD7y2FfSNc5fIUV-_sQJLmhgnFXi43t01oJIK_Xt6KSEQew91vhGQ",
+    "playlistTitle": "NEXT ON",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 268
+  },
+  {
+    "playlistId": "mW40eGhfVCrBNGQmu_8LWmtjkm0wiWCPE",
+    "thumbnailId": "ZhcGabonoeIUjRe9HfvDcas_2wZqGmKoURDNdIEUyjW4bY7RTzfN2mMoBxdzWo8JIZ3lAxMgdT0d6Q",
+    "playlistTitle": "Brazilian Funk Flux",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 269
+  },
+  {
+    "playlistId": "mB1zoU6QkDs2Ls369_DU8_JbHCp3Wdd90",
+    "thumbnailId": "LSDk16RWVhWqwwfP2pBhOZdO6ROvJ7mTnA7iw07RlzgigpRSR8ygSQvzyd0gxCq-oHKAwT69tOWh2w",
+    "playlistTitle": "Urbano 2026",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 270
+  },
+  {
+    "playlistId": "nCM1qVE5wxDwTsQFaLSReFt1fNEeHdvNE",
+    "thumbnailId": "Xmd-WU0k1tEg7ClK4ZrhySRO2ZtgNx84bTypcVU5eneO4c1uEDv8OeHxWF-yD3IhanDmVsSS_XgQqyc",
+    "playlistTitle": "New Rock",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 271
+  },
+  {
+    "playlistId": "kY5-Mk6p1h2nPp1Q94av5A_bzL7pByeMI",
+    "thumbnailId": "bZ5rMwGwnS-wZvoPLjt8whzxlVidOOFaIWv-h0AGWkuo7bIqLRK6xPzcsHcgWDeRtjSOQ5eghWvFoIA",
+    "playlistTitle": "New Turkish Folk",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 272
+  },
+  {
+    "playlistId": "mHLCuEiu46C-PlUU4vF5eLKw-IfPNlWQU",
+    "thumbnailId": "IX-ksYjP0v1Jprb8Bs9wK_REckClJ2yJYr3Z8aBy0eW7UgcfI_PxV3QuxLUKw2FJco3-Xd_S9kUNjaMx",
+    "playlistTitle": "New Rock",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 273
+  },
+  {
+    "playlistId": "mDTfR8UPbTurG-Riq7QDI5mjT4a7H5eoI",
+    "thumbnailId": "99rSbodWSO4p-VlEoBGsC6otDwL-eacoPqPDF13W4IONo4WvM8EQMbPn58Pn-LRynzaM3pwrASbujhQ",
+    "playlistTitle": "Ekdum Fresh",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 274
+  },
+  {
+    "playlistId": "lrm-vt2h1LsrJgc4Xgozc4FoBsCjHS7t4",
+    "thumbnailId": "I4g_O3_RqbckjF1ccJ0OOxXA4zkhPh0SzWNbQ0RkywlNeLIxOHKTxB6yLw1Mu0631rdHS2i-Mxd3mp8",
+    "playlistTitle": "Eastern Flavour",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 275
+  },
+  {
+    "playlistId": "mQz_Nx3ld-c2SHDjqbN2BeKmjhH80uz3o",
+    "thumbnailId": "Zo_E5vwXK-6GnEI1RvTYSsWTDzB-8Bn4tcvabeRcFUMf8M7-jbbaUPtwIOpM_1LtJUTklT5SvjQ0a-sI",
+    "playlistTitle": "Mzansi  Wave",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 276
+  },
+  {
+    "playlistId": "n1quIxbUdCfJDCklZQxyss75yUKLp1oMQ",
+    "thumbnailId": "JF6MKk7TDmRhetK-CUy_CB0IWCPp5MGK3YxSCaa-9C87ujqPhl6EwHexIze9pGoUM1kDqttLd4DcgUU",
+    "playlistTitle": "Your New Alternative",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 277
+  },
+  {
+    "playlistId": "nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg",
+    "thumbnailId": "wTKKMtBe93P3BlxCDzGUOj_iq5TotUV_qUVaw5NiJr2LCCHJnsf8UzYL58CrD-HdsEU8Z2YuWDwzRQ",
+    "playlistTitle": "Pop Fresh",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 278
+  },
+  {
+    "playlistId": "kvoM_zNp2def1e49ddEJhTdsPdA_uJQBc",
+    "thumbnailId": "cJMTwVbEIsqHU9lr73KWgCjyRdHwgrBj3EBnIZampp0mUsCyeAX5EOhxGt41nnH90jrDZgpWXJVRp3Fg",
+    "playlistTitle": "New Metal",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 279
+  },
+  {
+    "playlistId": "mfdY-wgukpeBhEvTg6BPW_WgcUKX7rXaA",
+    "thumbnailId": "RUcw64nNDYUhf8yqxQ3sraCCnFTMQTjW12gk18XASvKq4B5ILg7JjrNsYkXS98a7OrHq5odSYj_1CQ",
+    "playlistTitle": "Nouveaux sons Rap",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 280
+  },
+  {
+    "playlistId": "lFvj5xRFCJBtjkjdaPBCqiGOIxFjvsHI8",
+    "thumbnailId": "ZO0idWSYTa5O9hYWsYBebDAkg-inoOhyZ_OMrIlSOy0bERd_Jlja3JwwUlfsqqnfS3Ni6syuyguIUVk",
+    "playlistTitle": "Underground Grime",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 281
+  },
+  {
+    "playlistId": "l-JbTcCK10aQ5AFrXLmiNt9sVCbnCDVC0",
+    "thumbnailId": "XGc0JQqsqR0JD4c0cVBSChXJao1Oc5XFaT6kUb1wxChzHLhgOuih0ANarSpipba6ufBj2_bT9LnFaFou",
+    "playlistTitle": "Nuevas Vibras",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 282
+  },
+  {
+    "playlistId": "l8jPcXx__5Dsu2D7vTiXPlO8pZhZsjBFk",
+    "thumbnailId": "bt7jPCOxl9SCdiNpOjPQjP73zNKuzjEjVzFCYAFozgcBp692l7B-9yKX6r3doJN_qTiw_1a_R6aSprH_",
+    "playlistTitle": "New Indian Indie",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 283
+  },
+  {
+    "playlistId": "lKL2i08SARZR_vSo5PW_JlM0YW12agYf0",
+    "thumbnailId": "sy7q1N353cNKPI15q6prGkbxvNCll5WmXm0QnywLUSxXZYzhrgG-pPFIUHcB-iBGP3h7lK9u9XuTOy8",
+    "playlistTitle": "German Rap Takeoff",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 284
+  },
+  {
+    "playlistId": "k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o",
+    "thumbnailId": "7586y-qTtBlNNTTNw8A_3clFVkFqCuIH6QfUcRUPPG_j09bjjGIgL80z_LxgadIKONtsJeXXa90pUbU",
+    "playlistTitle": "New Alt",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 285
+  },
+  {
+    "playlistId": "mWqhoadUUp9crhEkmZZkdExj7YpBuFBEQ",
+    "thumbnailId": "QBbi73Ujcg0AQ9pLr1AFBn5he6DmXNgWwHTobbxRr0KkXZ_sSLCUwwsany9TKGSDCWGtJF4J8Dotnuc",
+    "playlistTitle": "Brand New Korean Ballad",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 286
+  },
+  {
+    "playlistId": "nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw",
+    "thumbnailId": "Ruv6T8KtkV0kjDgB3tcFskXwVlyyIXBlAY6UPK-B8JJEylnVn6FIHFsfG5WLcjz9HHUn24ygn_IdgPM",
+    "playlistTitle": "Heavy Stereo: Indie Rock",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 287
+  },
+  {
+    "playlistId": "kITLp-IuXw_winp1mnN9PSNatPBiAK52A",
+    "thumbnailId": "lzSRpXIRuosqvWa0o-LYAK-m_ZvjSEJy2t9MkM9Yjt0oqjzT19dnsyDc5X5mAnRRthdJo-oE4L_zbEc",
+    "playlistTitle": "Brand New Korean Dance",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 288
+  },
+  {
+    "playlistId": "lN9xj1RQGmBltmvrzTVHMg-vyVt594KYU",
+    "thumbnailId": "w7Jm86uJJcwjIls8IAEsKKlxGiGX8KrEj0AteK-5gitiz8fVxWwvCooXOKO4SzMZYvGHklojpY92Ug",
+    "playlistTitle": "Brand New Korean OST",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 289
+  },
+  {
+    "playlistId": "n0f4tLAkNM233wO0yiTEI7467ovnaGbR8",
+    "thumbnailId": "V7bBpPtuutfNBDtwBMlpUapl_AF7bYl4ZasrBd0Yxb3GnkuI5BZZZpnzeewYuIHQc0y8wVgfHO8ZAJ0",
+    "playlistTitle": "Brand New Korean Hip-Hop",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 290
+  },
+  {
+    "playlistId": "km2BIHK1LQuxwlRO5DIV1C-M7z-ZmMn9w",
+    "thumbnailId": "SCQWwMF3eG2yM9hFKIyF56NmT-61PEXdknnY90Z4Y7fwIkvUaDcov7SGFFcIWIe23AnDzY53GdnfQk9-",
+    "playlistTitle": "Fraîcheur urbaine",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 291
+  },
+  {
+    "playlistId": "n8xRDDZKf5vOGK0qLOhvgb4I8oDzk0CWA",
+    "thumbnailId": "bdhgKXo1WTKG4do_562jMzAJdJHUpnAzVD-wnHJVuPYDW8sh23IzZZjbuZi6icweJlMkZ_z7zfHGpA",
+    "playlistTitle": "Rap : la relève",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 292
+  },
+  {
+    "playlistId": "nlJdxcHTlQmkhdN48_-8CjPKyja3x86tQ",
+    "thumbnailId": "5GD_aWp7Gj2UsmzjHIjKLtORDHm8bbqXVAP42nF7MByaENB71oV-5tktKT6u6_7P6FDfOrEAGFvodA",
+    "playlistTitle": "New Jazz Impressions",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 293
+  },
+  {
+    "playlistId": "k5DSSJlM3YuIZ3ib0b0PVdfnP91-M1tHs",
+    "thumbnailId": "bTrsrNOUGruVXc18-aYJJryYq_GgDFuJaysCDfA9Htq7jVTEeCz4pbb-iw9hWM5pNjNrTakhImS4zA",
+    "playlistTitle": "Pop Royalty",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 294
+  },
+  {
+    "playlistId": "l4QirOJJ99DTK5t5h7PdS_apsSClRfPpc",
+    "thumbnailId": "IvBMsgITKpM9_mikJtc2d53dfY3QVvmbn1qR-qzZvwheeZkuYcmnzPBccjPdQnCPEp6iXG6MetQPTVo",
+    "playlistTitle": "New Alternative Indie",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 295
+  },
+  {
+    "playlistId": "kwEk3O8OP2Tu0u7WjoTbOGoruciyaDpDs",
+    "thumbnailId": "DBMBLM_15XK9wmTIL3dKF1vy8Oxw41Wuxl1T5gZPREYQDIqCTOtXJDlIwZFaycrtKiW9JCgCimH3vg",
+    "playlistTitle": "Line Dance",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 296
+  },
+  {
+    "playlistId": "mR3VE_wMgQT1A6F4XmBGdBq2rxuvfKJ4k",
+    "thumbnailId": "273qW1UO1hSP_9ei0_tpuQ9t7plgQZMM9ZLNOVUHQIyvLW4D2x6IqT3kcrcI0kTVXZt5xFqDy6LVzjY",
+    "playlistTitle": "Nouveautés indie françaises",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 297
+  },
+  {
+    "playlistId": "mA3uToE28jqsXw85IA7hwbrQP4HDoKDBM",
+    "thumbnailId": "ii4l0T0QGIWKpLEy5g_MCnSevniBLUvfqMAkJL31nG-AYr6v0Tg06qSOk6qfxoio0qpPLJFC3ICVKQ",
+    "playlistTitle": "Fresh New Indie",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 298
+  },
+  {
+    "playlistId": "kusKyP_f1P5bJdB7OvlUFBvbFM7yR5efY",
+    "thumbnailId": "KOyzQtuoExe4-XDEFtTh6BSjp9GXIFm4Pcn828zCXQ1fsxC96OMoqggE9hPzKQchZB6kURElFguGaSz_",
+    "playlistTitle": "Owambe",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 299
+  },
+  {
+    "playlistId": "kRtw6vU6oLiS0uM63aTNIspRM-mZHyogQ",
+    "thumbnailId": "4iUqkcnL4DO4qIrQ0mccRGM9LxTWOMCaInsefmACLROgjxx8N6_0JJl5abj_Mb-Xk7zWq0-RFfe3Kfeh",
+    "playlistTitle": "Poplife",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 300
+  },
+  {
+    "playlistId": "mn7OLm9QvyB230t7RtLWt0BvUmFVlQ-Hc",
+    "thumbnailId": "AOrV0m9-KSjrbZCn3ENhRu5VxAoNSr2rhLdAriGluDJxOvmkVBb8Ig33P1t7LRtxQ0EiEVVVHEMlY-4",
+    "playlistTitle": "Brand New Korean Indie/Folk",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 301
+  },
+  {
+    "playlistId": "n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8",
+    "thumbnailId": "NXohUQyukJTd33HNV7ZUifJQFahnjiIVKCIW2jJ5SfHDj10TgJrH_gRIm_ZKWKUDObSW8UWYaIoFmMXm",
+    "playlistTitle": "Drum & Bass 2026",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 302
+  },
+  {
+    "playlistId": "lFJ89YweCFLE5XiRWX9CZ6UHulZ5uTAWw",
+    "thumbnailId": "Op5CQDMse5hfRS_gwxl7JjNt9mq4wIjTrxhVA3gQVBc1mgWjoATJ3HMruvTxYrfFMIbcYU7oZZGXcQ",
+    "playlistTitle": "Genre Blurring",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 303
+  },
+  {
+    "playlistId": "nS8QPuM3petGWZqr2iILgb9dPEQZsjc1Y",
+    "thumbnailId": "hb9QSojF4-SjoQ2UYXyJQYhN5KGLclnilsDMChPv1r01clek0Y0INGPAEKil-Bcjm3ijRol38bfYEkM",
+    "playlistTitle": "Next Wave: Punjabi",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 304
+  },
+  {
+    "playlistId": "lkfuM4Tjwc_1D3cyzECzM2TjcjWj0AZ5k",
+    "thumbnailId": "OO0LJySpr1Qy8djYqon7pzVVhtBJMdToYRutO5nnnYoAvHafNxuGGsiE_BtIXaUiLlzVxyHh4mycaPbA",
+    "playlistTitle": "Next Wave: Desi Hip Hop",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 305
+  },
+  {
+    "playlistId": "nVVvjKschM7FtpRAomosvqaUMDmwZocSo",
+    "thumbnailId": "Ox1hRgqloNKl_A2s1bR6olhhPiZwzbyWGoWOZdyhh8T_7X1-7EZDs9lQckBlGdPnaNGEAC47dx1yho-m",
+    "playlistTitle": "Next Wave: Indian Indie",
+    "shelfTitle": "New music discovery",
+    "appearances": 1,
+    "shelves": [
+      "New music discovery"
+    ],
+    "firstAppearanceIndex": 306
+  },
+  {
+    "playlistId": "kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
+    "thumbnailId": "6zecaAH9tZzzoc0bDuTO8KsWZgWnGJQ959qYTEGI2MTMB3BE2lk6DObJoZQLNiZ_T_Ow4Rk9r-CiE40",
+    "playlistTitle": "The Hit List",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 307
+  },
+  {
+    "playlistId": "lBNUteBRencHzKelu5iDHwLF6mYqjL-JU",
+    "thumbnailId": "BchO1e_VlImwqaOcFKhjEmQj9x_gfumqInfztMvIlbSoxfpFeyu3uJoMkIDtx22Hng_PCtg2XmWm_g",
+    "playlistTitle": "Pop Certified",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 308
+  },
+  {
+    "playlistId": "mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE",
+    "thumbnailId": "97zC_-j2wNpAvMaZsn7NC7TfkdIpGs-D3ChmASgaF_y2knV3i3ONt2-CI5GbO7gJjnDohJLJELnmycU",
+    "playlistTitle": "Highline: Today's R&B Hits",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 309
+  },
+  {
+    "playlistId": "l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ",
+    "thumbnailId": "wIJ9WsUS9zrikj-wTxiuiRMM8yeSt34TSzDiS8KDSJ0SOQI66SY2RzSDFWe_g84KFa1utwdvnRkcsAs",
+    "playlistTitle": "REST Turkish Rap",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 311
+  },
+  {
+    "playlistId": "n1j1GACZO4o7U1m708pa7jV1q7zR-cY44",
+    "thumbnailId": "1e4eKgWzNrP6FzREHIsA_zJosS3_SDS4afTX0aAGvOa_MtTfBaN-rOXzBtmaUjdubY1f0I6q9vK110M",
+    "playlistTitle": "FLAŞ Turkish Pop",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 312
+  },
+  {
+    "playlistId": "k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk",
+    "thumbnailId": "UujO9XK5M0_dqPgGtz20C7MIKglOKdeAUh8gWwvwm4WzTwWanekx3DQ9BHzPIKhRTWZqF1SUJJRZr7o",
+    "playlistTitle": "Maximum Decibels: Today's Rock Hits",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 316
+  },
+  {
+    "playlistId": "kADtUlJvgkPzLJ9kC9DEB-2cgfsnMWdPs",
+    "thumbnailId": "J0m3mhwQYktptEg8IouqUm8EuO3u_sm0drLpNQCdA1PHmLkdfVsZY64Qi15_uqyIAbh1Fp6ixgLZAOz8",
+    "playlistTitle": "MEMLEKET Turkish Folk",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 318
+  },
+  {
+    "playlistId": "mK9RSAOLuO3PT_u74S1YJzlUneNOgTUTE",
+    "thumbnailId": "cwDDoEoVRDPT4ebIZTibc4REPte7iF4O3T--Nbm7AltTJpb1hyebtwpQT8nx6dC0kj5kUVjimdv2uA",
+    "playlistTitle": "Rap Podium",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 319
+  },
+  {
+    "playlistId": "kuEc3lB_I49bqnoy24kbjutvsiOi9ZQe0",
+    "thumbnailId": "RHq6VvPfauiapAQYOdhrvD7JsgjuBi38WAKN6ejg9-C4eYoI3kEe-wUw1RpxdKtUn6pcM3Z-59gtjw",
+    "playlistTitle": "Alternative Current: Hits",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 321
+  },
+  {
+    "playlistId": "mCvOm3kQy1RTBwDOGYkNhtHwMO89ffquk",
+    "thumbnailId": "k4TVHSzMJnwCrlBsb-uQf_35_uzhjiRIhRvnNinls2vuF_7uTeQRN8tAQm8ummoHs9YDW2Xxz3jz5tU",
+    "playlistTitle": "Crème French Pop",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 322
+  },
+  {
+    "playlistId": "m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM",
+    "thumbnailId": "JoYv97-oUNKYdXRBrkpHRO4VPPrvb6sUifOoG95UHkZlFIR73Lk_xXP2EKZ1OhyTBK3Ic61VMfCWU7Y",
+    "playlistTitle": "Today's Indie Hits",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 324
+  },
+  {
+    "playlistId": "nJSDhRk8bscDVWp3jGGNTZxgpq98KeW98",
+    "thumbnailId": "z2psLGqbvjulKcZtff6iH3NBQoOLUlfe6Lmk5T1v-IEu7ElIFcb_nGPMM8K924vHrHLmgpOOelRA3Z0",
+    "playlistTitle": "Arabesk Pop Hotlist",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 325
+  },
+  {
+    "playlistId": "kAzvNwVxyZqDv4RypgYluniT5Or7V1rUU",
+    "thumbnailId": "JhYjz_osyYZwAX-KYe9GEr622XI6C_xr0_BUxn2osnGIuQRGXL4rNd5szepIXQ1KR2fmSNcLVx0ORQ",
+    "playlistTitle": "On Fleek French Urban Pop",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 326
+  },
+  {
+    "playlistId": "mvKJYMoCTwilbYjf-87ACK2MJahpsHrjE",
+    "thumbnailId": "9VKfdLWz4roE9tOZE3fu0KAFtJw1b_-kHWlK9-QThbI_icD6PofY8B2oeUp_ow8ptofzBEjpRGOXFQ",
+    "playlistTitle": "Arabesk Rap",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 327
+  },
+  {
+    "playlistId": "nwi2pOvC9hy9_gxyh87wd7Urt6sgdVhEg",
+    "thumbnailId": "JeaE3derri1h4z-bR5VqL6gZQ4nm5h1t_uputH3dQaVZHM6deFnvVUPXGrC4snfO6yfY9ehDK8BrybW3",
+    "playlistTitle": "Turkish Club Hits",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 328
+  },
+  {
+    "playlistId": "kH6Y9fB6BTPzXdPX27zK79_t42tT_ya8c",
+    "thumbnailId": "7RlVY5utaFpH9zP_W6DVp_exfoXFjykwIHB5IwGyZ360PhZ2l6HJ8F7QWhpjITD0TM3XoWe-D9MfWQ",
+    "playlistTitle": "ANA SAHNE Turkish Rock",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 329
+  },
+  {
+    "playlistId": "mdwsZFtQhJyGQPuQA612VoRPXp-OJfzx8",
+    "thumbnailId": "t4ITg7S7zqTh93EXNlRoPSaAXIR7nQrdpo3BlGtJ3lkaqsRz5Pu-nWHXjcd7hMlzCirM6-HZ00PvrCKc",
+    "playlistTitle": "Hits Unplugged",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 330
+  },
+  {
+    "playlistId": "nyWocYSe0j8kcLWxzE7KlyO8ZMI9LLCK4",
+    "thumbnailId": "LIvY6reIfKeu6f34zsqVyClWzT8BK8kv4efsiAoSDQpJVNndO1yU2d6oO3_RZ3QsxuWDN10dtdhys1DP",
+    "playlistTitle": "Turkish Acoustic Hotlist",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 331
+  },
+  {
+    "playlistId": "na2YkS_vWv-4kIh5z4I000Mpay5kvCRPI",
+    "thumbnailId": "EYIExZy_zVyh_eLP3Zb8mItoSLRZANHaQpPg_Rm2WDUN_VJ1S3K1gfmmN3Ovz4VwHRHxYyUlv563Dv8",
+    "playlistTitle": "Électrons libres",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 334
+  },
+  {
+    "playlistId": "nPBg_V6lm-ym3PQZZ6mGblj1892jfUP60",
+    "thumbnailId": "uFVCfqzcelQXr5MmWHsdf9QXtN4n8gl1LkIBujyoAWP7XWaC7AtbCFiLBdqMSw7Xo-NHwJfmKYZhRuA",
+    "playlistTitle": "Australia Hitlist",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 335
+  },
+  {
+    "playlistId": "maMuZv8TdZTJ_ZYa1Ps0SBF5RgTJH8vkc",
+    "thumbnailId": "USqkhgpNXO2R2W1p9P4G5p0zYwC21OlQjkH1MIMg1tU07CV19OlRxwn_PVDcKVSPdWl-LgIjDknHAM8",
+    "playlistTitle": "Turkish Indie Hotlist",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 336
+  },
+  {
+    "playlistId": "lTF8NR57ogCQH2sespedzwyUhf5zlb0QE",
+    "thumbnailId": "FgjSiw6WvOqRs69G_aUfAgJtcFbKkNpxUV-9LJT-6Bonm44o31q0qPGRenqm7ZZK96cfaA-gk31L44Ql",
+    "playlistTitle": "Aywa Araby: Arabic Hits",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 337
+  },
+  {
+    "playlistId": "mfTF5DCHZL0zf04WQdXAd8-1cQuvJZXzs",
+    "thumbnailId": "Emtakz72l5Ii6fIBingtM2z3Xs96-MCyvI3eT2-IwoDUR4cVnqovj3J4ak_X6TUzYNVa2XWgqg90h_A",
+    "playlistTitle": "Khaleeji Marra",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 338
+  },
+  {
+    "playlistId": "lJ8xZWiZj2GCw7MArjakb6b0zfvqwldps",
+    "thumbnailId": "kYX6UTuWCKtCoZ_rY2tS60nQnJwuOUr5gnB7Xnc2Sb6gH0SWbXys5EHcDi0HxS2mTgsL44SnVRecwhVV",
+    "playlistTitle": "Country Hotlist",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 339
+  },
+  {
+    "playlistId": "nbK9qSkqYZvtMXH1fLCMmC1yn8HEm0W90",
+    "thumbnailId": "whTH6K3hsXsNbkeV8xYKgl9I8-_3cynlTNpFWxTKslfPL2R-s96wayXa_ROPBN1x2eWJzLymqO3yK9el",
+    "playlistTitle": "J-Hits!",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 340
+  },
+  {
+    "playlistId": "mTDHYYJLCkFv8XL1Z8AFkMqF9RfQZzeRc",
+    "thumbnailId": "pB9Kp3GTgtlJeVCM9jyLcJG4cU1pweLhWb7b11V6-wPHA1ZXpTPe-a1NNQDTrAbML4Kaj3zvXH_ATaaR",
+    "playlistTitle": "Mando Flow",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 341
+  },
+  {
+    "playlistId": "ms281XCNJ52jooEbIELW2_VAp1GJ96qL4",
+    "thumbnailId": "oweZcadVZU-vH3lCf__6kChTkqGmACk4S7sgYd-eXQha8OxEfRd_JxYSIsDoxJmPuAO9HFmbcuJOULA",
+    "playlistTitle": "Canto Flow",
+    "shelfTitle": "Today's hits",
+    "appearances": 1,
+    "shelves": [
+      "Today's hits"
+    ],
+    "firstAppearanceIndex": 342
+  },
+  {
+    "playlistId": "kLYyE7wnPy-CdtP7hzzpru0iPr-eY2ea4",
+    "thumbnailId": "N4cesOwsF0eMZxB6M8RtO3MMgfKQ7ai9syXkpRjsbW3Hwi9PubEHh6j374HgIoxP6PhTerP2gbmjLE8",
+    "playlistTitle": "Bachata Mix",
+    "shelfTitle": "Música tropical drive",
+    "appearances": 1,
+    "shelves": [
+      "Música tropical drive"
+    ],
+    "firstAppearanceIndex": 343
+  },
+  {
+    "playlistId": "kV0Nh-OIcnh8LppyiFE4lhhWZEvaPQEOY",
+    "thumbnailId": "Y8MOBHysJnjHc0Sh9ERI0OBrCmXSx_D9ZPoMw02KuyduzNzC3UNq_gQgnV1xOeZ08xtUQnkTe_ndp9R7",
+    "playlistTitle": "Hot Reggaeton",
+    "shelfTitle": "Música tropical drive",
+    "appearances": 1,
+    "shelves": [
+      "Música tropical drive"
+    ],
+    "firstAppearanceIndex": 344
+  },
+  {
+    "playlistId": "lc4yBYpywmmgjplkuzYxzUgLJ8UvDKUUk",
+    "thumbnailId": "I98b7GVfTUXNbr5UQY0FZgXuUJp4W9VFm1woTe1ds73Jqa3JBRj2HWfEmJXTdWUEG-74epfV17DwGnE",
+    "playlistTitle": "Salsa Mix",
+    "shelfTitle": "Música tropical drive",
+    "appearances": 1,
+    "shelves": [
+      "Música tropical drive"
+    ],
+    "firstAppearanceIndex": 345
+  },
+  {
+    "playlistId": "myscvcqMWXNPLHUdrYQtE9iNU9Ko80opM",
+    "thumbnailId": "eFgxhQH-1-mk7WGllu1ZwWWEzDUzcL_SDJoSkEM-8MQAXGG0Y5QFZJAaHlOHX3S0pteEaV73doLnQt0",
+    "playlistTitle": "Sabor Tropical",
+    "shelfTitle": "Música tropical drive",
+    "appearances": 1,
+    "shelves": [
+      "Música tropical drive"
+    ],
+    "firstAppearanceIndex": 346
+  },
+  {
+    "playlistId": "kUFCSc-grF3m-L_49W6p1QyGsMbueEbog",
+    "thumbnailId": "t8oXcn2S3OUng67CfpT1j4X073sOH0CrjSYtcnIZUZ7ckMqnCGuly6lbMP5Cx1bbwZ-2WTtRVIYx1Mhx",
+    "playlistTitle": "Caribbean Pulse",
+    "shelfTitle": "Música tropical drive",
+    "appearances": 1,
+    "shelves": [
+      "Música tropical drive"
+    ],
+    "firstAppearanceIndex": 347
+  },
+  {
+    "playlistId": "kLlZd5Jbj9l8sY6TP5Q7Qd2FrFs6sAqcg",
+    "thumbnailId": "iaO9EJTQwaPNr2NJFHpmQgGueLmwa06q-f5Ypo0i8PsNS21rkXKf7eJNLZNyVrninglPTDg6xjRWYNI",
+    "playlistTitle": "Dancehall Massive",
+    "shelfTitle": "Música tropical drive",
+    "appearances": 1,
+    "shelves": [
+      "Música tropical drive"
+    ],
+    "firstAppearanceIndex": 348
+  },
+  {
+    "playlistId": "nS4eEkU70cQwYJLxV3Di_yq5hYY3Xc2zE",
+    "thumbnailId": "O19kWYRkOyb_EG963giWlrzEvzOMuIW-rfFTf__25F3puZMkBVG1zU_0QL1CgPJ8zhFpq0ZIjDCCsg",
+    "playlistTitle": "Brazilian Roots Reggae",
+    "shelfTitle": "Música tropical drive",
+    "appearances": 1,
+    "shelves": [
+      "Música tropical drive"
+    ],
+    "firstAppearanceIndex": 349
+  },
+  {
+    "playlistId": "n8fuuCTQnsKCWNWtcPswp8fpxZTJy91LM",
+    "thumbnailId": "Hi8IRyeoYbXiJ6-0RCfQFbZ6edcWmq-Rrsrq1rO0_VdFsYZSgXdtteUF8zP5sQWyQdfUD6yDeBScnd00",
+    "playlistTitle": "Soca Now",
+    "shelfTitle": "Música tropical drive",
+    "appearances": 1,
+    "shelves": [
+      "Música tropical drive"
+    ],
+    "firstAppearanceIndex": 350
+  },
+  {
+    "playlistId": "lCfXMbkoTe1jX0HQ5Hj76TmMBlWxb7EyM",
+    "thumbnailId": "4qsLfCVcbOKgibvNWgkdjeOwONxLb4Adxq8ry6g6p0bLnrcXlZfCK0RtdM033QBgBaydSMr1lbYqYAY",
+    "playlistTitle": "Reggae Nation",
+    "shelfTitle": "Música tropical drive",
+    "appearances": 1,
+    "shelves": [
+      "Música tropical drive"
+    ],
+    "firstAppearanceIndex": 351
+  }
+]

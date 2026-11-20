@@ -1,4 +1,4 @@
-export interface ChillPlaylist {
+export interface MoodPlaylist {
   playlistId: string;
   thumbnailId: string;
   playlistTitle: string;
@@ -7,6 +7,8 @@ export interface ChillPlaylist {
   shelves: string[];
   firstAppearanceIndex: number;
 }
+
+export type ChillPlaylist = MoodPlaylist;
 
 export interface ArtistCredit {
   name: string;

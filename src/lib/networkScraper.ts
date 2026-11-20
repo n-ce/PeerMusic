@@ -2,7 +2,7 @@ import { cleanPlaylistId, extractThumbnailId } from "./scraper.ts";
 import type {
   CategoriesData,
   CategoryChip,
-  ChillPlaylist,
+  MoodPlaylist,
   NetworkNode,
 } from "./types.ts";
 
@@ -54,7 +54,7 @@ export async function fetchMoodsAndGenresList(): Promise<CategoriesData> {
     );
   }
 
-  const data = await response.json();
+  const data: any = await response.json();
   const sections =
     data?.contents?.singleColumnBrowseResultsRenderer?.tabs?.[0]?.tabRenderer
       ?.content?.sectionListRenderer?.contents || [];
@@ -110,7 +110,7 @@ export async function fetchMoodsAndGenresList(): Promise<CategoriesData> {
 export async function fetchMoodCategoryPlaylists(
   params: string,
   moodSlug: string,
-): Promise<ChillPlaylist[]> {
+): Promise<MoodPlaylist[]> {
   const browseUrl = `https://music.youtube.com/youtubei/v1/browse?key=${API_KEY}&prettyPrint=false`;
 
   const response = await fetch(browseUrl, {
@@ -141,12 +141,12 @@ export async function fetchMoodCategoryPlaylists(
     );
   }
 
-  const categoryJson = await response.json();
+  const categoryJson: any = await response.json();
   const sectionList =
     categoryJson?.contents?.singleColumnBrowseResultsRenderer?.tabs?.[0]
       ?.tabRenderer?.content?.sectionListRenderer?.contents || [];
 
-  const playlistMap = new Map<string, ChillPlaylist>();
+  const playlistMap = new Map<string, MoodPlaylist>();
   let appearanceIndex = 0;
 
   for (const section of sectionList) {
@@ -228,10 +228,26 @@ export async function fetchMoodCategoryPlaylists(
   });
 }
 
+/**
+ * Fetches playlists for any mood by its slug name.
+ */
+export async function fetchMoodPlaylistsBySlug(
+  slug: string,
+): Promise<MoodPlaylist[]> {
+  const categories = await fetchMoodsAndGenresList();
+  const mood = categories.moods.find(
+    (m) => m.slug.toLowerCase() === slug.toLowerCase(),
+  );
+  if (!mood) {
+    throw new Error(`Mood "${slug}" not found in moods list`);
+  }
+  return fetchMoodCategoryPlaylists(mood.id, mood.slug);
+}
+
 export interface NetworkScrapeResult {
   nodes: NetworkNode[];
   categories: CategoriesData;
-  categoryPlaylists: Record<string, ChillPlaylist[]>;
+  categoryPlaylists: Record<string, MoodPlaylist[]>;
   totalUniqueNodes: number;
 }
 
@@ -241,7 +257,7 @@ export interface NetworkScrapeResult {
  */
 export async function scrapeMoodsNetwork(): Promise<NetworkScrapeResult> {
   const categories = await fetchMoodsAndGenresList();
-  const categoryPlaylists: Record<string, ChillPlaylist[]> = {};
+  const categoryPlaylists: Record<string, MoodPlaylist[]> = {};
   const networkMap = new Map<string, NetworkNode>();
 
   for (const mood of categories.moods) {

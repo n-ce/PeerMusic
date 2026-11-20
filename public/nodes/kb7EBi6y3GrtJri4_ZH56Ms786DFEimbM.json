@@ -1,0 +1,1812 @@
+{
+  "playlistId": "kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM",
+  "playlistTitle": "Lofi Loft",
+  "thumbnailId": "9I45SYZAfTeR17ByV9i2yDpWhQ5DTWMCrW3Lei8vMIiZzeyUnf2zRFUDBob4TGwgUkXAAR_x1Xa8VA",
+  "atvs": [
+    {
+      "id": "1FxeCa6kypU",
+      "title": "Still",
+      "author": "Idealism, Philanthrope",
+      "authorId": "UCOc-AHiKRo_Z8rSHPM74Wag",
+      "artists": [
+        {
+          "name": "Idealism",
+          "id": "UCOc-AHiKRo_Z8rSHPM74Wag"
+        },
+        {
+          "name": "Philanthrope",
+          "id": "UCiKzz-4FjwL037dNANU8oPA"
+        }
+      ],
+      "albumTitle": "Chillhop Daydreams 2",
+      "albumId": "MPREb_2IFKaLBqVc1",
+      "durationStr": "3:34",
+      "thumbnailId": "hpUxFfQImVH7UEk2RgRrbk32K6sfORXCy8mshn1DBY--zl0om8VJCUp2PUn6JxHKrlhOnlfy2ifAc7fc5w",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 1
+    },
+    {
+      "id": "hG6YzmvbosI",
+      "title": "for when it’s warmer",
+      "author": "Sleepy Fish",
+      "authorId": "UCNR1Pzl2T9biZWAbOXZPUwQ",
+      "artists": [
+        {
+          "name": "Sleepy Fish",
+          "id": "UCNR1Pzl2T9biZWAbOXZPUwQ"
+        }
+      ],
+      "albumTitle": "Chillhop Essentials Summer 2019",
+      "albumId": "MPREb_9UNCTFZa4Lk",
+      "durationStr": "3:37",
+      "thumbnailId": "HoV_Q7CVP59SidrkuGXWl88QAOHc28rSjD-xMljYaadYfthJEWnG0E-yYMNFadLGcFSDDj02HI6cIARsPQ",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 2
+    },
+    {
+      "id": "P-zJCLBqZc4",
+      "title": "Jazzy Wave",
+      "author": "yourneighborsclassicbeats",
+      "authorId": "UC7-wFiqQzVSc6x92zaNeUyA",
+      "artists": [
+        {
+          "name": "yourneighborsclassicbeats",
+          "id": "UC7-wFiqQzVSc6x92zaNeUyA"
+        }
+      ],
+      "albumTitle": "Jazzy Wave",
+      "albumId": "MPREb_IOf91IXRVZx",
+      "durationStr": "2:07",
+      "thumbnailId": "010jIK0gaG1xFWguPKZ5MRNXJ4MNFCJGhQjHRBW-m_WHqafWd5F5jppzIFioyiujiYs9zPCS4i0Q4pyhpw",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 3
+    },
+    {
+      "id": "0am_BfODDvc",
+      "title": "Lost In This Moment",
+      "author": "Evil Needle, Misha",
+      "authorId": "UCg2TAN484obS3oqbATNdaEw",
+      "artists": [
+        {
+          "name": "Evil Needle",
+          "id": "UCg2TAN484obS3oqbATNdaEw"
+        },
+        {
+          "name": "Misha",
+          "id": "UC_SB5UbFWpV4bZHvfNauLvg"
+        }
+      ],
+      "albumTitle": "Chillhop Essentials Summer 2022",
+      "albumId": "MPREb_xjsoTPwDAUP",
+      "durationStr": "3:50",
+      "thumbnailId": "YwfKR9bEnu88c3fbJfr7kYt384-Qkkwlv38aTZcy4SYGR8FuksdueSsd7CGWnnvQuYYmUSy6x21P_o4x",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 4
+    },
+    {
+      "id": "72b8D6s_y_U",
+      "title": "Wonderful Day",
+      "author": "Kind Puppy",
+      "authorId": "UC5um6VkmGipcqmL1lvYO-1A",
+      "artists": [
+        {
+          "name": "Kind Puppy",
+          "id": "UC5um6VkmGipcqmL1lvYO-1A"
+        }
+      ],
+      "albumTitle": "Wonderful Day",
+      "albumId": "MPREb_13Va9UD8ZQY",
+      "durationStr": "2:24",
+      "thumbnailId": "FTqfzCFHkvu5RbBDa8uTD0mn3-QccZdHtZQFuyEjdheymVthTxZiYpERqitBzTW47b60LcKfnsiIIkMixg",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 5
+    },
+    {
+      "id": "y3PKcVd7UtM",
+      "title": "Daybreak",
+      "author": "cocabona",
+      "authorId": "UCGufCXbmC64ajXVhIaCTpqw",
+      "artists": [
+        {
+          "name": "cocabona",
+          "id": "UCGufCXbmC64ajXVhIaCTpqw"
+        }
+      ],
+      "albumTitle": "Daybreak",
+      "albumId": "MPREb_XTa1qL3The5",
+      "durationStr": "3:29",
+      "thumbnailId": "ltamBecph9IgpqqiHI6UaTF4Jg3S6iMEMjEXg4OlTgDJU8mYMyApUcwTBQOCuCJcKV0Kg91kfucX9UHc",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 6
+    },
+    {
+      "id": "mHKNroJOcig",
+      "title": "Santa Anna",
+      "author": "Tom Doolie",
+      "authorId": "UCotGPRFFzALsbBw3UjCSpLQ",
+      "artists": [
+        {
+          "name": "Tom Doolie",
+          "id": "UCotGPRFFzALsbBw3UjCSpLQ"
+        }
+      ],
+      "albumTitle": "Santa Anna",
+      "albumId": "MPREb_SukQAzJZbVm",
+      "durationStr": "2:01",
+      "thumbnailId": "8Fp9TSYMEefqt6Lbk5YhKZB9In6WMZTQionlutGf3iNIxQABsnk_vjfDsLpsUstDnq-UYsrb3yneQqTeVA",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 7
+    },
+    {
+      "id": "uCW2sZZofhk",
+      "title": "Aftermath",
+      "author": "Beamer",
+      "authorId": "UCBvi8yzInsVezb9tPAybcsg",
+      "artists": [
+        {
+          "name": "Beamer",
+          "id": "UCBvi8yzInsVezb9tPAybcsg"
+        }
+      ],
+      "albumTitle": "Aftermath",
+      "albumId": "MPREb_93IKQbuT0Ki",
+      "durationStr": "2:55",
+      "thumbnailId": "3okAgZhzENAORY3J_wMKshWFqtdlnTiWeNHs3IJ6WHxcKnGXH2bx8CPwAAZWKursvR9338ahsRRPoLfX",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 8
+    },
+    {
+      "id": "uyemSV1SpnE",
+      "title": "The Afternoon",
+      "author": "Boztown",
+      "authorId": "UC7aTEW2EYpngNt9-vWcXw0A",
+      "artists": [
+        {
+          "name": "Boztown",
+          "id": "UC7aTEW2EYpngNt9-vWcXw0A"
+        }
+      ],
+      "albumTitle": "The Afternoon",
+      "albumId": "MPREb_J8X5tFHzmqc",
+      "durationStr": "2:08",
+      "thumbnailId": "wYJP_QiQG1a7HfwQNe80JBK6B_undJ3EtDv7T1nkar5etbbGcculS4kWHJyolCqz44ntZck1Oyf42zDRvA",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 9
+    },
+    {
+      "id": "UiCRuNo4dGg",
+      "title": "A Day at the Beach",
+      "author": "Pandrezz, j’san",
+      "authorId": "UCMWhZrB0x7Q_THK_xatyH1A",
+      "artists": [
+        {
+          "name": "Pandrezz",
+          "id": "UCMWhZrB0x7Q_THK_xatyH1A"
+        },
+        {
+          "name": "j’san",
+          "id": "UCBb82EMFywo4Byo70oGHPdA"
+        }
+      ],
+      "albumTitle": "Hometown",
+      "albumId": "MPREb_b7H8uSxtruz",
+      "durationStr": "2:50",
+      "thumbnailId": "1j4AsbAtaT2-TawsmmBppawlg82ZU1oJ691Pyzfa98t-MNDDLAS5mgVgh5_JPbXcgVBIQhQMyVYVaUjvAg",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 10
+    },
+    {
+      "id": "rKGRuQBnatM",
+      "title": "why dont we",
+      "author": "sans",
+      "authorId": "UCKobx_oGcWleIU6-4lmx7cw",
+      "artists": [
+        {
+          "name": "sans",
+          "id": "UCKobx_oGcWleIU6-4lmx7cw"
+        }
+      ],
+      "albumTitle": "why dont we",
+      "albumId": "MPREb_fzth3KYFd0S",
+      "durationStr": "3:18",
+      "thumbnailId": "OJgZygge-poTBJSSjGRnDG7_Sf7KsEOk0F4n5vKFLKu0u9D7aKLm1nkOgqmm_TV3XKX9epO3FpPeykFU-A",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 11
+    },
+    {
+      "id": "J1AOKFRqCjg",
+      "title": "Summer Soft",
+      "author": "Shuko, Ruck P",
+      "authorId": "UC7pJH1OrLG-EY6SUiN3_DSg",
+      "artists": [
+        {
+          "name": "Shuko",
+          "id": "UC7pJH1OrLG-EY6SUiN3_DSg"
+        },
+        {
+          "name": "Ruck P",
+          "id": "UCdltCBFLglVYUCuyvMEk7BA"
+        }
+      ],
+      "albumTitle": "Summer Soft",
+      "albumId": "MPREb_CFB5jpjnFr9",
+      "durationStr": "2:30",
+      "thumbnailId": "d36eXQIDZXRFBbCxagxeTrf5wdmRDF0HEov6RIZ8OpjMMYRRRJT8Vl6JU9ieVbXOTSUFIeSR75zAsnNg",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 12
+    },
+    {
+      "id": "YeSgtLJQGJs",
+      "title": "Opiate",
+      "author": "Evil Needle",
+      "authorId": "UCg2TAN484obS3oqbATNdaEw",
+      "artists": [
+        {
+          "name": "Evil Needle",
+          "id": "UCg2TAN484obS3oqbATNdaEw"
+        }
+      ],
+      "albumTitle": "Chillhop Essentials Spring 2022",
+      "albumId": "MPREb_5CQccES4HFF",
+      "durationStr": "2:51",
+      "thumbnailId": "XPTHuBqAX1YNRvi140IrXXlc0kg279dlpTEtO053yGGxKZgm0RRixh0_jxloy7lSMR6QVmo2xZHv5Jc",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 13
+    },
+    {
+      "id": "myRx1SRqxic",
+      "title": "Samui Sunrise",
+      "author": "Saib",
+      "authorId": "UCw02oGFeqYXl14LcyKhOTYw",
+      "artists": [
+        {
+          "name": "Saib",
+          "id": "UCw02oGFeqYXl14LcyKhOTYw"
+        }
+      ],
+      "albumTitle": "Samui Sunrise",
+      "albumId": "MPREb_HaEmVU54nQv",
+      "durationStr": "3:25",
+      "thumbnailId": "sBBORUfljZtNCVCEb8gTjqsyTkTXOMlCZlKesIhPGBNSRkRdpIKjNBS7h-g5JaeJCLIWr_B4Z1eAruSG",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 14
+    },
+    {
+      "id": "u04paoFoJeo",
+      "title": "Sonria",
+      "author": "Chris Mazuera",
+      "authorId": "UCVyclYZZ-sCbkuy7svZca7A",
+      "artists": [
+        {
+          "name": "Chris Mazuera",
+          "id": "UCVyclYZZ-sCbkuy7svZca7A"
+        }
+      ],
+      "albumTitle": "Sonria",
+      "albumId": "MPREb_ssMUjDLk0Lw",
+      "durationStr": "1:57",
+      "thumbnailId": "FOTd1HJTdC67lnb_xUJHIXtXE-RSfQ3GCR4nyuLbqytPEfHP0E7vCY178XkJEg1TYds_XyzIzW1JfY5S",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 15
+    },
+    {
+      "id": "RjQxmy90hTg",
+      "title": "Snacks Pt. 1",
+      "author": "No Spirit, Kyle McEvoy, Philanthrope, Louk",
+      "authorId": "UCraRksyJpUyJQexB7-hdoTQ",
+      "artists": [
+        {
+          "name": "No Spirit",
+          "id": "UCraRksyJpUyJQexB7-hdoTQ"
+        },
+        {
+          "name": "Kyle McEvoy",
+          "id": "UCzIwP0r8MyFoanmns0RRv-A"
+        },
+        {
+          "name": "Philanthrope",
+          "id": "UCiKzz-4FjwL037dNANU8oPA"
+        },
+        {
+          "name": "Louk",
+          "id": "UCO42OOwmNfYVF9ON5Gj50ow"
+        }
+      ],
+      "albumTitle": "Snacks",
+      "albumId": "MPREb_1u0JsT5PFFd",
+      "durationStr": "2:57",
+      "thumbnailId": "JEeuSfrANbXUnUWmQrdrTJQ1URU-VOUwao2Iy1TqNdSIpaam5dgo0PR-6hzAXqidK5_dCyhnljiX1iBBxg",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 16
+    },
+    {
+      "id": "xSB8trUFX1A",
+      "title": "i'm closing my eyes",
+      "author": "potsu",
+      "authorId": "UCxBu7h_ACXyfvnpG_rQKI9w",
+      "artists": [
+        {
+          "name": "potsu",
+          "id": "UCxBu7h_ACXyfvnpG_rQKI9w"
+        }
+      ],
+      "albumTitle": "i'm closing my eyes",
+      "albumId": "MPREb_JDuUooRZ16a",
+      "durationStr": "1:59",
+      "thumbnailId": "9RdlXUjbO7v_yj6flRr3z3vFqE3QQaABDPh5Urm0WaEBDzMT0AT1ZT4qYW2_EcZuGzAKoqkfqN0mMaE",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 17
+    },
+    {
+      "id": "IsLFK8TkaVw",
+      "title": "Fireplace",
+      "author": "Sleepy Fish",
+      "authorId": "UCNR1Pzl2T9biZWAbOXZPUwQ",
+      "artists": [
+        {
+          "name": "Sleepy Fish",
+          "id": "UCNR1Pzl2T9biZWAbOXZPUwQ"
+        }
+      ],
+      "albumTitle": "Beneath Your Waves",
+      "albumId": "MPREb_2uw65z8wMFd",
+      "durationStr": "2:39",
+      "thumbnailId": "3AcaWn5FbFOpjh5q_0dAf8jDAQoK7NJzUCehj9AcGQV8W24G3uRscGecKk15PP7HSsNWQFJXNuBtHbiU_g",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 18
+    },
+    {
+      "id": "EX2d37tT5fo",
+      "title": "Birds Fly Higher Than The Moon",
+      "author": "Yasper",
+      "authorId": "UCo0JVM02GNDSKXAoE4JrUYQ",
+      "artists": [
+        {
+          "name": "Yasper",
+          "id": "UCo0JVM02GNDSKXAoE4JrUYQ"
+        }
+      ],
+      "albumTitle": "Birds Fly Higher Than The Moon",
+      "albumId": "MPREb_MmnO8w7IGKa",
+      "durationStr": "2:44",
+      "thumbnailId": "x30L14C5o9dT8pMPLD2BQWwiiG1P9TlyuN8NefTGf5Ag9g95HKMZ1rV7CeRSQ7UFrt_JcozotK0cd4E1Uw",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 19
+    },
+    {
+      "id": "pZC82a-2eo0",
+      "title": "Traveller",
+      "author": "Dualizm",
+      "authorId": "UC-s1iUHeqoKj45kek86To0g",
+      "artists": [
+        {
+          "name": "Dualizm",
+          "id": "UC-s1iUHeqoKj45kek86To0g"
+        }
+      ],
+      "albumTitle": "Traveller",
+      "albumId": "MPREb_wVnew3DgOLz",
+      "durationStr": "2:11",
+      "thumbnailId": "34K-F2QDeR3wntZ55UQw11zLDBV22S2lJdxGEVfCdN_vaOvG38rMQexbzmbFAdbWNaGy-OoZihEVAV6B5A",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 20
+    },
+    {
+      "id": "xv3qKrCq2w8",
+      "title": "she",
+      "author": "Sans",
+      "authorId": "UCKobx_oGcWleIU6-4lmx7cw",
+      "artists": [
+        {
+          "name": "Sans",
+          "id": "UCKobx_oGcWleIU6-4lmx7cw"
+        }
+      ],
+      "albumTitle": "she",
+      "albumId": "MPREb_98EUqYbhqSP",
+      "durationStr": "3:06",
+      "thumbnailId": "uV33B9ccermkNN-e-50Y5Yqmcn7C3BjTKFh8ACNCrEdsAm9IO8FxQnZdSnoch1oXefKy4IaK66lHp90",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 21
+    },
+    {
+      "id": "kOmmYiigFLE",
+      "title": "Gardenia",
+      "author": "DRWN.",
+      "authorId": "UCqsc-Uy-e30XwU0R3o03kYA",
+      "artists": [
+        {
+          "name": "DRWN.",
+          "id": "UCqsc-Uy-e30XwU0R3o03kYA"
+        }
+      ],
+      "albumTitle": "Gardenia",
+      "albumId": "MPREb_64n6OIA4nVu",
+      "durationStr": "2:05",
+      "thumbnailId": "uUYl29TZP1uqgJlZNClhAcwZ4KpqV_ROk5RQqsy1XTx1ta2fuOSEVCavhhXHaQrnryH6C_-KZ5EUChN5hQ",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 22
+    },
+    {
+      "id": "BDuDCIt2eiY",
+      "title": "Spirits",
+      "author": "Misha, Evil Needle",
+      "authorId": "UC_SB5UbFWpV4bZHvfNauLvg",
+      "artists": [
+        {
+          "name": "Misha",
+          "id": "UC_SB5UbFWpV4bZHvfNauLvg"
+        },
+        {
+          "name": "Evil Needle",
+          "id": "UCg2TAN484obS3oqbATNdaEw"
+        }
+      ],
+      "albumTitle": "Chillhop Essentials Fall 2021",
+      "albumId": "MPREb_euC9NAX4Yk4",
+      "durationStr": "3:09",
+      "thumbnailId": "Mi0Fwr8CLxF7x7DRbh_51n5cJj_gRmf9f0mYiPh_Efpxr1mcTNIJoc0z7PR40vIApsL0nnmqX-1_nVasCA",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 23
+    },
+    {
+      "id": "Jcp48M-vRJw",
+      "title": "Azimuth",
+      "author": "Dpsht",
+      "authorId": "UCSHNkkck3MiMFJWl75QA62Q",
+      "artists": [
+        {
+          "name": "Dpsht",
+          "id": "UCSHNkkck3MiMFJWl75QA62Q"
+        }
+      ],
+      "albumTitle": "Azimuth",
+      "albumId": "MPREb_fcaqavEUxn9",
+      "durationStr": "1:41",
+      "thumbnailId": "elMc-oxiZ32LyZv0KrAvvZkSOmLJVvGT-EnPxqPdN0oL4IPlfAp1Vr3ywxRzV_Jplwuc_xF2jMn6-Lck",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 24
+    },
+    {
+      "id": "sU-_MLxHpmY",
+      "title": "Kyushu",
+      "author": "Mrs. Evergreen",
+      "authorId": "UCX-_x6y5VVJTqJRZS74LQgA",
+      "artists": [
+        {
+          "name": "Mrs. Evergreen",
+          "id": "UCX-_x6y5VVJTqJRZS74LQgA"
+        }
+      ],
+      "albumTitle": "Kyushu",
+      "albumId": "MPREb_1uZEC1tgsa9",
+      "durationStr": "2:59",
+      "thumbnailId": "bCEz8L2m_PguuXUnD1wwCDAFuad27pMTEpOLZd9g0eEEsXB4HOYJV-h0-G41Nnn5Ng6ujy3QBDCSTA2kZg",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 25
+    },
+    {
+      "id": "SCTMdJ1cuoU",
+      "title": "Rainbow Roll",
+      "author": "Strehlow",
+      "authorId": "UCi1CfmLS3woDqVp88qgkjtw",
+      "artists": [
+        {
+          "name": "Strehlow",
+          "id": "UCi1CfmLS3woDqVp88qgkjtw"
+        }
+      ],
+      "albumTitle": "Late Night Essentials",
+      "albumId": "MPREb_V41hwhlLOLT",
+      "durationStr": "2:06",
+      "thumbnailId": "8H6RLikby6K3_nrNCzTW-2llkIvC8QroXJ4KGyH9iX2kUKXI14jxdFRQwl4E1OtnwSI3MKVh1HtgqsnnLw",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 26
+    },
+    {
+      "id": "XNupKC5A6jc",
+      "title": "Dali '96",
+      "author": "Brenk Sinatra",
+      "authorId": "UC8ecAdKa5eWHiwg3_XEH1rQ",
+      "artists": [
+        {
+          "name": "Brenk Sinatra",
+          "id": "UC8ecAdKa5eWHiwg3_XEH1rQ"
+        }
+      ],
+      "albumTitle": "Midnite Ride II",
+      "albumId": "MPREb_YJC6kiZF7rl",
+      "durationStr": "2:32",
+      "thumbnailId": "xVZEMDFZ6U9ECJEw3t7UWjR1AGUWCqSz1rBR3atBKkpM6Dw3HCBNcm4d7J38VzZTca1LtCQhA5trr7w",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 27
+    },
+    {
+      "id": "9itq7vaANik",
+      "title": "Because I Was Lonely",
+      "author": "Ward Wills",
+      "authorId": "UC6034NJpMmivxusD90vMfMQ",
+      "artists": [
+        {
+          "name": "Ward Wills",
+          "id": "UC6034NJpMmivxusD90vMfMQ"
+        }
+      ],
+      "albumTitle": "When To Say Goodbye",
+      "albumId": "MPREb_CpqA2Z0EjXM",
+      "durationStr": "2:33",
+      "thumbnailId": "aWVMrN7cXrzo6G0OB849AWafo_AprllLEJBUsuSqPqOL8pOovq1LyJ8VbOd9JafDRNtDtWLIvHuN9Vk",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 28
+    },
+    {
+      "id": "Do0lH6GDy7w",
+      "title": "After Dark",
+      "author": "Sugi.wa",
+      "authorId": "UCDAF5qrmMYNk-bkfavTQyFA",
+      "artists": [
+        {
+          "name": "Sugi.wa",
+          "id": "UCDAF5qrmMYNk-bkfavTQyFA"
+        }
+      ],
+      "albumTitle": "After Dark",
+      "albumId": "MPREb_xO2P6qgw5iY",
+      "durationStr": "2:46",
+      "thumbnailId": "fWmprSP_TSBdf2JJVzEZ4PchAq7r3JD8_h--079nVIL3X9X1T3p_1melFeW8JKG8-RMGxp1OK5RxSPCnsQ",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 29
+    },
+    {
+      "id": "tsw1LgVkFjE",
+      "title": "Nonchalant (feat. Hiroshi Suzuki)",
+      "author": "Dire Beats",
+      "authorId": "UCf9z2DPfu7mrcVjLY5Q1_oA",
+      "artists": [
+        {
+          "name": "Dire Beats",
+          "id": "UCf9z2DPfu7mrcVjLY5Q1_oA"
+        }
+      ],
+      "albumTitle": "Nonchalant",
+      "albumId": "MPREb_2Dt7ni7wCGw",
+      "durationStr": "1:22",
+      "thumbnailId": "pDjXoIMTLXcoLxcFVKnavOqKHpwYoMu7_YEHVitz1R24bB7AHWunGiMssJ6CmLwGZn7OVK8Cx-oNNr7S6g",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 30
+    },
+    {
+      "id": "5K9y2WGUl0E",
+      "title": "Silk",
+      "author": "Handbook",
+      "authorId": "UCuCff-m0XUPP_hRhBLotGlg",
+      "artists": [
+        {
+          "name": "Handbook",
+          "id": "UCuCff-m0XUPP_hRhBLotGlg"
+        }
+      ],
+      "albumTitle": "Silk",
+      "albumId": "MPREb_ksZvQl0pEem",
+      "durationStr": "3:24",
+      "thumbnailId": "UQss0d5ixagxWJNzLgYl2PM7hYiPByh3OsisDUBA0FTN2HCQai1YUWyp4kWhblEYSzav31TwignSJIw-",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 31
+    },
+    {
+      "id": "UzuQCBPpZ7U",
+      "title": "Blue Lounge",
+      "author": "ØDYSSEE, B-Side",
+      "authorId": "UCJahGuHugLVO2WivEABMeog",
+      "artists": [
+        {
+          "name": "ØDYSSEE",
+          "id": "UCJahGuHugLVO2WivEABMeog"
+        },
+        {
+          "name": "B-Side",
+          "id": "UCPl0RSKdK-bDuJgjKUtE-aA"
+        }
+      ],
+      "albumTitle": "Blue Lounge",
+      "albumId": "MPREb_9PCNrTzLoCn",
+      "durationStr": "3:19",
+      "thumbnailId": "619tMhMvhrd3cyhB6R3o-Ay32R1HnW3vzv8vN8vbtATEwWNGxldAQNbRqaJ0pBiGKbQUtTU5kMx-BTot",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 32
+    },
+    {
+      "id": "ITW3C8lIQlk",
+      "title": "All My Life",
+      "author": "Brenk Sinatra",
+      "authorId": "UC8ecAdKa5eWHiwg3_XEH1rQ",
+      "artists": [
+        {
+          "name": "Brenk Sinatra",
+          "id": "UC8ecAdKa5eWHiwg3_XEH1rQ"
+        }
+      ],
+      "albumTitle": "Boss Spieler University",
+      "albumId": "MPREb_Y7hZZripeGx",
+      "durationStr": "3:18",
+      "thumbnailId": "0Tf2PN4_gU4cO5w7KWTOYpHwzI7RobvZYvnQUGQ3ExF7EWSb7sseIv_bQ2tqxfC3TLSCkskUcFmyO3Og",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 33
+    },
+    {
+      "id": "qboQlr7lAAk",
+      "title": "Running Away",
+      "author": "VANO 3000, BADBADNOTGOOD, Samuel T. Herring",
+      "authorId": "UCWDHGaZzvED_pmvou9wHktg",
+      "artists": [
+        {
+          "name": "VANO 3000",
+          "id": "UCWDHGaZzvED_pmvou9wHktg"
+        },
+        {
+          "name": "BADBADNOTGOOD",
+          "id": "UCeLdRRQwPb-KP8Qj7j3P5dw"
+        },
+        {
+          "name": "Samuel T. Herring",
+          "id": "UCSMFfy-xhxxYm0PowEDMgIA"
+        }
+      ],
+      "albumTitle": "Running Away",
+      "albumId": "MPREb_WHdEAsi9293",
+      "durationStr": "1:52",
+      "thumbnailId": "YzrY5AtzvQHYG6_ctpLvxXnv6T9x2B0GH2qFGED6e6jiX6Zki7LHb6TuEDC6ovG9LpEpejRQXXEmQfjJ",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 34
+    },
+    {
+      "id": "JstDN42iDDo",
+      "title": "kaleidoscope",
+      "author": "Delayde, Lilac",
+      "authorId": "UCByoqey1fiKaopKgRIO2vuw",
+      "artists": [
+        {
+          "name": "Delayde",
+          "id": "UCByoqey1fiKaopKgRIO2vuw"
+        },
+        {
+          "name": "Lilac",
+          "id": "UCY5TiAJqw7fDteGgKWYmhpg"
+        }
+      ],
+      "albumTitle": "kaleidoscope",
+      "albumId": "MPREb_ScSNAHdx1gY",
+      "durationStr": "3:10",
+      "thumbnailId": "J_ifRgDMdQM5v9PuEAG5YM_X-Ae_3VZW30PNah1qZIN1rp0zw1l8e9sELH6mrchkN_JGb40dvo8-AcRzrg",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 35
+    },
+    {
+      "id": "vob5wIEFU2M",
+      "title": "Dans la Salle à Manger",
+      "author": "sadtoi",
+      "authorId": "UCiH2wHGFEdhMbpxTbTHnbZA",
+      "artists": [
+        {
+          "name": "sadtoi",
+          "id": "UCiH2wHGFEdhMbpxTbTHnbZA"
+        }
+      ],
+      "albumTitle": "Les Bonnes Choses",
+      "albumId": "MPREb_qQA0CcfQprz",
+      "durationStr": "2:55",
+      "thumbnailId": "Ta57hMfaJ8q1PKuINppqxYY0obZKgmSHiW5lJ10gwplUc-AmJ-5bfkCPEgSrayp0mOB0Y53bSIR1tNdv2g",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 36
+    },
+    {
+      "id": "cHc3cXXIydc",
+      "title": "Save",
+      "author": "Olswel",
+      "authorId": "UCA2cvvsRWweKNAnQaF0elhw",
+      "artists": [
+        {
+          "name": "Olswel",
+          "id": "UCA2cvvsRWweKNAnQaF0elhw"
+        }
+      ],
+      "albumTitle": "Save",
+      "albumId": "MPREb_qAWvBDwgz4S",
+      "durationStr": "3:24",
+      "thumbnailId": "7BGsgOS-f1Xgch4PkUnD80vUmERDB6U1cihbnIV6zMIQjztJ1foL6cCUuXOPOmhr0GTP67uiZ0cYHI3M",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 37
+    },
+    {
+      "id": "Jf3JOkPsogI",
+      "title": "SLIT",
+      "author": "Herzeloyde, Chromonicci",
+      "authorId": "UCzCr2nhM6IdLstVh2GnDauA",
+      "artists": [
+        {
+          "name": "Herzeloyde",
+          "id": "UCzCr2nhM6IdLstVh2GnDauA"
+        },
+        {
+          "name": "Chromonicci",
+          "id": "UCL09TDfIHnde3qj1U6yMWZg"
+        }
+      ],
+      "albumTitle": "SLIT",
+      "albumId": "MPREb_f2VDpOUO2mk",
+      "durationStr": "3:20",
+      "thumbnailId": "aG1DYUdWc7gkiya8dOKpOH14z54kNhFjSMUTmQoX7ZHPGc1zRNvmNqY8W4yrMNObTjOp1ZXSfnWJ2gQ",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 38
+    },
+    {
+      "id": "POcbY0NTG9w",
+      "title": "Near Dark",
+      "author": "Bluewerks, Arbour",
+      "authorId": "UCQtxp-PLwkUHL4Q7qe58yrw",
+      "artists": [
+        {
+          "name": "Bluewerks",
+          "id": "UCQtxp-PLwkUHL4Q7qe58yrw"
+        },
+        {
+          "name": "Arbour"
+        }
+      ],
+      "albumTitle": "Bluewerks Vol. 4: Drift Off",
+      "albumId": "MPREb_nnCqWhxnsND",
+      "durationStr": "2:42",
+      "thumbnailId": "i_e5_8zoVkHsfRzX_jzLi-uCoNpGXqm7zeCcnbLoQYfE1aYNnVoKj9APWFyHnM2riNcyXpHJvYnTYmdL",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 39
+    },
+    {
+      "id": "lKLGceNzFAM",
+      "title": "Marmots Dance",
+      "author": "Plusma",
+      "authorId": "UCvigM90f0EHyL00jVW3WShA",
+      "artists": [
+        {
+          "name": "Plusma",
+          "id": "UCvigM90f0EHyL00jVW3WShA"
+        }
+      ],
+      "albumTitle": "Chillhop Essentials Spring 2019",
+      "albumId": "MPREb_GkGDgCcCDKC",
+      "durationStr": "2:25",
+      "thumbnailId": "F8vypQcTNalvoKFrc24Iy3zrDX26_jdvOtnF6q-oHkvZs51uWBD34qVDsnybgj2NfUk_1ANSxPK_0hki",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 40
+    },
+    {
+      "id": "BDWxBtjUyWQ",
+      "title": "Moss",
+      "author": "Kupla",
+      "authorId": "UCXDXGJcbXFnzsiyh9EVD7FQ",
+      "artists": [
+        {
+          "name": "Kupla",
+          "id": "UCXDXGJcbXFnzsiyh9EVD7FQ"
+        }
+      ],
+      "albumTitle": "Coniferous",
+      "albumId": "MPREb_MOGRiiHdBnN",
+      "durationStr": "2:20",
+      "thumbnailId": "_xi7GnNy643kYRksZnDRhCPw2kevjwfEv7b1TQN7gxhpGIbW9Nl4BripnQFDkcLt6ko642VEEBYIab_f",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 41
+    },
+    {
+      "id": "7LZIEUxH9Ro",
+      "title": "Transcend",
+      "author": "Evil Needle",
+      "authorId": "UCg2TAN484obS3oqbATNdaEw",
+      "artists": [
+        {
+          "name": "Evil Needle",
+          "id": "UCg2TAN484obS3oqbATNdaEw"
+        }
+      ],
+      "albumTitle": "Chillhop Essentials Winter 2021",
+      "albumId": "MPREb_LvLicYrT4HL",
+      "durationStr": "2:53",
+      "thumbnailId": "BEVAwJ1VVaaLB3JUXpZEr7CBx_DdGD3plprbLQG7LgCIsqszxk5jBByzGN5f1UjvIlYIHchoqaYi3zg",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 42
+    },
+    {
+      "id": "SU20Ah4PE48",
+      "title": "Detour",
+      "author": "The Kount",
+      "authorId": "UCY82YrBkhGyGP7QcpzsUnZA",
+      "artists": [
+        {
+          "name": "The Kount",
+          "id": "UCY82YrBkhGyGP7QcpzsUnZA"
+        }
+      ],
+      "albumTitle": "Detour",
+      "albumId": "MPREb_SW7ovhg8Hbi",
+      "durationStr": "3:01",
+      "thumbnailId": "n53K7_GRS_Zv41zSo9Jc490BAOkXmztrKkBbaJdKsq327C9yuwI-F_htLR8ALMZ3WGINqX3pbnjJVKtw",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 43
+    },
+    {
+      "id": "3RI2LsrZ9OE",
+      "title": "martians",
+      "author": "MVCO, Mareaux",
+      "authorId": "UCns32zlYPT6lbgXQl94hXdA",
+      "artists": [
+        {
+          "name": "MVCO",
+          "id": "UCns32zlYPT6lbgXQl94hXdA"
+        },
+        {
+          "name": "Mareaux",
+          "id": "UC_st-941JtFY8fYqDVVhffg"
+        }
+      ],
+      "albumTitle": "coffee & chill",
+      "albumId": "MPREb_3Zaz8FNkm6q",
+      "durationStr": "2:56",
+      "thumbnailId": "Y1z3MXP_IkHDxiSPuDfuREF51EL-dyXIclGVK5CxVqQi0UpkYhtaI2Jboy7o57Iej9p6577TD8geWyE",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 44
+    },
+    {
+      "id": "07O7i2BzqUM",
+      "title": "Proud of You (feat. Alicks)",
+      "author": "A L E X",
+      "authorId": "UCwO1d0KbLcgjncMtDfbWhRw",
+      "artists": [
+        {
+          "name": "A L E X",
+          "id": "UCwO1d0KbLcgjncMtDfbWhRw"
+        }
+      ],
+      "albumTitle": "Growing Up, Vol. 2",
+      "albumId": "MPREb_GHz3TB6j1lP",
+      "durationStr": "3:03",
+      "thumbnailId": "10pk9ltHZob37wNUpJwvAzOQ4_9DHHKSoM-ODPNk294WNt7tv8qRvcrAetp_0ddX4JGbGCDB1BbV_6g",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 45
+    },
+    {
+      "id": "2KoWN3sAFms",
+      "title": "bonus funk",
+      "author": "Herzeloyde",
+      "authorId": "UCzCr2nhM6IdLstVh2GnDauA",
+      "artists": [
+        {
+          "name": "Herzeloyde",
+          "id": "UCzCr2nhM6IdLstVh2GnDauA"
+        }
+      ],
+      "albumTitle": "bonus funk",
+      "albumId": "MPREb_ze1Nv3DyZff",
+      "durationStr": "3:36",
+      "thumbnailId": "QlkGyykXX2v55lJlm2gP2k2hXHLB6sqm5wDTkxOqW3hYahrBR9lmyYqQU-4B2OA1vMXKcky68_qf2SY",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 46
+    },
+    {
+      "id": "EcHhTnHOzAk",
+      "title": "Saudade",
+      "author": "Kupla",
+      "authorId": "UCXDXGJcbXFnzsiyh9EVD7FQ",
+      "artists": [
+        {
+          "name": "Kupla",
+          "id": "UCXDXGJcbXFnzsiyh9EVD7FQ"
+        }
+      ],
+      "albumTitle": "Taiga Native",
+      "albumId": "MPREb_8WOSB3wAcmd",
+      "durationStr": "2:32",
+      "thumbnailId": "PppYpHXQm83CEAx_sxtFs5dRfwYCUst-t2wvRBV8Tsx2xd0cQDGt4DdkJLpcF3d3M-YZwwhSRLAC5o5H",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 47
+    },
+    {
+      "id": "HIVVqNy5w_g",
+      "title": "Suuurf",
+      "author": "ØDYSSEE, Hubert Daviz",
+      "authorId": "UCJahGuHugLVO2WivEABMeog",
+      "artists": [
+        {
+          "name": "ØDYSSEE",
+          "id": "UCJahGuHugLVO2WivEABMeog"
+        },
+        {
+          "name": "Hubert Daviz",
+          "id": "UChYc1vg_Y-Y8GWWJZwqVySg"
+        }
+      ],
+      "albumTitle": "Suuurf",
+      "albumId": "MPREb_OWiXfTo5PwF",
+      "durationStr": "3:21",
+      "thumbnailId": "fUvxMMexCaWvJS0sgNtv-vPrmNNo7AMc3o_OvqigiEEfW82keJ3FVRD0O1MzsfjmoDjV5r5YU1m6Gno",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 48
+    },
+    {
+      "id": "OvfD_geCvkI",
+      "title": "Fainting of Rejection (feat. Sixcube)",
+      "author": "Figub Brazlevič",
+      "authorId": "UCq2lGogil7fFexIarUI0QoQ",
+      "artists": [
+        {
+          "name": "Figub Brazlevič",
+          "id": "UCq2lGogil7fFexIarUI0QoQ"
+        }
+      ],
+      "albumTitle": "EXPEDITion 100, Vol.1: Figub Hadzi-Jusuf",
+      "albumId": "MPREb_6CVbuzeHPVB",
+      "durationStr": "1:57",
+      "thumbnailId": "epLa1qnrYXbqKhHLFLvywvestMCbt-kqV58yFVblcfTvZC6t4ai_HUgDzbpzjO4t5oEjAvHBhc-ufsUW",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 49
+    },
+    {
+      "id": "bM7QN9S0Dno",
+      "title": "Fly Shit (Forever Nip)",
+      "author": "Brenk Sinatra",
+      "authorId": "UC8ecAdKa5eWHiwg3_XEH1rQ",
+      "artists": [
+        {
+          "name": "Brenk Sinatra",
+          "id": "UC8ecAdKa5eWHiwg3_XEH1rQ"
+        }
+      ],
+      "albumTitle": "Fly Shit (Forever Nip)",
+      "albumId": "MPREb_KZH1UuAa0qD",
+      "durationStr": "3:33",
+      "thumbnailId": "MKX1uxIA6NaoXI7mFpN3h10rt29LJy6ICP3naKkQE7s2Gqhmi3otFCUYl3YIimdMXPT7UsIMxr2g-L24VA",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 50
+    },
+    {
+      "id": "0gTcGawN9xk",
+      "title": "Bastia",
+      "author": "illiterate",
+      "authorId": "UCG12s40QV1eeNf3IOjP85yg",
+      "artists": [
+        {
+          "name": "illiterate",
+          "id": "UCG12s40QV1eeNf3IOjP85yg"
+        }
+      ],
+      "albumTitle": "Chillhop Essentials Fall 2018",
+      "albumId": "MPREb_DxJfMw6yod2",
+      "durationStr": "2:41",
+      "thumbnailId": "Aim0bKqV4hctLD76hT74ichs8CTDX2OeEJdN6aYaO4TRHhwBMHYoSJVwJ7v8Hyfo4PIIB3ozuQGitMc6",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 51
+    },
+    {
+      "id": "m2mJGmMtBfA",
+      "title": "Palms",
+      "author": "OAKK",
+      "authorId": "UCDWAMJYg9i2ka_5rmRXw-XQ",
+      "artists": [
+        {
+          "name": "OAKK",
+          "id": "UCDWAMJYg9i2ka_5rmRXw-XQ"
+        }
+      ],
+      "albumTitle": "Palms/Canary",
+      "albumId": "MPREb_duN8uZl42YE",
+      "durationStr": "4:11",
+      "thumbnailId": "knqcpic-jtzPJAhPQ9fs3q-HgEpNqCoJszLjwPMvKr693RGOqO9wAl8aikggC-84UBgOdZUfWitBuKY",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 52
+    },
+    {
+      "id": "a0C_z75ES4A",
+      "title": "Nothing changes: everything is different",
+      "author": "H.1",
+      "authorId": "UCUiRy4WPJkIYIwIMJa7jnGA",
+      "artists": [
+        {
+          "name": "H.1",
+          "id": "UCUiRy4WPJkIYIwIMJa7jnGA"
+        }
+      ],
+      "albumTitle": "Nothing changes: everything is different",
+      "albumId": "MPREb_byCyTD5G5Xi",
+      "durationStr": "2:50",
+      "thumbnailId": "LTgVcO21cR_qIb4WST6bhxQvdD6oLbPARx8Mbecmg_MWIbh8t5-dlJIKEj1m3_OIZ71JEYaPQ7I5yPvB",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 53
+    },
+    {
+      "id": "FcBaTjGk5Cg",
+      "title": "Tree Tunk",
+      "author": "Ais.Hill",
+      "authorId": "UCOB7T1p1dSa7-Ia9NErvGjg",
+      "artists": [
+        {
+          "name": "Ais.Hill",
+          "id": "UCOB7T1p1dSa7-Ia9NErvGjg"
+        }
+      ],
+      "albumTitle": "Tree Tunk",
+      "albumId": "MPREb_NEfXHlDQKuT",
+      "durationStr": "2:56",
+      "thumbnailId": "6Ntj-wb8KCbGdTfYjvfoX7Jn0faoqSpPTBlZHYfuw_afZcPhYnh0L2pCOld80bi39gTaoMQEcGORmai9",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 54
+    },
+    {
+      "id": "F-IGIJcUWU4",
+      "title": "Moods",
+      "author": "Tesk",
+      "authorId": "UCnnxsr-jZc4PGuw3uElF3QA",
+      "artists": [
+        {
+          "name": "Tesk",
+          "id": "UCnnxsr-jZc4PGuw3uElF3QA"
+        }
+      ],
+      "albumTitle": "Spotless Minds",
+      "albumId": "MPREb_uF67t8FWlrd",
+      "durationStr": "2:48",
+      "thumbnailId": "tcTOAssIbwNCuaBMOiZEi_Sl5Q0u4C_OhiKTGKkTxtUnPGZqwiCZcqxOX2-MHTqIISmGsvZ2YG4jGGQ",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 55
+    },
+    {
+      "id": "UKwFZI9zHlY",
+      "title": "Nice Weather for Surfing",
+      "author": "Oilix",
+      "authorId": "UCq4CN8ZnYHTPx6U_S7gcmIA",
+      "artists": [
+        {
+          "name": "Oilix",
+          "id": "UCq4CN8ZnYHTPx6U_S7gcmIA"
+        }
+      ],
+      "albumTitle": "Jellify",
+      "albumId": "MPREb_emPljSJ86nb",
+      "durationStr": "2:59",
+      "thumbnailId": "layrcZnqVdlYvRZ5l6FbFe7i9zFMwSIS_QlSlba_NH4uOXXPThaQMfyME3myLru8M0gkBxK7-jsSRA8CuQ",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 56
+    },
+    {
+      "id": "x62rX6BYeYE",
+      "title": "A Reason",
+      "author": "Alicks",
+      "authorId": "UCsiRhG42SedBrMRmGXW3gFA",
+      "artists": [
+        {
+          "name": "Alicks",
+          "id": "UCsiRhG42SedBrMRmGXW3gFA"
+        }
+      ],
+      "albumTitle": "Help Me Out",
+      "albumId": "MPREb_uGI6nDQHDPD",
+      "durationStr": "3:21",
+      "thumbnailId": "eelUI9yvq8tfw5cjyql0XfEXVKIYTXi7TceZ7sEsNab9dTQErIXObDxQzUsiVg_DMcSLZrQbWSHXh4Wv",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 57
+    },
+    {
+      "id": "QKYN0pLq1ew",
+      "title": "Mirror Universe",
+      "author": "Kupla",
+      "authorId": "UCXDXGJcbXFnzsiyh9EVD7FQ",
+      "artists": [
+        {
+          "name": "Kupla",
+          "id": "UCXDXGJcbXFnzsiyh9EVD7FQ"
+        }
+      ],
+      "albumTitle": "Mirror Universe",
+      "albumId": "MPREb_bNCpWPiaipj",
+      "durationStr": "2:37",
+      "thumbnailId": "fLuE2lKEDRP0I6TTxkaX1xXw52exMmnExjMcZD3Ecx4mLd0NLiEUvXFyv2Xp6mMYKEiyl-xaM8ZDKeTd",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 58
+    },
+    {
+      "id": "nlkNJ4oavoQ",
+      "title": "All the People",
+      "author": "j'san",
+      "authorId": "UCBb82EMFywo4Byo70oGHPdA",
+      "artists": [
+        {
+          "name": "j'san",
+          "id": "UCBb82EMFywo4Byo70oGHPdA"
+        }
+      ],
+      "albumTitle": "Moods Vol. 1",
+      "albumId": "MPREb_te32UPwEHP8",
+      "durationStr": "2:53",
+      "thumbnailId": "vnE2W9wwPJ-RiYSSxIBKcGok3UEXJdsbg9eY3cmy1MRNGF1hENk72tS3mjM_xRb3Y8YlOextTYw-E3V6Ng",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 59
+    },
+    {
+      "id": "z5bVgD6KjQU",
+      "title": "Kudasai (3 AM Feels)",
+      "author": "Ethnic Girls, Ambient",
+      "authorId": "UCr-JNc73SVVBSLZQVJbGWJw",
+      "artists": [
+        {
+          "name": "Ethnic Girls",
+          "id": "UCr-JNc73SVVBSLZQVJbGWJw"
+        },
+        {
+          "name": "Ambient",
+          "id": "UCyxqBO1Q7MCrjglh3qUvc7g"
+        }
+      ],
+      "albumTitle": "Lo-Fever: Sober Saturday Night Radio and Instrumental Chillwave Beats to Relax and Study",
+      "albumId": "MPREb_26DWasXa1p5",
+      "durationStr": "3:24",
+      "thumbnailId": "mKMVObA5ZkN-db-E_iJTBoavzjtIMsddiXawW3wZuayU9w7HeemD4KnIK3TJP2pq66h5IK7xXX5F3-Yf",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 60
+    },
+    {
+      "id": "29OvRKJlOX4",
+      "title": "don't be shy",
+      "author": "Sensi Sye",
+      "authorId": "UCVTqdRUm5omK7NmGdY_6Efw",
+      "artists": [
+        {
+          "name": "Sensi Sye",
+          "id": "UCVTqdRUm5omK7NmGdY_6Efw"
+        }
+      ],
+      "albumTitle": "Lost Track",
+      "albumId": "MPREb_ccERB5rMVQ3",
+      "durationStr": "3:03",
+      "thumbnailId": "c_YEa9djzecj-x9vsZ6Dbcx0b48ZnWIKeTfkqC8tUJzOOKOJ4B1rCffdZ39SfSTXj_wdRGjADYHuoKs",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 61
+    },
+    {
+      "id": "Z83jWjk9kwY",
+      "title": "Late Night Wave (feat. Mike Casey)",
+      "author": "Last Letter",
+      "authorId": "UC9kyEqNrUAkGImz0MkRJukg",
+      "artists": [
+        {
+          "name": "Last Letter",
+          "id": "UC9kyEqNrUAkGImz0MkRJukg"
+        }
+      ],
+      "albumTitle": "Late Night Wave",
+      "albumId": "MPREb_1oaeNR8a8N5",
+      "durationStr": "2:54",
+      "thumbnailId": "PJf14rBud7BBaKd4PLDSyb_CtbIOrhsJRTjYJiSdDyJH3F2THuAZz25Y6WUwHxPIYP_6V1BrRjGxKeSY0w",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 62
+    },
+    {
+      "id": "yEr3DhiWoMY",
+      "title": "Future",
+      "author": "Paul Grant, Astairé",
+      "authorId": "UC5ot4mOP8C2-c0SY1o0EOUQ",
+      "artists": [
+        {
+          "name": "Paul Grant",
+          "id": "UC5ot4mOP8C2-c0SY1o0EOUQ"
+        },
+        {
+          "name": "Astairé",
+          "id": "UCahnJv2UUTLu322iUXgPSLg"
+        }
+      ],
+      "albumTitle": "Future",
+      "albumId": "MPREb_QKWHLs9F6Na",
+      "durationStr": "2:29",
+      "thumbnailId": "PCKPlslMfgPj8fxmSxJwzRyMwHQ-RpuAQjawPiM80BSttjjLvADGfNtrVmUxz84_oyRcRklteZ1lfkLhwg",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 63
+    },
+    {
+      "id": "KWIfPu8860w",
+      "title": "Pyrite Blue (feat. Jesse Boykins III)",
+      "author": "J-E-T-S",
+      "authorId": "UCrDW_qcOPA0nzciJr0NtSBg",
+      "artists": [
+        {
+          "name": "J-E-T-S",
+          "id": "UCrDW_qcOPA0nzciJr0NtSBg"
+        }
+      ],
+      "albumTitle": "The Chants",
+      "albumId": "MPREb_ucJEZ2cX5O2",
+      "durationStr": "4:36",
+      "thumbnailId": "lQrKZL3D0V7F6lijEGPEi-gouTsAjpwmIJSE4WhrhLEA--uc1zPn2Z8-fcqrmQLYYML5uO0_TH81Kxdk",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 64
+    },
+    {
+      "id": "DKY_S7__IVg",
+      "title": "Karru",
+      "author": "FloFilz",
+      "authorId": "UCTM7QKr-0SpjhYnA-NlRaVg",
+      "artists": [
+        {
+          "name": "FloFilz",
+          "id": "UCTM7QKr-0SpjhYnA-NlRaVg"
+        }
+      ],
+      "albumTitle": "Karru",
+      "albumId": "MPREb_w2JalNXbTDc",
+      "durationStr": "2:30",
+      "thumbnailId": "Ik2AW-56HAlw_O6AHemuqi4hhy0H-7C9kKniOzaKw9b08sfTfggyubsvqGoEj2O3FMfCktVJqEwv4AQ7Ig",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 65
+    },
+    {
+      "id": "T9_p5vicleo",
+      "title": "Weekend",
+      "author": "GYVUS",
+      "authorId": "UChM3ZzFj4iQPdOen_QxWMHQ",
+      "artists": [
+        {
+          "name": "GYVUS",
+          "id": "UChM3ZzFj4iQPdOen_QxWMHQ"
+        }
+      ],
+      "albumTitle": "Lounge Masters Vibes vol. 18",
+      "albumId": "MPREb_T172WreZ7m3",
+      "durationStr": "2:39",
+      "thumbnailId": "Wu_Y8YrPO9OpRzj8nmuTcglGIJvZSjYz-g8x7NpI1pxv75WL2LGkz-wLVtxl_JSw0DUX74kaTxuIL4DE",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 66
+    },
+    {
+      "id": "VTFALCPPUN4",
+      "title": "NY Vibes",
+      "author": "Bonus Points",
+      "authorId": "UCE8VZAw_wguem08_lyOMa3w",
+      "artists": [
+        {
+          "name": "Bonus Points",
+          "id": "UCE8VZAw_wguem08_lyOMa3w"
+        }
+      ],
+      "albumTitle": "NY Vibes",
+      "albumId": "MPREb_CYt8YgWVPFT",
+      "durationStr": "2:33",
+      "thumbnailId": "9PPrw3PeHfgrzvTa2ghUUqzhmIJKQvjdKMHsJr2Kmyeq_s2FefyGOXKghUZQiD_69oIhtq-tJ43V5pO-",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 67
+    },
+    {
+      "id": "oImKcNhATxY",
+      "title": "Cabriolet",
+      "author": "Smoke Trees, Lito Akari",
+      "authorId": "UCMo_7whMrU7UBFyNVYtqxPg",
+      "artists": [
+        {
+          "name": "Smoke Trees",
+          "id": "UCMo_7whMrU7UBFyNVYtqxPg"
+        },
+        {
+          "name": "Lito Akari",
+          "id": "UCbRQsyq-flolFM8QMmDgDJg"
+        }
+      ],
+      "albumTitle": "Cabriolet",
+      "albumId": "MPREb_wukxbhJTLna",
+      "durationStr": "2:43",
+      "thumbnailId": "3bqLDfRG-BSoJL_BlPHzxUS2HU4hoRUZdLDY9GSkyHCUpzSkZ_hZ1mZ1K52dBmLgrILDdykKgUybXurf",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 68
+    },
+    {
+      "id": "R_X1K3arztQ",
+      "title": "Spanish Galleon",
+      "author": "Wun Two",
+      "authorId": "UCHg0Fk93W8dITmSnb2lxYIw",
+      "artists": [
+        {
+          "name": "Wun Two",
+          "id": "UCHg0Fk93W8dITmSnb2lxYIw"
+        }
+      ],
+      "albumTitle": "Pirata",
+      "albumId": "MPREb_KH1gxbP5QWr",
+      "durationStr": "0:55",
+      "thumbnailId": "nGuhQZIqKP4eysu_TiCtz4ajgnXf3o5u9zWD8e8PUTCp_Ib1Bk0n_B6nH7AujTqi9M1wdc1EiSL0UhM9",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 69
+    },
+    {
+      "id": "iDInRS2LSLg",
+      "title": "Road Trip",
+      "author": "Mellow Bustelo, Patiotic Records",
+      "authorId": "UCLu6D0W7F2HOYUjvHADwBuQ",
+      "artists": [
+        {
+          "name": "Mellow Bustelo",
+          "id": "UCLu6D0W7F2HOYUjvHADwBuQ"
+        },
+        {
+          "name": "Patiotic Records",
+          "id": "UCjyk_Be1kdFlujLHlnGvMHg"
+        }
+      ],
+      "albumTitle": "Road Trip",
+      "albumId": "MPREb_tqlQ4ZaLdqp",
+      "durationStr": "1:56",
+      "thumbnailId": "WKEl3TedS0YYXDYwhzVQoxpby62CPve21mlmyKGMCE6PRFsdSfIMs5zGsC7U2IfS23z43K3g-MUOq1yx4A",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 70
+    },
+    {
+      "id": "jrGLERRTuow",
+      "title": "Lifted",
+      "author": "DAO",
+      "authorId": "UCnOFtj8W18G4m0vrBXgMC7Q",
+      "artists": [
+        {
+          "name": "DAO",
+          "id": "UCnOFtj8W18G4m0vrBXgMC7Q"
+        }
+      ],
+      "albumTitle": "Lifted",
+      "albumId": "MPREb_EAo5CYQlaXR",
+      "durationStr": "2:11",
+      "thumbnailId": "Fd-Uomjr2ffcqPqSvYctK7j7MKLt3K0fneXCyDsZCgzIrWwq3tPag8Jiz-IDQN9r1Aebe4owgh6gmVrB",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 71
+    },
+    {
+      "id": "WAw-IJyGp0o",
+      "title": "Despair",
+      "author": "Evil Needle",
+      "authorId": "UCg2TAN484obS3oqbATNdaEw",
+      "artists": [
+        {
+          "name": "Evil Needle",
+          "id": "UCg2TAN484obS3oqbATNdaEw"
+        }
+      ],
+      "albumTitle": "Chillhop Essentials Summer 2021",
+      "albumId": "MPREb_mYvMm6GrvVc",
+      "durationStr": "2:19",
+      "thumbnailId": "tyYLYbbmgriLP34etja6NJcrYFyKSkjssXDLq_I56rvCFXGdl1gklSWzmT93jN9Cz_CfdcfKfjIUgSEC",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 72
+    },
+    {
+      "id": "x7tsBK4515U",
+      "title": "Red Lotus (feat. Oshi)",
+      "author": "Gravez",
+      "authorId": "UCVV5zxue4tY1T_Ym_CfS3Vg",
+      "artists": [
+        {
+          "name": "Gravez",
+          "id": "UCVV5zxue4tY1T_Ym_CfS3Vg"
+        }
+      ],
+      "albumTitle": "Serenity EP",
+      "albumId": "MPREb_VDGE7P7sI6l",
+      "durationStr": "3:56",
+      "thumbnailId": "D328jjSyyVALtWD-ya-fRMQJu7AGylfqnBWDEs8I7h0lz32VWGJq0ugDex792hpWWo4jYzKDaYllUta55Q",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 73
+    },
+    {
+      "id": "ks5FP_m4fjY",
+      "title": "Treasure Island",
+      "author": "Wun Two",
+      "authorId": "UCHg0Fk93W8dITmSnb2lxYIw",
+      "artists": [
+        {
+          "name": "Wun Two",
+          "id": "UCHg0Fk93W8dITmSnb2lxYIw"
+        }
+      ],
+      "albumTitle": "Pirata",
+      "albumId": "MPREb_KH1gxbP5QWr",
+      "durationStr": "1:47",
+      "thumbnailId": "nGuhQZIqKP4eysu_TiCtz4ajgnXf3o5u9zWD8e8PUTCp_Ib1Bk0n_B6nH7AujTqi9M1wdc1EiSL0UhM9",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 74
+    },
+    {
+      "id": "kLjlossgOvs",
+      "title": "Est",
+      "author": "STU",
+      "authorId": "UCrhTfl0zC0kyeXc0VtfGRkQ",
+      "artists": [
+        {
+          "name": "STU",
+          "id": "UCrhTfl0zC0kyeXc0VtfGRkQ"
+        }
+      ],
+      "albumTitle": "Est",
+      "albumId": "MPREb_Wwafy7jVYRv",
+      "durationStr": "2:29",
+      "thumbnailId": "of5bb2eJ3cqNfC4V0SfFvOuGO0yo7nVzPo6CgK1bMJH1R-JZVBvA579mvuIzlmGkdKe4GLAShPwojx5u",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 75
+    },
+    {
+      "id": "Lxd11Te_VdY",
+      "title": "back when it all made sense",
+      "author": "Middle School",
+      "authorId": "UCSN-OXO6i3RSTSAhQrv0zaQ",
+      "artists": [
+        {
+          "name": "Middle School",
+          "id": "UCSN-OXO6i3RSTSAhQrv0zaQ"
+        }
+      ],
+      "albumTitle": "Endless Sunday Vol. 1",
+      "albumId": "MPREb_JVvWcYDYILs",
+      "durationStr": "3:18",
+      "thumbnailId": "unM3h3LOy54UPhJWHTzE9gmV5wyleztnUCJ4UQwryMqpFnhcUi_esdCGDusrqTxCcSzKaIOdS1NSk28",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 76
+    },
+    {
+      "id": "hr0_I3ClDh8",
+      "title": "back to the gates",
+      "author": "DRWN.",
+      "authorId": "UCkebuhCKcVJOeDIXDkLynfA",
+      "artists": [
+        {
+          "name": "DRWN.",
+          "id": "UCkebuhCKcVJOeDIXDkLynfA"
+        }
+      ],
+      "albumTitle": "shadows",
+      "albumId": "MPREb_SmJUfJMmDLH",
+      "durationStr": "2:48",
+      "thumbnailId": "-wTwYV7NArAU2QGOQL1BZYM-lWmjuS4ThYaAqwhgRLO1_-zyTKe783IpSjwhaTjodqTBs8mxtvxyKWCg",
+      "isSong": true,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 77
+    }
+  ],
+  "omvs": [
+    {
+      "id": "Rc8BhLEBURE",
+      "title": "blueberries",
+      "author": "rosarummet",
+      "authorId": "UCe1esolq77K8mpQDUTf4ClA",
+      "artists": [
+        {
+          "name": "rosarummet",
+          "id": "UCe1esolq77K8mpQDUTf4ClA"
+        }
+      ],
+      "durationStr": "2:48",
+      "thumbnailId": "Rc8BhLEBURE",
+      "isSong": false,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 1
+    },
+    {
+      "id": "Z20dQqE1u0E",
+      "title": "city girl | velvet garden",
+      "author": "City Girl",
+      "authorId": "UCWGqmBzWyhxn8a-YDSfb_LA",
+      "artists": [
+        {
+          "name": "City Girl",
+          "id": "UCWGqmBzWyhxn8a-YDSfb_LA"
+        }
+      ],
+      "durationStr": "3:54",
+      "thumbnailId": "Z20dQqE1u0E",
+      "isSong": false,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 2
+    },
+    {
+      "id": "pduHLli6NnA",
+      "title": "Hanging Lanterns",
+      "author": "Kalaido",
+      "authorId": "UCnX3dJnTo1kf0zZuPcED_FA",
+      "artists": [
+        {
+          "name": "Kalaido",
+          "id": "UCnX3dJnTo1kf0zZuPcED_FA"
+        }
+      ],
+      "durationStr": "3:54",
+      "thumbnailId": "pduHLli6NnA",
+      "isSong": false,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 3
+    },
+    {
+      "id": "D1FW6dueVJI",
+      "title": "Started Ballin'",
+      "author": "Shuko, Brenk Sinatra",
+      "authorId": "UC7pJH1OrLG-EY6SUiN3_DSg",
+      "artists": [
+        {
+          "name": "Shuko",
+          "id": "UC7pJH1OrLG-EY6SUiN3_DSg"
+        },
+        {
+          "name": "Brenk Sinatra",
+          "id": "UC8ecAdKa5eWHiwg3_XEH1rQ"
+        }
+      ],
+      "durationStr": "2:42",
+      "thumbnailId": "D1FW6dueVJI",
+      "isSong": false,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 4
+    },
+    {
+      "id": "XNd6d6H1LBo",
+      "title": "thinking of you",
+      "author": "Mommy, Kyle McEvoy, Philanthrope",
+      "authorId": "UCgpFuj9pEVnAU7tdVNvya3w",
+      "artists": [
+        {
+          "name": "Mommy",
+          "id": "UCgpFuj9pEVnAU7tdVNvya3w"
+        },
+        {
+          "name": "Kyle McEvoy",
+          "id": "UCzIwP0r8MyFoanmns0RRv-A"
+        },
+        {
+          "name": "Philanthrope",
+          "id": "UCiKzz-4FjwL037dNANU8oPA"
+        }
+      ],
+      "durationStr": "2:11",
+      "thumbnailId": "XNd6d6H1LBo",
+      "isSong": false,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 5
+    },
+    {
+      "id": "ymdfY93eFXs",
+      "title": "Le Sud",
+      "author": "L'indécis",
+      "authorId": "UCxXn2yb4qJbG0bKmr3wa4JA",
+      "artists": [
+        {
+          "name": "L'indécis",
+          "id": "UCxXn2yb4qJbG0bKmr3wa4JA"
+        }
+      ],
+      "durationStr": "3:06",
+      "thumbnailId": "ymdfY93eFXs",
+      "isSong": false,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 6
+    },
+    {
+      "id": "TyvVhOnZtCg",
+      "title": "Joey Pecoraro - What A Wonderful Thing To Do (Official Video)",
+      "author": "Joey Pecoraro",
+      "authorId": "UCT2-ZDqZq35BUz_gA7tYRWg",
+      "artists": [
+        {
+          "name": "Joey Pecoraro",
+          "id": "UCT2-ZDqZq35BUz_gA7tYRWg"
+        }
+      ],
+      "durationStr": "3:25",
+      "thumbnailId": "TyvVhOnZtCg",
+      "isSong": false,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 7
+    },
+    {
+      "id": "tEK9eaAUh4E",
+      "title": "Orange Rooph",
+      "author": "goosetaf, edddi p, Timothy Infinite",
+      "authorId": "UCAbNvwkWc1OS-XV9TndZ8MQ",
+      "artists": [
+        {
+          "name": "goosetaf",
+          "id": "UCAbNvwkWc1OS-XV9TndZ8MQ"
+        },
+        {
+          "name": "edddi p",
+          "id": "UCH4p1McVmvmHhjWcRRXpdVg"
+        },
+        {
+          "name": "Timothy Infinite",
+          "id": "UCxpgbDLyAY3G_t1ae7BEWrA"
+        }
+      ],
+      "durationStr": "2:45",
+      "thumbnailId": "tEK9eaAUh4E",
+      "isSong": false,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 8
+    },
+    {
+      "id": "w5VNDJpcvK8",
+      "title": "Clouded Thoughts",
+      "author": "goosetaf",
+      "authorId": "UCAbNvwkWc1OS-XV9TndZ8MQ",
+      "artists": [
+        {
+          "name": "goosetaf",
+          "id": "UCAbNvwkWc1OS-XV9TndZ8MQ"
+        }
+      ],
+      "durationStr": "2:24",
+      "thumbnailId": "w5VNDJpcvK8",
+      "isSong": false,
+      "isMainPlaylist": true,
+      "appearances": 1,
+      "rank": 9
+    }
+  ],
+  "relatedNodes": [],
+  "communityPlaylistsScraped": 0
+}
