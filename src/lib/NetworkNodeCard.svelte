@@ -52,7 +52,10 @@
     <div class="card-center">
         <div class="title-row">
             <h3 class="node-title">{node.title}</h3>
-            <span class="appearance-chip" title={`${node.appearances} appearances across shelves`}>
+            <span
+                class="appearance-chip"
+                title={`${node.appearances} appearances across shelves`}
+            >
                 {node.appearances}×
             </span>
         </div>
@@ -83,7 +86,7 @@
         box-sizing: border-box;
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 14px;
         padding: 12px 14px;
         background: var(--card-bg);
         border: 1px solid var(--border);
@@ -109,7 +112,7 @@
     .card-left {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 12px;
         flex-shrink: 0;
     }
 
@@ -128,15 +131,26 @@
         color: var(--text);
     }
 
+    /* Enlarged Node Thumbnail */
     .thumb-frame {
-        width: 48px;
-        height: 48px;
+        width: 76px;
+        height: 76px;
         aspect-ratio: 1 / 1;
         border-radius: 6px;
         overflow: hidden;
         background: var(--surface);
         border: 1px solid var(--border-subtle);
         flex-shrink: 0;
+        transition:
+            width 0.15s ease,
+            height 0.15s ease;
+    }
+
+    @media (max-width: 640px) {
+        .thumb-frame {
+            width: 60px;
+            height: 60px;
+        }
     }
 
     .thumb-img {
@@ -158,7 +172,7 @@
         align-items: center;
         justify-content: center;
         color: var(--text-muted);
-        font-size: 16px;
+        font-size: 22px;
     }
 
     .card-center {

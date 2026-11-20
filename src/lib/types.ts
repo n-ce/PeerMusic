@@ -57,6 +57,26 @@ export interface NetworkNode {
   appearances: number;
 }
 
+export interface AggregatedAlbum {
+  id?: string;
+  title: string;
+  artist: string;
+  artistId?: string;
+  thumbnailId?: string;
+  trackCount: number;
+  nodeReferences: number;
+  sampleTrackIds: string[];
+}
+
+export interface AggregatedArtist {
+  id?: string;
+  name: string;
+  thumbnailId?: string;
+  trackCount: number;
+  nodeReferences: number;
+  albums: string[];
+}
+
 export interface CategoryChip {
   slug: string;
   title: string;
@@ -71,5 +91,14 @@ export interface CategoriesData {
 }
 
 export type SortMode = "appearances" | "order" | "title";
-export type AppView = "categories" | "playlists" | "node";
+export type AppView =
+  | "landing"
+  | "top-playlists"
+  | "moods"
+  | "genres"
+  | "top-albums"
+  | "top-artists"
+  | "playlists"
+  | "node";
+
 export type NodePlaybackMode = "song" | "video";

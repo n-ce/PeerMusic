@@ -2,6 +2,7 @@ import { writeFileSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { scrapeAllCategoriesNetwork } from "../src/lib/networkScraper.ts";
 import { scrapeNode } from "../src/lib/nodeScraper.ts";
+import { buildAggregatedMetadata } from "./aggregateMetadata.ts";
 
 async function main() {
   console.log("=== Scraping PeerMusic Moods, Genres & Nodes Network ===");
@@ -115,6 +116,10 @@ async function main() {
       console.warn(`Failed to scrape node ${node.id} (${node.title}):`, err);
     }
   }
+
+  // 7. Aggregate Top Albums and Top Artists from all harvested nodes
+  console.log("Aggregating Top Albums and Top Artists from harvested nodes...");
+  buildAggregatedMetadata(nodesDir, publicDir);
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`=== Done in ${elapsed}s ===`);

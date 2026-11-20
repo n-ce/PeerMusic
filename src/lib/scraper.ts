@@ -26,6 +26,14 @@ export function getThumbnailUrl(thumbnailId: string): string {
   return `https://lh3.googleusercontent.com/${thumbnailId}=w544-h544-l90-rj`;
 }
 
+export function getVideoUrl(videoId: string): string {
+  return `https://www.youtube.com/watch?v=${videoId}`;
+}
+
+export function getSongUrl(songId: string): string {
+  return `https://music.youtube.com/watch?v=${songId}`;
+}
+
 export function cleanPlaylistId(rawId: string | undefined): string {
   if (!rawId) return "";
   let id = rawId.trim();

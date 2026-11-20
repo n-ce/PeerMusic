@@ -1,53 +1,60 @@
 <script lang="ts">
-    import type { NodeTrack, NodePlaybackMode } from "./types";
-    import { getThumbnailUrl } from "./scraper";
+    import type { NodeTrack, NodePlaybackMode } from "./types.ts";
+    import { getThumbnailUrl, getVideoUrl, getSongUrl } from "./scraper.ts";
 
     let {
         track,
         mode = "song",
     }: {
         track: NodeTrack;
-        mode: NodePlaybackMode;
+        mode?: NodePlaybackMode;
     } = $props();
 
-    let copied = $state(false);
     let imgLoaded = $state(false);
     let imgError = $state(false);
+    let copied = $state(false);
 
-    const thumbUrl = $derived(getThumbnailUrl(track.thumbnailId || track.id));
     const playUrl = $derived(
-        mode === "song"
-            ? `https://music.youtube.com/watch?v=${track.id}`
-            : `https://www.youtube.com/watch?v=${track.id}`,
+        mode === "song" ? getSongUrl(track.id) : getVideoUrl(track.id),
     );
+    const thumbUrl = $derived(getThumbnailUrl(track.thumbnailId));
 
-    function copyId(e: MouseEvent) {
-        e.stopPropagation();
-        e.preventDefault();
-        navigator.clipboard.writeText(track.id);
-        copied = true;
-        setTimeout(() => {
-            copied = false;
-        }, 1500);
+    async function copyId() {
+        try {
+            await navigator.clipboard.writeText(track.id);
+            copied = true;
+            setTimeout(() => {
+                copied = false;
+            }, 1800);
+        } catch {
+            // Clipboard fallback
+        }
     }
 </script>
 
 <article
     class="track-card"
     class:is-main={track.isMainPlaylist}
-    class:is-video-card={mode === "video"}
+    class:is-video={mode === "video"}
 >
-    <div class="rank-badge" title={`Rank #${track.rank}`}>
-        <span class="rank-number">{track.rank}</span>
+    <!-- Rank Badge -->
+    <div
+        class="rank-badge"
+        title={track.isMainPlaylist
+            ? "Rank 1 precedence: Member of the main curated node playlist"
+            : `Community track ranked by appearances (${track.appearances} appearances)`}
+    >
+        <span class="rank-number">#{track.rank}</span>
     </div>
 
+    <!-- Thumbnail: 1:1 Square in Song Mode, 16:9 Widescreen in Video Mode -->
     <a
         href={playUrl}
         target="_blank"
         rel="noopener noreferrer"
         class="thumb-link"
         class:is-video={mode === "video"}
-        title={`Play ${track.title}`}
+        title={`Play ${track.title} on ${mode === "song" ? "YouTube Music" : "YouTube"}`}
     >
         {#if !imgError && thumbUrl}
             <img
@@ -64,29 +71,46 @@
                 <i class={mode === "song" ? "gg-music" : "gg-film"}></i>
             </div>
         {/if}
-
-        <div class="thumb-overlay">
+        <div class="play-overlay">
             <i class="gg-play-button"></i>
         </div>
     </a>
 
+    <!-- Track Details -->
     <div class="track-details">
-        <div class="track-header">
-            <h4 class="track-title" title={track.title}>
-                <a href={playUrl} target="_blank" rel="noopener noreferrer">
-                    {track.title}
-                </a>
-            </h4>
+        <h4 class="track-title" title={track.title}>
+            <a
+                href={playUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="title-link"
+            >
+                {track.title}
+            </a>
+        </h4>
 
-            {#if track.durationStr}
-                <span class="duration-mono">{track.durationStr}</span>
-            {/if}
-        </div>
-
-        {#if track.author || track.albumTitle}
+        {#if track.artists && track.artists.length > 0}
             <p
-                class="track-author"
-                title={`${track.author}${track.albumTitle ? " • " + track.albumTitle : ""}`}
+                class="track-artists"
+                title={track.artists.map((a) => a.name).join(", ")}
+            >
+                {#each track.artists as artist, idx}
+                    <span>
+                        {artist.name}
+                    </span>{#if idx < track.artists.length - 1}<span
+                            class="artist-sep"
+                        >
+                            ,
+                        </span>{/if}
+                {/each}
+                {#if track.albumTitle}
+                    <span class="track-album">• {track.albumTitle}</span>
+                {/if}
+            </p>
+        {:else}
+            <p
+                class="track-artists"
+                title={`${track.author}${track.albumTitle ? ` • ${track.albumTitle}` : ""}`}
             >
                 <span>{track.author}</span>
                 {#if track.albumTitle}
@@ -194,11 +218,11 @@
         color: var(--text);
     }
 
-    /* 1:1 Square in Song Mode, 16:9 Widescreen in Video Mode */
+    /* 1:1 Square in Song Mode, 16:9 Widescreen in Video Mode - Larger Prominent Sizes */
     .thumb-link {
         position: relative;
-        width: 48px;
-        height: 48px;
+        width: 76px;
+        height: 76px;
         aspect-ratio: 1 / 1;
         flex-shrink: 0;
         border-radius: 6px;
@@ -211,15 +235,20 @@
     }
 
     .thumb-link.is-video {
-        width: 96px;
-        height: 54px;
+        width: 160px;
+        height: 90px;
         aspect-ratio: 16 / 9;
     }
 
     @media (max-width: 640px) {
+        .thumb-link {
+            width: 60px;
+            height: 60px;
+        }
+
         .thumb-link.is-video {
-            width: 72px;
-            height: 40.5px;
+            width: 120px;
+            height: 67.5px;
         }
     }
 
@@ -242,23 +271,22 @@
         align-items: center;
         justify-content: center;
         color: var(--text-muted);
-        font-size: 16px;
+        font-size: 20px;
     }
 
-    .thumb-overlay {
+    .play-overlay {
         position: absolute;
         inset: 0;
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.35);
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #ffffff;
         opacity: 0;
         transition: opacity 0.15s ease;
-        font-size: 14px;
+        color: #ffffff;
     }
 
-    .thumb-link:hover .thumb-overlay {
+    .thumb-link:hover .play-overlay {
         opacity: 1;
     }
 
@@ -270,56 +298,45 @@
         gap: 3px;
     }
 
-    .track-header {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        gap: 12px;
-    }
-
     .track-title {
+        margin: 0;
         font-size: 14px;
         font-optical-sizing: auto;
-        font-variation-settings: "wght" 600;
-        color: var(--text);
+        font-variation-settings: "wght" 650;
+        line-height: 1.3;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
-    .track-title a:hover {
+    .title-link {
+        color: var(--text);
+        text-decoration: none;
+    }
+
+    .title-link:hover {
         text-decoration: underline;
     }
 
-    .duration-mono {
-        font-family: var(--font-mono);
-        font-size: 11.5px;
+    .track-artists {
+        margin: 0;
+        font-size: 12px;
         font-optical-sizing: auto;
-        font-variant-numeric: tabular-nums;
         font-variation-settings: "wght" 450;
         color: var(--text-muted);
-        flex-shrink: 0;
-    }
-
-    .track-author {
-        font-size: 12.5px;
-        font-optical-sizing: auto;
-        font-variation-settings: "wght" 420;
-        color: var(--text-secondary);
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        display: flex;
-        align-items: center;
-        gap: 4px;
+    }
+
+    .artist-sep {
+        color: var(--text-muted);
     }
 
     .track-album {
-        color: var(--text-muted);
-        font-variation-settings: "wght" 380;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        color: var(--text-secondary);
+        font-optical-sizing: auto;
+        font-variation-settings: "wght" 400;
     }
 
     .track-tags {
@@ -331,12 +348,12 @@
     }
 
     .tag {
+        font-family: var(--font-mono);
         font-size: 10px;
         font-optical-sizing: auto;
-        font-variation-settings: "wght" 650;
-        font-feature-settings: "case" 1;
+        font-variation-settings: "wght" 600;
         padding: 1px 6px;
-        border-radius: 4px;
+        border-radius: 3px;
         text-transform: uppercase;
         letter-spacing: 0.03em;
         border: 1px solid var(--border);
